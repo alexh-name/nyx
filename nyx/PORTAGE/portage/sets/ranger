@@ -1,0 +1,7 @@
+app-misc/ranger
+app-text/poppler
+media-libs/libcaca[imlib,ncurses]
+app-arch/atool
+media-video/mediainfo
+sys-apps/file
+

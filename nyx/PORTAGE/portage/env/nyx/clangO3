@@ -1,0 +1,7 @@
+CC=clang
+CXX=clang++
+CFLAGS="-march=native -O3 -pipe"
+CXXFLAGS="${CFLAGS}"
+FFLAGS="${CFLAGS}"
+FCFLAGS="${FFLAGS}"
+USE="${USE} custom-cflags"

@@ -1,0 +1,30 @@
+#############################
+# no sane downgrade-path    #
+#############################
+dev-qt/qtcore -~amd64
+dev-qt/qtopengl -~amd64
+dev-qt/qttest -~amd64
+x11-libs/qt-dbus -~amd64
+dev-qt/qtsvg -~amd64
+dev-qt/qtgui -~amd64
+dev-qt/qtxmlpatterns -~amd64
+dev-qt/qtsql -~amd64
+dev-qt/qtscript -~amd64
+
+dev-libs/boost -~amd64
+dev-libs/boost-build -~amd64
+sys-libs/glibc -~amd64
+
+#############################
+# too crucial               #
+#############################
+app-shells/bash -~amd64
+sys-apps/coreutils -~amd64
+
+sys-devel/automake -~amd64
+sys-apps/texinfo -~amd64
+
+sys-fs/btrfs-progs -~amd64
+
+app-office/libreoffice -~amd64
+app-office/libreoffice-l10n -~amd64

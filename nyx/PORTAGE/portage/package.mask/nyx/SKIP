@@ -1,0 +1,3 @@
+=dev-java/icedtea-7.2.4.5:7		# forces systemtap
+=sys-fs/btrfs-progs-0.19.11		# needs acl
+=sys-fs/btrfs-progs-3.12-r1		# ||

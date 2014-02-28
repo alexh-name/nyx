@@ -1,0 +1,8 @@
+### so that the standard-tree doesn'ti get polluted
+
+*/*::sabayon
+*/*::quarks
+*/*::quarks_gentoo_hardened_overlay
+*/*::gamerlay
+*/*::steam-overlay
+*/*::gentoo-overlay-tox

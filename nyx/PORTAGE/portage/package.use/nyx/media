@@ -1,0 +1,16 @@
+media-libs/libcaca imlib
+media-sound/moc ffmpeg
+media-sound/cmus aac flac vorbis wma mad mp4 wavpack musepack modplug
+media-video/mpv v4l -shm -mp3 -mpg123 encode
+media-video/mplayer2 -shm -mp3 -mpg123 -network -quvi -dvdnav
+media-gfx/imagemagick jpeg jpeg2k png raw svg tiff xml X
+media-gfx/gimp jpeg pdf png svg tiff
+media-sound/audacity flac mp3 vorbis
+media-sound/tuxguitar pdf
+virtual/ffmpeg mp3 theora x264 opus X
+media-video/libav aac vorbis xvid x264 theora mp3 vpx v4l opus
+media-plugins/gst-plugins-meta ffmpeg
+media-libs/imlib2 tiff png jpeg
+media-sound/audiotag aac flac mp3 vorbis
+www-client/firefox gstreamer
+app-text/zathura-meta pdf

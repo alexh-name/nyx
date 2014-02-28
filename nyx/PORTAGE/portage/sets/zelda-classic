@@ -1,0 +1,4 @@
+app-emulation/emul-linux-x86-gtklibs
+media-plugins/caps-plugins[abi_x86_32,-abi_x86_64]
+media-libs/alsa-lib[abi_x86_32]
+media-plugins/alsaequal[abi_x86_32,-abi_x86_64]
