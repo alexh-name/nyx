@@ -1,0 +1,17 @@
+x11-misc/compton -drm opengl
+net-dialup/ppp dhcp
+mail-mta/postfix berkdb
+net-misc/openvpn iproute2
+dev-libs/geoip city
+app-text/evince xps dvi
+app-text/hunspell linguas_de
+media-gfx/darktable gphoto2
+sys-fs/ntfs3g -external-fuse ntfsprogs -crypt
+media-video/mpv lua
+net-im/mcabber otr 
+dev-lang/php ctype ssl xml				# phornox-test-suite
+app-emulation/qemu aio vhost-net -ncurses seccomp -static-user -static-softmmu -alsa -jpeg -png -vnc -curl sdl
+media-libs/mesa xorg -llvm
+x11-base/xorg-server xorg
+app-crypt/truecrypt X					# not functional otherwise
+mail-client/thunderbird lightning

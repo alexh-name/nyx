@@ -1,0 +1,2 @@
+sys-apps/busybox static -pam
+sys-fs/cryptsetup static

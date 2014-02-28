@@ -1,0 +1,7 @@
+media-video/mplayer2 X
+media-video/mpv X
+dev-util/plan9port X
+x11-libs/gtk+ X
+app-text/mupdf X
+media-video/libav X
+x11-libs/gtk+:3 X
