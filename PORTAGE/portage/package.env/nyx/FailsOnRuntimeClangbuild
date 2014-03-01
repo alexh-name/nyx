@@ -1,4 +1,0 @@
-=sys-apps/busybox-1.21.1 nyx/gccO2
-=sys-apps/busybox-1.22.0 nyx/gccO2                    # bb: Segment violation
-=sys-apps/busybox-1.22.1 nyx/gccO2
-=x11-drivers/xf86-video-ati-7.3.0 nyx/gccO2           # runtime segfault

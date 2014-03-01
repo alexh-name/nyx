@@ -1,9 +1,0 @@
-# required by dev-libs/libxslt-1.1.28-r1[crypt]
-# required by dev-python/lxml-3.3.0
-# required by media-gfx/inkscape-0.48.4-r1
-# /usr/portage/profiles/package.mask:
-# Patrick Lauer <patrick@gentoo.org> (07 Feb 2014)
-# Reliably makes cryptsetup segfault, breaking boot is not acceptable
-=dev-libs/libgcrypt-1.6.1
-
-=media-libs/mesa-10.0.2-r1

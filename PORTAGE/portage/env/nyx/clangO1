@@ -1,5 +1,0 @@
-CFLAGS="-march=native -O1 -pipe"
-CXXFLAGS="${CFLAGS}"
-FFLAGS="${CFLAGS}"
-FCFLAGS="${FFLAGS}"
-USE="${USE} -custom-cflags -custom-optimization"

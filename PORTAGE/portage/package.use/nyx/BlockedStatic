@@ -1,6 +1,0 @@
-# thunderbird
-app-crypt/pinentry -static
-
-# fail
-=net-misc/openvpn-2.3.2 -static
-=app-emulation/qemu-1.6.1 -static

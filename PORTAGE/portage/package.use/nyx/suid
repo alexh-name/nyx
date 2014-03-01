@@ -1,3 +1,0 @@
-sys-apps/util-linux suid
-sys-fs/ntfs3g suid
-x11-base/xorg-server suid
