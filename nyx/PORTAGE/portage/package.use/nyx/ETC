@@ -11,7 +11,7 @@ media-video/mpv lua
 net-im/mcabber otr 
 dev-lang/php ctype ssl xml				# phornox-test-suite
 app-emulation/qemu aio vhost-net -ncurses seccomp -static-user -static-softmmu -alsa -jpeg -png -vnc -curl sdl
-media-libs/mesa xorg -llvm
+media-libs/mesa xorg -llvm -llvm-shared-libs
 x11-base/xorg-server xorg
 app-crypt/truecrypt X					# not functional otherwise
 mail-client/thunderbird lightning

@@ -2,7 +2,7 @@
 =media-libs/libpng-1.6.9 apng
 
 # required by app-misc/ranger-1.6.1[python_targets_python3_3]
->=dev-lang/python-3.3.4:3.3 ncurses
+=dev-lang/python-3.3.4:3.3 ncurses
 
 # required by @ranger
 =media-libs/libcaca-0.99_beta18-r1 ncurses
@@ -21,7 +21,7 @@
 =media-video/libav-9.11 network
 
 # required by app-benchmarks/phoronix-test-suite-4.8.4
-=dev-lang/php-5.5.9:5.5::gentoo pcntl json curl gd posix zip
+=dev-lang/php-5.5.10:5.5 gd json pcntl curl zip
 
 # required by mail-client/thunderbird-24.2.0
 =x11-libs/pango-1.36.2 X
@@ -43,7 +43,7 @@
 =x11-libs/libdrm-2.4.52 libkms
 
 # required by media-gfx/inkscape-0.48.4-r1
-=media-gfx/imagemagick-6.8.8.2 cxx
+=media-gfx/imagemagick-6.8.8.7 cxx
 
 # required by media-libs/giblib-1.2.4-r1
 # required by media-gfx/feh-2.9.3
@@ -95,7 +95,8 @@
 
 # required by x11-libs/gtk+-3.4.4
 # required by x11-themes/zukitwo-2012.07.02-r1
-=x11-libs/gdk-pixbuf-2.30.5 X
+# required by x11-themes/gtk-engines-unico-1.0.2
+=x11-libs/gdk-pixbuf-2.30.6 X
 
 ###blocks
 =sys-libs/db-4.8.30 cxx

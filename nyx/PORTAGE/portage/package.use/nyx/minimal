@@ -20,26 +20,25 @@ dev-lang/php -berkdb -bzip2 -crypt -fileinfo -filter -hash -iconv -json -opcache
 media-libs/gst-plugins-base -ogg -orc -pango -vorbis 
 media-libs/gstreamer -orc
 
-sys-apps/iproute2 -berkdb -iptables
-virtual/udev -* static-libs
-sys-fs/eudev -* static-libs
-app-text/poppler -jpeg
-media-libs/taglib -asf
-net-analyzer/nmap -lua
-x11-themes/gtk-engines-murrine -themes
-media-libs/libsdl2 -alsa -audio -joystick X
-sys-fs/lvm2 -lvm1 -thin -udev -readline
-media-video/mplayer2 -dts -rar
-net-fs/samba -server -cups -swat
-app-office/libreoffice -webdav -xmlsec
-mail-client/thunderbird -alsa
 app-admin/conky -portmon -truetype
-x11-misc/redshift -gtk
-media-gfx/darktable -slideshow
+app-office/libreoffice -webdav -xmlsec
+app-shells/bash -net -*
+app-text/poppler -jpeg
 dev-java/icedtea -cups -source -webstart -alsa
 dev-java/icedtea-bin -cups
-app-shells/bash -net -*
+mail-client/thunderbird -alsa
+media-gfx/darktable -slideshow
+media-libs/libsdl2 -alsa -audio -joystick X
+media-libs/taglib -asf
+media-sound/clementine -udev
+media-video/mplayer2 -dts -rar
+net-analyzer/nmap -lua
+net-fs/samba -server -cups -swat
 net-misc/dhcpcd -udev
 sys-apps/busybox -ipv6
-virtual/udev -kmod
-media-sound/clementine -udev
+sys-apps/iproute2 -berkdb -iptables
+sys-fs/eudev -* static-libs
+sys-fs/lvm2 -lvm1 -thin -udev -readline
+virtual/udev -* static-libs
+x11-misc/redshift -gtk
+x11-themes/gtk-engines-murrine -themes
