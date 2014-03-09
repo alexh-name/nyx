@@ -7,7 +7,7 @@
 #	- savedconfig/...
 #	- sets/...
 #
-# It is due to the design od portage that I cannot put those files in distinct
+# It is due to the design of portage that I cannot put those files in distinct
 # folders to prevent overriding.
 #################################
 
