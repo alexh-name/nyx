@@ -20,4 +20,7 @@ rm -r /etc/portage/package.*/nyx/*
 
 rsync -aPh portage/ /etc/portage/
 
+chown -R root:portage /etc/portage
+chmod -R 740 /etc/portage
+
 mirrorselect -s5
