@@ -9,7 +9,7 @@
 =app-text/poppler-0.24.5 cairo
 
 # required by mail-client/thunderbird-24.3.0[system-sqlite]
-=dev-db/sqlite-3.8.3.1 secure-delete
+=dev-db/sqlite-3.8.4.1 secure-delete
 
 # required by app-benchmarks/phoronix-test-suite-4.8.4
 =dev-lang/php-5.5.10:5.5 gd json pcntl curl zip
