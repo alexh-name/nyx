@@ -49,7 +49,7 @@
 =media-gfx/imagemagick-6.8.8.7 cxx
 
 # required by media-video/mpv-0.2.4[quvi]
-=media-video/libav-9.11 network
+=media-video/libav-9.12 network
 
 # required by www-client/surf-0.6-r1
 =net-libs/webkit-gtk-2.2.5-r200::gentoo opengl
