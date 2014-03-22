@@ -13,6 +13,8 @@ Gentoo Linux  --->
 	Support for init systems, system and service managers  --->
 		[*] OpenRC, runit and other script based systems and managers
 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 [*] 64-bit kernel
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
