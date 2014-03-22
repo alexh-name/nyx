@@ -1,0 +1,228 @@
+
+				sys-kernel/gentoo-sources-3.13.* (-)
+			~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			This guide only contains, what I suggest to
+			deselect, to make the kernel smaller.
+			~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			Options marked with "~~~ later" can only be
+			deselected, after some other following option
+			has been deselected. So after reaching the end,
+			check back those marked options.
+			~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Gentoo Linux  --->
+		[ ] systemd
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+General setup  --->
+	[ ] Auditing support
+	Timers subsystem  --->
+		Timer tick handling (Idle dynticks system (tickless idle))  --->
+		[ ] Old Idle dynticks config
+	[?] Configure standard kernel features (expert users)  --->
+	[ ]   Load all symbols for debugging/ksymoops
+	[ ] Enable SLUB debugging support
+	[ ] Profiling support
+	[ ] Kprobes
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	IO Schedulers  --->
+		< > Deadline I/O scheduler
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Processor type and features  --->
+	[ ] Enable MPS table
+	[ ] Support for extended (non-PC) x86 platforms
+	[ ] IBM Calgary IOMMU support
+	Preemption Model (Voluntary Kernel Preemption (Desktop))  --->
+	~~~ only what applies to your CPU-type
+	[?]   Intel MCE features
+	[?]   AMD MCE features
+	~~~
+	< > CPU microcode loading support
+	[ ] Old style AMD Opteron NUMA detection
+	...
+	[ ] kexec system call
+	[ ] kernel crash dumps
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Power management and ACPI options  --->
+	[ ] Power Management Debug Support
+	[?] ACPI (Advanced Configuration and Power Interface) Support  --->
+		[ ]   Deprecated /proc/acpi files				
+		[ ]   Deprecated power /proc/acpi directories			
+		< >   Button
+		< >   Video
+		...
+		~~~ + only what applies to your hardware
+
+	CPU Frequency scaling  --->
+		Default CPUFreq governor (ondemand)  --->
+		< >   'userspace' governor for userspace frequency scaling
+		x86 CPU frequency scaling drivers  --->
+			[ ]   Legacy cpb sysfs knob support for AMD CPUs
+			~~~ + what applies to your CPU-type
+	CPU Idle  --->
+		~~~ only
+		-?-   Menu governor (for tickless system)
+		~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Bus options (PCI etc.)  --->
+	< > PCCard (PCMCIA/CardBus) support  --->
+	< > Support for PCI Hotplug  --->
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+[?] Networking support  --->
+	      Networking options  --->
+		[ ]   IP: advanced router
+		[ ]   IP: kernel level autoconfiguration
+		[ ]   IP: multicast routing
+		[ ]   IP: TCP syncookie support
+		[ ]   TCP: advanced congestion control  --->
+		[ ]   TCP: MD5 Signature Option support (RFC2385)
+		[ ]   NetLabel subsystem support
+		[ ] Network packet filtering framework (Netfilter)  --->
+		[ ] QoS and/or fair queueing  --->
+		{ } DNS Resolver support						~~~ later
+		
+	[ ]   Amateur Radio support  --->
+	< >   RF switch subsystem support  --->
+	[ ]   Wireless  --->								~~~ later
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Device Drivers  --->
+	    Generic Driver Options  --->
+		[ ] Fallback user-helper invocation for firmware loading
+		[ ] Managed device resources verbose debug messages
+		
+	    SCSI device support  --->
+		[ ] legacy /proc/scsi/ support
+		[ ] Verbose SCSI error reporting (kernel size +=12K)
+		SCSI Transports  --->
+			~~~ deselect all
+
+	<?> Serial ATA and Parallel ATA drivers  --->
+		[ ]   Verbose ATA error reporting
+		[ ]   ATA SFF support (for legacy IDE and PATA)
+
+	[?] Multiple devices driver support (RAID and LVM)  --->
+		< >   RAID support
+		< >     Mirror target
+		< >   Zero target
+
+	[ ] Macintosh device drivers  --->
+
+	[?] Network device support  --->
+		< >     Network console logging support
+		[?]   Ethernet driver support  --->
+			~~~ + only what applies to your hardware
+		< >   FDDI driver support 
+		[ ]   Wireless LAN  --->
+
+	    Input device support  --->
+		< >   Polled input device skeleton
+		< >   Sparse keymap support library					~~~ later
+		< >   Event interface
+		[ ]   Mice  --->
+		[ ]   Tablets  --->
+		[ ]   Touchscreens  --->
+
+	    Character devices  --->
+		[ ]   Non-standard serial port support
+		[ ] /dev/kmem virtual device support
+		    Serial drivers  --->
+			< > 8250/16550 and compatible serial support
+
+	-?- I2C support  --->
+		[ ]   Enable compatibility bits for old user-space
+		[ ]   Autoselect pertinent helper modules
+
+		I2C Hardware Bus support  --->
+			~~~ + only what applies to your hardware
+
+	-?- Hardware Monitoring support  --->
+		~~~ + only what applies to your hardware
+
+	[?] Watchdog Timer Support  --->
+		~~~ + only what applies to your hardware
+
+	<?> Sound card support  --->
+		<M>   Advanced Linux Sound Architecture  --->
+			[ ]   Support old ALSA API
+			[ ]   Verbose procfs contents
+			[ ]   Generic sound devices  ---- 
+			[?]   PCI sound devices  --->
+				~~~ only what applies to your hardware
+			[ ]   PCMCIA sound devices  ----
+	
+	    HID support  --->	 
+		[ ]   /dev/hidraw raw HID device support
+
+		USB HID support  --->
+			[ ] PID device support
+			[ ] /dev/hiddev raw HID device support
+		      Special HID drivers  --->
+			~~~ deselect all
+
+	[?] USB support  --->
+		[ ]     USB verbose debug messages
+		[ ]     USB announce new devices
+		< >     USB Monitor
+
+		~~~ + only what applies to your hardware
+		<?>     EHCI HCD (USB 2.0) support
+		[?]       Improved Transaction Translator scheduling
+		<?>     OHCI HCD (USB 1.1) support
+		<?>       OHCI support for PCI-bus USB controllers
+		<?>     UHCI HCD (most Intel and VIA) support
+		~~~
+
+		< >     USB Printer support
+
+	[ ] LED Support  --->								~~~ later
+
+	[?] EDAC (Error Detection And Correction) reporting  --->
+		[ ]   EDAC legacy sysfs
+		~~~ + only what applies to your CPU-type
+
+	[ ] DMA Engine support  ---- 
+	[ ] X86 Platform Specific Device Drivers  ----
+
+	[?] IOMMU Hardware Support  --->
+		~~~ only what applies to your CPU-type
+		[?]   AMD IOMMU support
+		[ ]     Export AMD IOMMU statistics to debugfs
+		[?]   Support for Intel IOMMU using DMA Remapping Devices
+		~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+File systems  --->
+	<?> The Extended 4 (ext4) filesystem
+	[ ]   Ext4 POSIX Access Control Lists
+	[ ]   EXT4 debugging support
+	...
+	< > Kernel automounter version 4 support (also supports v3)
+	[ ] Network File Systems  ----
+
+    Kernel hacking  --->
+	Compile-time checks and compiler options  --->
+		[ ] Compile the kernel with frame pointers
+	~~~ only
+	[?] Write protect kernel read-only data structures
+	[?] Enable doublefault exception handler
+	[?] Allow gcc to uninline functions marked 'inline'
+	~~~
+
+    Security options  --->
+	[ ] Enable different security models
