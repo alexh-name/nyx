@@ -52,7 +52,7 @@
 =media-video/libav-9.12 network
 
 # required by www-client/surf-0.6-r1
-=net-libs/webkit-gtk-2.2.5-r200::gentoo opengl
+=net-libs/webkit-gtk-2.2.6-r200::gentoo opengl
 
 # required by net-misc/openvpn-2.3.2[iproute2]
 =sys-apps/iproute2-3.12.0 -minimal
