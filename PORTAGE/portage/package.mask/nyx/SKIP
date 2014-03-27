@@ -1,4 +1,5 @@
 =dev-java/icedtea-7.2.4.5:7		# forces systemtap
 =dev-lang/perl-5.18.2			# confuses portage
+=dev-libs/liborcus-0.7.0		# depends on dev-libs/libixion-0.7.0
 =sys-fs/btrfs-progs-0.19.11		# needs acl
 =sys-fs/btrfs-progs-3.12-r1		# ||
