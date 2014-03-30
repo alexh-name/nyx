@@ -71,15 +71,14 @@
 
 # required by x11-libs/gtk+-3.4.4
 # required by x11-themes/zukitwo-2012.07.02-r1
-# required by x11-themes/gtk-engines-unico-1.0.2
-=x11-libs/gdk-pixbuf-2.30.6 X
+=x11-libs/gdk-pixbuf-2.30.7 X
 
 # required by media-libs/mesa-9.2.5[xorg]
 # required by www-client/firefox-26.0
 =x11-libs/libdrm-2.4.52 libkms
 
 # required by mail-client/thunderbird-24.2.0
-=x11-libs/pango-1.36.2 X
+=x11-libs/pango-1.36.3 X
 
 # required by x11-drivers/xf86-video-ati-7.3.0
 # required by x11-base/xorg-drivers-1.15[video_cards_radeon]
