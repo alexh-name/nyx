@@ -11,8 +11,9 @@
 # required by media-plugins/gimp-resynthesizer-0.16
 =app-text/poppler-0.24.5 cairo
 
+# required by www-client/firefox-28.0[system-sqlite]
 # required by mail-client/thunderbird-24.3.0[system-sqlite]
-=dev-db/sqlite-3.8.4.1 secure-delete
+=dev-db/sqlite-3.8.4.3 secure-delete
 
 # required by dev-lua/luaexpat-1.2.0-r1
 # required by media-libs/libquvi-scripts-0.9.20131130
@@ -21,7 +22,7 @@
 =dev-lang/lua-5.1.5-r1 deprecated
 
 # required by app-benchmarks/phoronix-test-suite-4.8.4
-=dev-lang/php-5.5.10:5.5 gd json pcntl curl zip
+=dev-lang/php-5.5.11:5.5 pcntl gd json zip curl
 
 # required by app-misc/ranger-1.6.1::gentoo
 =dev-lang/python-2.7.6:2.7 ncurses
@@ -55,7 +56,7 @@
 =media-gfx/exiv2-0.23-r1 xmp
 
 # required by media-gfx/inkscape-0.48.4-r1
-=media-gfx/imagemagick-6.8.8.8 cxx
+=media-gfx/imagemagick-6.8.8.10 cxx
 
 # required by media-video/mpv-0.2.4[quvi]
 =media-video/libav-9.12 network
@@ -67,7 +68,7 @@
 =sys-apps/iproute2-3.12.0 -minimal
 
 # required by sys-devel/clang-3.4-r100
-=sys-devel/llvm-3.4 clang
+=sys-devel/llvm-3.4-r1 clang
 
 # required by x11-libs/gtk+-3.4.4
 # required by x11-themes/zukitwo-2012.07.02-r1
