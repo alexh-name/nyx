@@ -18,6 +18,7 @@
 =media-video/mpv-0.3.4                          # ||
 =media-video/mpv-0.3.5				# ||
 =media-video/mpv-0.3.6				# ||
+=media-video/mpv-0.3.7				# ||
 
 =sys-apps/grep-2.16                             # introduces +static, but segfaults
 =sys-apps/grep-2.17				# ||

@@ -2,6 +2,7 @@ media-sound/sox alsa
 media-sound/mumble alsa
 www-client/firefox alsa
 media-video/mpv alsa
+media-video/mplayer2 alsa
 media-sound/audacity alsa
 media-video/libav alsa
 media-sound/tuxguitar alsa
