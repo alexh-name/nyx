@@ -46,8 +46,8 @@
 # required by @ranger
 =media-libs/libcaca-0.99_beta18-r1 ncurses
 
-# required by www-client/firefox-27.0
-=media-libs/libpng-1.6.9 apng
+# required by www-client/firefox-28.0
+=media-libs/libpng-1.6.10 apng
 
 # required by media-sound/mumble-1.2.4
 =media-libs/libsndfile-1.0.25-r1 -minimal
