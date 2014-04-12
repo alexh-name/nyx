@@ -56,7 +56,7 @@
 =media-gfx/exiv2-0.23-r1 xmp
 
 # required by media-gfx/inkscape-0.48.4-r1
-=media-gfx/imagemagick-6.8.8.10 cxx
+=media-gfx/imagemagick-6.8.8.10-r1 cxx
 
 # required by media-video/mpv-0.2.4[quvi]
 =media-video/libav-9.12 network
