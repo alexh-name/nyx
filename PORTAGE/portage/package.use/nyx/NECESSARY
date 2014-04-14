@@ -52,14 +52,23 @@
 # required by media-sound/mumble-1.2.4
 =media-libs/libsndfile-1.0.25-r1 -minimal
 
+# required by media-video/openshot-1.4.3
+=media-libs/mlt-0.9.0 ffmpeg xml frei0r melt sdl gtk python
+
 # required by media-gfx/darktable-1.2.3
 =media-gfx/exiv2-0.23-r1 xmp
 
 # required by media-gfx/inkscape-0.48.4-r1
 =media-gfx/imagemagick-6.8.8.10-r1 cxx
 
+# required by media-video/openshot-1.4.3[ffmpeg]
+=media-sound/sox-14.4.1 ffmpeg encode
+
 # required by media-video/mpv-0.2.4[quvi]
 =media-video/libav-9.12 network
+# required by virtual/ffmpeg-9
+# required by media-video/openshot-1.4.3[ffmpeg]
+=media-video/libav-9.12 sdl
 
 # required by www-client/surf-0.6-r1
 =net-libs/webkit-gtk-2.2.6-r200::gentoo opengl
@@ -69,6 +78,9 @@
 
 # required by sys-devel/clang-3.4-r100
 =sys-devel/llvm-3.4-r1 clang
+
+# required by media-video/openshot-1.4.3[ffmpeg]
+=virtual/ffmpeg-9 sdl
 
 # required by x11-libs/gtk+-3.4.4
 # required by x11-themes/zukitwo-2012.07.02-r1

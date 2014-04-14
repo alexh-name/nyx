@@ -48,6 +48,7 @@
 =media-libs/libmediainfo-0.7.67 nyx/gccO2
 =media-libs/libpostproc-0.8.0.20121125 nyx/gccO2
 =media-libs/mesa-9.2.1 nyx/gccO2
+=media-libs/opencv-2.4.8 nyx/gccO2
 =media-sound/audacity-2.0.5 nyx/gccO2
 =media-sound/clementine-1.2.0 nyx/gccO2
 =media-sound/clementine-1.2.1 nyx/gccO2
@@ -55,6 +56,7 @@
 =media-sound/mumble-1.2.4 nyx/gccO2
 =media-sound/mumble-1.2.5 nyx/gccO2
 =media-sound/wavpack-4.60.1-r1 nyx/gccO2
+=media-video/cinelerra-20120707 nyx/gccO2
 =net-analyzer/nmap-6.25 nyx/gccO2
 =net-libs/glib-networking-2.36.2 nyx/gccO2
 =net-libs/glib-networking-2.38.2 nyx/gccO2
@@ -75,6 +77,7 @@
 =sys-firmware/ipxe-1.0.0_p20130925 nyx/gccO2
 =sys-firmware/sgabios-0.1_pre8 nyx/gccO2
 =sys-fs/mtools-4.0.18 nyx/gccO2
+=sci-libs/fftw-3.3.3-r3 nyx/gccO2
 =sys-power/suspend-1.0 nyx/gccO2
 =x11-base/xorg-server-1.14.99.903 nyx/gccO2
 =x11-base/xorg-server-1.14.99.903-r1 nyx/gccO2
