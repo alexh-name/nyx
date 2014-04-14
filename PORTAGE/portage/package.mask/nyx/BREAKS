@@ -1,4 +1,4 @@
-=dev-libs/boehm-gc-7.4.0                        # inkscape fails to build
+=dev-libs/boehm-gc-7.4.0			# inkscape fails to build
 
 =media-plugins/caps-plugins-0.9.10		# breaks alsaequal
 =media-plugins/caps-plugins-0.9.15		# ||
@@ -7,17 +7,17 @@
 
 =media-video/cinelerra-20120707			# crashes
 
-=media-video/mpv-0.3.1                          # *** Error in `mpv': malloc(): memory corruption: 0x0000000003d123d0 *** ; Segment violation
-=media-video/mpv-0.3.2                          # ||
-=media-video/mpv-0.3.3                          # ||
-=media-video/mpv-0.3.4                          # ||
+=media-video/mpv-0.3.1				# *** Error in `mpv': malloc(): memory corruption: 0x0000000003d123d0 *** ; Segment violation
+=media-video/mpv-0.3.2				# ||
+=media-video/mpv-0.3.3				# ||
+=media-video/mpv-0.3.4				# ||
 =media-video/mpv-0.3.5				# ||
 =media-video/mpv-0.3.6				# ||
 =media-video/mpv-0.3.7				# ||
 
 =net-libs/webkit-gtk-2.2.4-r200			# unstable
 
-=sys-apps/grep-2.16                             # introduces +static, but segfaults
+=sys-apps/grep-2.16				# introduces +static, but segfaults
 =sys-apps/grep-2.17				# ||
 
 =sys-apps/lshw-02.17b				# segfaults
