@@ -11,6 +11,7 @@
 =dev-java/icedtea-7.2.4.3 nyx/gccO2
 =dev-java/icedtea-7.2.4.6 nyx/gccO2
 =dev-lang/python-2.7.6 nyx/gccO2
+=dev-lang/spidermonkey-1.8.5-r4 nyx/gccO2
 =dev-libs/elfutils-0.157 nyx/gccO2
 =dev-libs/elfutils-0.158 nyx/gccO2
 =dev-libs/icu-52.1 nyx/gccO2
