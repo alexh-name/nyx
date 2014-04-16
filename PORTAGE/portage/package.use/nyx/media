@@ -11,6 +11,7 @@ media-sound/cmus aac flac vorbis wma mad mp4 wavpack musepack modplug
 media-sound/moc ffmpeg
 media-sound/tuxguitar pdf
 media-video/avidemux xv
+media-video/kino gstreamer
 media-video/libav aac vorbis xvid x264 theora mp3 vpx v4l opus
 media-video/mplayer2 -shm -mp3 -mpg123 -network -quvi -dvdnav
 media-video/mpv v4l -shm -mp3 -mpg123 encode
