@@ -95,7 +95,7 @@
 
 # required by x11-drivers/xf86-video-ati-7.3.0
 # required by x11-base/xorg-drivers-1.15[video_cards_radeon]
-=x11-base/xorg-server-1.15.0 -minimal
+=x11-base/xorg-server-1.15.1 -minimal
 
 ### blockers
 =media-libs/lcms-1.19-r1 python
