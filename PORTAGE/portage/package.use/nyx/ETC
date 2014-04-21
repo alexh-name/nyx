@@ -1,17 +1,18 @@
-x11-misc/compton -drm opengl
-net-dialup/ppp dhcp
-mail-mta/postfix berkdb
-net-misc/openvpn iproute2
-dev-libs/geoip city
+app-crypt/truecrypt X						# not functional otherwise
+app-emulation/qemu -static
+app-emulation/qemu aio vhost-net -ncurses seccomp -static-user -static-softmmu -alsa -jpeg -png -vnc -curl sdl
 app-text/evince xps dvi
 app-text/hunspell linguas_de
-media-gfx/darktable gphoto2
-sys-fs/ntfs3g -external-fuse ntfsprogs -crypt
-media-video/mpv lua
-net-im/mcabber otr 
-dev-lang/php ctype ssl xml				# phornox-test-suite
-app-emulation/qemu aio vhost-net -ncurses seccomp -static-user -static-softmmu -alsa -jpeg -png -vnc -curl sdl
-media-libs/mesa xorg gles2 -llvm -llvm-shared-libs
-x11-base/xorg-server xorg
-app-crypt/truecrypt X					# not functional otherwise
+dev-lang/php ctype ssl xml					# for phornox-test-suite
+dev-libs/geoip city
 mail-client/thunderbird lightning
+mail-mta/postfix berkdb
+media-gfx/darktable gphoto2
+media-libs/mesa xorg gles2 -llvm -llvm-shared-libs
+media-video/mpv lua
+net-dialup/ppp dhcp
+net-im/mcabber otr 
+net-misc/openvpn iproute2
+sys-fs/ntfs3g -external-fuse ntfsprogs -crypt
+x11-base/xorg-server xorg
+x11-misc/compton -drm opengl

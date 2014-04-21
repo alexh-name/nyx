@@ -82,16 +82,25 @@
 # required by media-video/openshot-1.4.3[ffmpeg]
 =virtual/ffmpeg-9 sdl
 
-# required by x11-libs/gtk+-3.4.4
-# required by x11-themes/zukitwo-2012.07.02-r1
-=x11-libs/gdk-pixbuf-2.30.7 X
+# required by net-libs/webkit-gtk-2.2.6-r200
+# required by www-client/surf-0.6-r1
+=x11-libs/cairo-1.12.16-r2 X
+
+# required by x11-libs/gtk+-2.24.23
+# required by dev-java/icedtea-7.2.4.7
+# required by virtual/jdk-1.7.0
+# required by dev-java/junit-3.8.2-r1
+# required by dev-java/bcmail-1.45-r2
+# required by dev-java/itext-2.1.5-r2
+# required by media-sound/tuxguitar-1.2-r1::sabayon[pdf]
+=x11-libs/gdk-pixbuf-2.30.7-r1 X
 
 # required by media-libs/mesa-9.2.5[xorg]
 # required by www-client/firefox-26.0
 =x11-libs/libdrm-2.4.52 libkms
 
-# required by mail-client/thunderbird-24.2.0
-=x11-libs/pango-1.36.3 X
+# required by www-client/firefox-28.0
+=x11-libs/pango-1.36.3-r2 X
 
 # required by x11-drivers/xf86-video-ati-7.3.0
 # required by x11-base/xorg-drivers-1.15[video_cards_radeon]
@@ -101,4 +110,3 @@
 =media-libs/lcms-1.19-r1 python
 =net-libs/loudmouth-1.4.3-r2 debug
 =sys-libs/db-4.8.30 cxx
-=x11-libs/cairo-1.12.16 X
