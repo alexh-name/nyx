@@ -1,3 +1,4 @@
+dev-java/icedtea alsa
 media-libs/avidemux-plugins alsa
 media-libs/libsdl alsa
 media-plugins/gst-plugins-meta alsa
