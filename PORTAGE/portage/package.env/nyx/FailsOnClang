@@ -72,6 +72,7 @@
 =sys-boot/efibootmgr-0.6.0 nyx/gccO2
 =sys-boot/syslinux-4.07 nyx/gccO2
 =sys-devel/autogen-5.18.1 nyx/gccO2
+=sys-devel/autogen-5.18.2 nyx/gccO2
 =sys-devel/binutils-2.23.2 nyx/gccO2
 =sys-devel/binutils-2.24 nyx/gccO2
 =sys-devel/binutils-2.24-r1 nyx/gccO2

@@ -39,5 +39,4 @@ sys-apps/systemd
 sys-auth/consolekit
 sys-auth/polkit
 sys-boot/grub
-sys-fs/eudev
-virtual/udev
+sys-fs/udev
