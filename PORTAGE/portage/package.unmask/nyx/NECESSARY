@@ -1,0 +1,3 @@
+# required by dev-cpp/libgnomecanvasmm-2.26.0
+# required by media-sound/ardour-3.5.357
+=gnome-base/libgnomecanvas-2.30.3

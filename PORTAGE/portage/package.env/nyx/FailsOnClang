@@ -50,8 +50,10 @@
 =media-libs/libmediainfo-0.7.65 nyx/gccO2
 =media-libs/libmediainfo-0.7.67 nyx/gccO2
 =media-libs/libpostproc-0.8.0.20121125 nyx/gccO2
+=media-libs/libsoundtouch-1.8.0 nyx/gccO2
 =media-libs/mesa-9.2.1 nyx/gccO2
 =media-libs/opencv-2.4.8 nyx/gccO2
+=media-sound/ardour-3.5.357 nyx/gccO2
 =media-sound/audacity-2.0.5 nyx/gccO2
 =media-sound/clementine-1.2.0 nyx/gccO2
 =media-sound/clementine-1.2.1 nyx/gccO2
@@ -69,6 +71,7 @@
 =net-p2p/bitcoind-0.8.5 nyx/gccO2
 =net-print/cups-1.6.3-r2 nyx/gccO2
 =net-print/cups-1.6.4 nyx/gccO2
+=sci-libs/fftw-3.3.4 nyx/gccO2
 =sys-boot/efibootmgr-0.6.0 nyx/gccO2
 =sys-boot/syslinux-4.07 nyx/gccO2
 =sys-devel/autogen-5.18.1 nyx/gccO2
