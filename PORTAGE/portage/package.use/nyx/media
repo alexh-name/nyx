@@ -13,7 +13,7 @@ media-sound/tuxguitar pdf
 media-video/avidemux xv
 media-video/kino gstreamer
 media-video/libav aac vorbis xvid x264 theora mp3 vpx v4l opus
-media-video/mplayer2 -shm -mp3 -mpg123 -network -quvi -dvdnav
+media-video/mplayer2 -shm -mp3 -mpg123
 media-video/mpv v4l -shm -mp3 -mpg123 encode
 virtual/ffmpeg mp3 theora x264 opus X
 www-client/firefox gstreamer

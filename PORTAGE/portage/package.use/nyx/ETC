@@ -9,6 +9,7 @@ mail-client/thunderbird lightning
 mail-mta/postfix berkdb
 media-gfx/darktable gphoto2
 media-libs/mesa xorg gles2 -llvm -llvm-shared-libs
+media-video/mplayer2 quvi network
 media-video/mpv lua
 net-dialup/ppp dhcp
 net-im/mcabber otr 
