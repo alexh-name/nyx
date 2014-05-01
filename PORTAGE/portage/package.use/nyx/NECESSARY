@@ -55,8 +55,8 @@
 # required by media-video/openshot-1.4.3
 =media-libs/mlt-0.9.0 ffmpeg xml frei0r melt sdl gtk python
 
-# required by media-gfx/darktable-1.2.3
-=media-gfx/exiv2-0.23-r1 xmp
+# required by media-gfx/darktable-1.4.2
+=media-gfx/exiv2-0.23-r2 xmp
 
 # required by media-gfx/inkscape-0.48.4-r1
 =media-gfx/imagemagick-6.8.8.10-r1 cxx
