@@ -27,7 +27,7 @@
 # required by app-misc/ranger-1.6.1::gentoo
 =dev-lang/python-2.7.6-r1:2.7 ncurses
 # required by www-client/firefox-25.0-r1
-=dev-lang/python-2.7.6:2.7 sqlite
+=dev-lang/python-2.7.6-r1:2.7 sqlite
 
 # required by app-misc/ranger-1.6.1[python_targets_python3_3]
 =dev-lang/python-3.3.5:3.3 ncurses
