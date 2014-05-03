@@ -32,6 +32,7 @@
 =media-gfx/darktable-1.4 nyx/gccO2
 =media-gfx/darktable-1.4.1 nyx/gccO2
 =media-gfx/darktable-1.4.1-r1 nyx/gccO2
+=media-gfx/darktable-1.4.2 nyx/gccO2
 =media-gfx/gimp-2.8.6 nyx/gccO2
 =media-gfx/gimp-2.8.8 nyx/gccO2
 =media-gfx/gimp-2.8.8-r1 nyx/gccO2
@@ -94,6 +95,7 @@
 =x11-libs/cairo-1.12.14-r4 nyx/gccO2
 =x11-libs/cairo-1.12.16 nyx/gccO2
 =x11-libs/cairo-1.12.16-r2 nyx/gccO2
+=x11-libs/cairo-1.12.16-r3 nyx/gccO2
 =x11-libs/gtk+-3.10.6 nyx/gccO2
 =app-office/libreoffice-4.0.2.2 nyx/gccO2nocc
 =dev-libs/klibc-2.0.3 nyx/gccO2nocc

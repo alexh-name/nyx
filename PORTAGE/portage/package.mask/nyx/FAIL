@@ -1,7 +1,9 @@
 =app-misc/ca-certificates-20140223.3.15.5
+=dev-lang/python-2.7.6-r1
 =dev-libs/libixion-0.7.0
 =dev-util/plan9port-20140123
 =media-libs/mesa-10.1.0
+=net-misc/openvpn-2.3.3
 =sys-devel/autogen-5.17.3
 =sys-devel/autogen-5.17.4
 =sys-fs/lvm2-2.02.104

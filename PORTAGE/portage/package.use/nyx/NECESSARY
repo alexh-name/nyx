@@ -25,9 +25,9 @@
 =dev-lang/php-5.5.11:5.5 pcntl gd json zip curl
 
 # required by app-misc/ranger-1.6.1::gentoo
-=dev-lang/python-2.7.6-r1:2.7 ncurses
+=dev-lang/python-2.7.6:2.7 ncurses
 # required by www-client/firefox-25.0-r1
-=dev-lang/python-2.7.6-r1:2.7 sqlite
+=dev-lang/python-2.7.6:2.7 sqlite
 
 # required by app-misc/ranger-1.6.1[python_targets_python3_3]
 =dev-lang/python-3.3.5:3.3 ncurses
@@ -82,9 +82,11 @@
 # required by media-video/openshot-1.4.3[ffmpeg]
 =virtual/ffmpeg-9 sdl
 
+# required by x11-libs/pango-1.36.3-r2
+# required by media-gfx/darktable-1.4.2
 # required by net-libs/webkit-gtk-2.2.6-r200
 # required by www-client/surf-0.6-r1
-=x11-libs/cairo-1.12.16-r2 X
+=x11-libs/cairo-1.12.16-r3 X
 
 # required by x11-libs/gtk+-2.24.23
 # required by dev-java/icedtea-7.2.4.7
