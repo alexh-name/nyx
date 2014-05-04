@@ -22,7 +22,7 @@
 =dev-lang/lua-5.1.5-r1 deprecated
 
 # required by app-benchmarks/phoronix-test-suite-4.8.4
-=dev-lang/php-5.5.11:5.5 pcntl gd json zip curl
+=dev-lang/php-5.5.12:5.5 pcntl gd json zip curl
 
 # required by app-misc/ranger-1.6.1::gentoo
 =dev-lang/python-2.7.6:2.7 ncurses
