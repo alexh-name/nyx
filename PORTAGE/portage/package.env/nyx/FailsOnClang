@@ -47,6 +47,7 @@
 =media-libs/gstreamer-1.2.0 nyx/gccO2
 =media-libs/harfbuzz-0.9.26 nyx/gccO2
 =media-libs/harfbuzz-0.9.26-r1 nyx/gccO2
+=media-libs/harfbuzz-0.9.28 nyx/gccO2
 =media-libs/lensfun-0.2.8 nyx/gccO2
 =media-libs/libmediainfo-0.7.65 nyx/gccO2
 =media-libs/libmediainfo-0.7.67 nyx/gccO2
