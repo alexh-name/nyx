@@ -76,8 +76,8 @@
 # required by net-misc/openvpn-2.3.2[iproute2]
 =sys-apps/iproute2-3.14.0 -minimal
 
-# required by sys-devel/clang-3.4-r100
-=sys-devel/llvm-3.4-r1 clang
+# required by sys-devel/clang-3.4.1-r100
+=sys-devel/llvm-3.4.1-r1 clang
 
 # required by media-video/openshot-1.4.3[ffmpeg]
 =virtual/ffmpeg-9 sdl
