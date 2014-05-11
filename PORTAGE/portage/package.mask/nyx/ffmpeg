@@ -1,1 +1,1 @@
-#media-video/ffmpeg	# prefer libav
+media-video/libav	# prefer ffmpeg
