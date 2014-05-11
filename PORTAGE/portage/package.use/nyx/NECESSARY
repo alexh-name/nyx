@@ -65,6 +65,12 @@
 =media-sound/sox-14.4.1 ffmpeg encode
 
 # required by media-video/mpv-0.2.4[quvi]
+=media-video/ffmpeg-1.2.6 network
+# required by virtual/ffmpeg-9
+# required by media-video/openshot-1.4.3[ffmpeg]
+=media-video/ffmpeg-1.2.6 sdl
+
+# required by media-video/mpv-0.2.4[quvi]
 =media-video/libav-9.12 network
 # required by virtual/ffmpeg-9
 # required by media-video/openshot-1.4.3[ffmpeg]

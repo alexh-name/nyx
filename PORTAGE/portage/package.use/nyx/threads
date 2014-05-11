@@ -1,3 +1,4 @@
+media-video/ffmpeg threads
 media-video/libav threads
 virtual/ffmpeg threads
 sci-libs/fftw threads

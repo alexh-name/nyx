@@ -8,6 +8,7 @@ media-sound/cmus alsa
 media-sound/mumble alsa
 media-sound/sox alsa
 media-sound/tuxguitar alsa
+media-video/ffmpeg alsa
 media-video/kino alsa
 media-video/libav alsa
 media-video/mplayer2 alsa
