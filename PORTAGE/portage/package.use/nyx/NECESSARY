@@ -68,13 +68,13 @@
 =media-video/ffmpeg-1.2.6 network
 # required by virtual/ffmpeg-9
 # required by media-video/openshot-1.4.3[ffmpeg]
-=media-video/ffmpeg-1.2.6 sdl
+## =media-video/ffmpeg-1.2.6 sdl
 
 # required by media-video/mpv-0.2.4[quvi]
 =media-video/libav-9.12 network
 # required by virtual/ffmpeg-9
 # required by media-video/openshot-1.4.3[ffmpeg]
-=media-video/libav-9.12 sdl
+## =media-video/libav-9.12 sdl
 
 # required by www-client/surf-0.6-r1
 =net-libs/webkit-gtk-2.2.6-r200::gentoo opengl
@@ -86,7 +86,7 @@
 =sys-devel/llvm-3.4.1-r1 clang
 
 # required by media-video/openshot-1.4.3[ffmpeg]
-=virtual/ffmpeg-9 sdl
+## =virtual/ffmpeg-9 sdl
 
 # required by x11-libs/pango-1.36.3-r2
 # required by media-gfx/darktable-1.4.2
