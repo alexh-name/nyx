@@ -31,6 +31,7 @@ media-gfx/darktable -slideshow
 media-libs/libsdl2 -alsa -audio -joystick X
 media-libs/taglib -asf
 media-sound/clementine -udev
+media-video/ffmpeg -network
 media-video/mplayer2 -dts -rar
 net-analyzer/nmap -lua
 net-fs/samba -server -cups -swat
