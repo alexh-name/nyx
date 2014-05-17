@@ -2,9 +2,11 @@ app-text/mupdf X
 dev-java/icedtea X
 dev-java/icedtea-bin X
 dev-util/plan9port X
+media-gfx/imagemagick X
 media-video/ffmpeg X
 media-video/libav X
 media-video/mplayer2 X
 media-video/mpv X
+virtual/ffmpeg X
 x11-libs/gtk+ X
 x11-libs/gtk+:3 X

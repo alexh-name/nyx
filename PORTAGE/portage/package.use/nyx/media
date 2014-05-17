@@ -1,6 +1,6 @@
 app-text/zathura-meta pdf
 media-gfx/gimp jpeg pdf png svg tiff
-media-gfx/imagemagick jpeg jpeg2k png raw svg tiff xml X
+media-gfx/imagemagick jpeg jpeg2k png raw svg tiff xml
 media-libs/avidemux-plugins aac vorbis vpx x264 xv
 media-libs/imlib2 tiff png jpeg
 media-libs/libcaca imlib
@@ -16,5 +16,5 @@ media-video/kino gstreamer
 media-video/libav aac vorbis xvid x264 theora mp3 vpx v4l opus
 media-video/mplayer2 -shm -mp3 -mpg123
 media-video/mpv v4l -shm -mp3 -mpg123 encode
-virtual/ffmpeg mp3 theora x264 opus X
+virtual/ffmpeg mp3 theora x264 opus
 www-client/firefox gstreamer
