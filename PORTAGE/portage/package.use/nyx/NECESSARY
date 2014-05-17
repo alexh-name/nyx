@@ -16,8 +16,6 @@
 =dev-db/sqlite-3.8.4.3 secure-delete
 
 # required by dev-lua/luaexpat-1.2.0-r1
-# required by media-libs/libquvi-scripts-0.9.20131130
-# required by media-libs/libquvi-0.9.4
 # required by media-video/mpv-0.2.4
 =dev-lang/lua-5.1.5-r1 deprecated
 
@@ -63,14 +61,10 @@
 # required by media-video/openshot-1.4.3[ffmpeg]
 =media-sound/sox-14.4.1 ffmpeg encode
 
-# required by media-video/mpv-0.2.4[quvi]
-=media-video/ffmpeg-1.2.6 network
 # required by virtual/ffmpeg-9
 # required by media-video/openshot-1.4.3[ffmpeg]
 ## =media-video/ffmpeg-1.2.6 sdl
 
-# required by media-video/mpv-0.2.4[quvi]
-=media-video/libav-9.12 network
 # required by virtual/ffmpeg-9
 # required by media-video/openshot-1.4.3[ffmpeg]
 ## =media-video/libav-9.12 sdl
