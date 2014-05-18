@@ -57,6 +57,7 @@
 =media-libs/mesa-9.2.1 nyx/gccO2
 =media-libs/opencv-2.4.8 nyx/gccO2
 =media-sound/ardour-3.5.357 nyx/gccO2
+=media-sound/ardour-3.5.380 nyx/gccO2
 =media-sound/audacity-2.0.5 nyx/gccO2
 =media-sound/clementine-1.2.0 nyx/gccO2
 =media-sound/clementine-1.2.1 nyx/gccO2
