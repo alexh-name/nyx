@@ -23,6 +23,7 @@
 =dev-libs/openssl-1.0.1e-r3 nyx/gccO2
 =dev-libs/openssl-1.0.1f nyx/gccO2
 =dev-libs/openssl-1.0.1g nyx/gccO2
+=dev-libs/openssl-1.0.1g-r1 nyx/gccO2
 =dev-scheme/guile-1.8.8-r1 nyx/gccO2
 =dev-util/systemtap-2.4-r1 nyx/gccO2
 =games-emulation/desmume-0.9.9 nyx/gccO2
