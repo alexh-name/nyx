@@ -1,6 +1,8 @@
 #############################
 # no sane downgrade-path    #
 #############################
+# in order of dependence    #
+#############################
 dev-qt/qtcore -~amd64
 dev-qt/qtopengl -~amd64
 dev-qt/qttest -~amd64
@@ -11,9 +13,9 @@ dev-qt/qtxmlpatterns -~amd64
 dev-qt/qtsql -~amd64
 dev-qt/qtscript -~amd64
 
-dev-libs/boost -~amd64
-dev-libs/boost-build -~amd64
-sys-libs/glibc -~amd64
+# dev-libs/boost -~amd64
+# dev-libs/boost-build -~amd64
+# sys-libs/glibc -~amd64
 
 #############################
 # too crucial               #
@@ -26,5 +28,8 @@ sys-apps/texinfo -~amd64
 
 sys-fs/btrfs-progs -~amd64
 
+##############################
+# not worth the compile-time #
+##############################
 app-office/libreoffice -~amd64
 app-office/libreoffice-l10n -~amd64
