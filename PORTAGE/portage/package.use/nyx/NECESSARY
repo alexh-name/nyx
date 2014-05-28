@@ -105,8 +105,8 @@
 =x11-libs/pango-1.36.3-r2 X
 
 # required by x11-drivers/xf86-video-ati-7.3.0
-# required by x11-base/xorg-drivers-1.15[video_cards_radeon]
-=x11-base/xorg-server-1.15.1 -minimal
+# required by x11-base/xorg-drivers-1.16[video_cards_radeon]
+>=x11-base/xorg-server-1.15.99.902 -minimal
 
 ### blockers
 =media-libs/lcms-1.19-r1 python
