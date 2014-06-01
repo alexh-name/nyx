@@ -20,7 +20,7 @@
 =dev-lang/lua-5.1.5-r1 deprecated
 
 # required by app-benchmarks/phoronix-test-suite-4.8.4
-=dev-lang/php-5.5.12:5.5 pcntl gd json zip curl
+=dev-lang/php-5.5.13:5.5 zip pcntl curl json gd 
 
 # required by app-misc/ranger-1.6.1::gentoo
 =dev-lang/python-2.7.6:2.7 ncurses
@@ -88,14 +88,10 @@
 # required by www-client/surf-0.6-r1
 =x11-libs/cairo-1.12.16-r3 X
 
-# required by x11-libs/gtk+-2.24.23
-# required by dev-java/icedtea-7.2.4.7
-# required by virtual/jdk-1.7.0
-# required by dev-java/junit-3.8.2-r1
-# required by dev-java/bcmail-1.45-r2
-# required by dev-java/itext-2.1.5-r2
-# required by media-sound/tuxguitar-1.2-r1::sabayon[pdf]
-=x11-libs/gdk-pixbuf-2.30.7-r1 X
+# required by x11-libs/gtk+-2.24.23-r1
+# required by x11-themes/gtk-engines-murrine-0.98.2-r1
+# required by x11-themes/zukitwo-2012.07.02-r1::nyxOverlay
+=x11-libs/gdk-pixbuf-2.30.8 X
 
 # required by media-libs/mesa-9.2.5[xorg]
 # required by www-client/firefox-26.0
