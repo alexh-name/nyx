@@ -70,8 +70,8 @@
 ## =media-video/libav-9.12 sdl
 
 # required by www-client/surf-0.6-r1
-=net-libs/webkit-gtk-2.2.6-r200::gentoo opengl
-=net-libs/webkit-gtk-2.2.6 opengl
+=net-libs/webkit-gtk-2.4.3-r200::gentoo opengl
+=net-libs/webkit-gtk-2.4.3 opengl
 
 # required by net-misc/openvpn-2.3.2[iproute2]
 =sys-apps/iproute2-3.14.0 -minimal

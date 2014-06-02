@@ -7,6 +7,7 @@ media-video/ffmpeg X
 media-video/libav X
 media-video/mplayer2 X
 media-video/mpv X
+net-libs/webkit-gtk X
 virtual/ffmpeg X
 x11-libs/gtk+ X
 x11-libs/gtk+:3 X
