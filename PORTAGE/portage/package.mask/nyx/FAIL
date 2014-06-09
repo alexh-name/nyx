@@ -3,6 +3,7 @@
 =dev-libs/libixion-0.7.0
 =dev-util/plan9port-20140123
 =dev-vcs/git-2.0.0
+=media-libs/imlib2-1.4.6-r2
 =media-libs/mesa-10.1.0
 =media-sound/ardour-3.5.380
 =net-misc/openvpn-2.3.3

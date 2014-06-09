@@ -30,12 +30,21 @@
 # required by app-misc/ranger-1.6.1[python_targets_python3_3]
 =dev-lang/python-3.3.5:3.3 ncurses
 
+# requiered by sys-fs/cryptsetup-1.6.4:0/0::gentoo
+=dev-libs/libgcrypt-1.6.1-r1 static-libs
+
+# requiered by sys-fs/cryptsetup-1.6.4:0/0::gentoo
+=dev-libs/libgpg-error-1.12-r1 static-libs
+
 # required by media-libs/mesa-10.1.4
 =dev-libs/libxml2-2.9.1-r4 python
 
+# requiered by sys-fs/cryptsetup-1.6.4:0/0::gentoo
+=dev-libs/popt-1.16-r1 static-libs
+
 # required by media-libs/giblib-1.2.4-r1
 # required by media-gfx/feh-2.11
-=media-libs/imlib2-1.4.6-r2 X
+=media-libs/imlib2-1.4.6-r1 X
 
 # required by media-sound/audacity-2.0.5[flac]
 =media-libs/flac-1.3.0 cxx
@@ -82,8 +91,14 @@
 # required by net-misc/openvpn-2.3.2[iproute2]
 =sys-apps/iproute2-3.14.0 -minimal
 
+# required by sys-fs/cryptsetup-1.6.4[static-libs,static]
+=sys-apps/util-linux-2.24.2 static-libs
+
 # required by sys-devel/clang-3.4.1-r100
 =sys-devel/llvm-3.4.1-r1 clang
+
+# requiered by sys-fs/cryptsetup-1.6.4:0/0::gentoo
+=sys-libs/e2fsprogs-libs-1.42.10 static-libs
 
 # required by media-video/openshot-1.4.3[ffmpeg]
 ## =virtual/ffmpeg-9 sdl

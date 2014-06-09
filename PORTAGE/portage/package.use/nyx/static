@@ -1,0 +1,3 @@
+app-shells/mksh static
+sys-apps/busybox static
+sys-fs/cryptsetup static static-libs
