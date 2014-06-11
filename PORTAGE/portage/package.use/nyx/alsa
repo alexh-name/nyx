@@ -2,6 +2,7 @@ dev-java/icedtea alsa
 dev-java/icedtea-bin alsa
 media-libs/avidemux-plugins alsa
 media-libs/libsdl alsa
+media-libs/openal alsa
 media-plugins/gst-plugins-meta alsa
 media-sound/audacity alsa
 media-sound/cmus alsa
