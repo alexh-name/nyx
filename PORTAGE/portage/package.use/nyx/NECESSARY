@@ -13,7 +13,7 @@
 
 # required by www-client/firefox-28.0[system-sqlite]
 # required by mail-client/thunderbird-24.3.0[system-sqlite]
-=dev-db/sqlite-3.8.4.3 secure-delete
+=dev-db/sqlite-3.8.5 secure-delete
 
 # required by dev-lua/luaexpat-1.2.0-r1
 # required by media-video/mpv-0.2.4
@@ -30,17 +30,17 @@
 # required by app-misc/ranger-1.6.1[python_targets_python3_3]
 =dev-lang/python-3.3.5:3.3 ncurses
 
-# requiered by sys-fs/cryptsetup-1.6.4:0/0::gentoo
+# required by sys-fs/cryptsetup-1.6.4[static,static-libs]
 =dev-libs/libgcrypt-1.6.1-r1 static-libs
 
-# requiered by sys-fs/cryptsetup-1.6.4:0/0::gentoo
+# required by sys-fs/cryptsetup-1.6.4[static,static-libs]
 =dev-libs/libgpg-error-1.12-r1 static-libs
 
 # required by media-libs/mesa-10.1.4
 =dev-libs/libxml2-2.9.1-r4 python
 
-# requiered by sys-fs/cryptsetup-1.6.4:0/0::gentoo
-=dev-libs/popt-1.16-r1 static-libs
+# required by sys-fs/cryptsetup-1.6.4[static,static-libs]
+=dev-libs/popt-1.16-r2 static-libs
 
 # required by media-libs/giblib-1.2.4-r1
 # required by media-gfx/feh-2.11
@@ -97,7 +97,7 @@
 # required by sys-devel/clang-3.4.1-r100
 =sys-devel/llvm-3.4.1-r1 clang
 
-# requiered by sys-fs/cryptsetup-1.6.4:0/0::gentoo
+# required by sys-fs/cryptsetup-1.6.4[static,static-libs]
 =sys-libs/e2fsprogs-libs-1.42.10 static-libs
 
 # required by media-video/openshot-1.4.3[ffmpeg]
