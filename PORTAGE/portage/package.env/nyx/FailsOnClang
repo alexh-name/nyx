@@ -93,6 +93,7 @@
 =sys-devel/binutils-2.24-r1 nyx/gccO2
 =sys-devel/binutils-2.24-r2 nyx/gccO2
 =sys-devel/dev86-0.16.20 nyx/gccO2
+=sys-devel/dev86-0.16.21 nyx/gccO2
 =sys-firmware/ipxe-1.0.0_p20130925 nyx/gccO2
 =sys-firmware/sgabios-0.1_pre8 nyx/gccO2
 =sys-fs/mtools-4.0.18 nyx/gccO2
