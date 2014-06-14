@@ -42,6 +42,10 @@
 # required by sys-fs/cryptsetup-1.6.4[static,static-libs]
 =dev-libs/popt-1.16-r2 static-libs
 
+# required by media-plugins/gst-plugins-meta-1.0-r1
+# required by www-client/firefox-30.0[gstreamer]
+=media-libs/gst-plugins-base-1.2.4 alsa
+
 # required by media-libs/giblib-1.2.4-r1
 # required by media-gfx/feh-2.11
 =media-libs/imlib2-1.4.6-r1 X
