@@ -1,6 +1,7 @@
-app-text/zathura-meta pdf
-media-gfx/gimp jpeg pdf png svg tiff
-media-gfx/imagemagick jpeg jpeg2k png raw svg tiff xml
+app-text/zathura-meta pdf postscript
+media-gfx/darktable webp
+media-gfx/gimp jpeg png svg tiff
+media-gfx/imagemagick jpeg jpeg2k png raw svg tiff webp
 media-libs/avidemux-plugins aac vorbis vpx x264 xv
 media-libs/imlib2 tiff png jpeg
 media-libs/libcaca imlib
@@ -11,7 +12,7 @@ media-sound/cmus aac flac vorbis wma mad mp4 wavpack musepack modplug
 media-sound/moc ffmpeg
 media-sound/tuxguitar pdf
 media-video/avidemux xv
-media-video/ffmpeg vorbis xvid x264 x265 theora mp3 vpx v4l opus
+media-video/ffmpeg vorbis xvid x264 x265 theora mp3 vpx v4l opus webp
 media-video/kino gstreamer
 media-video/libav aac vorbis xvid x264 theora mp3 vpx v4l opus
 media-video/mplayer2 -shm -mp3 -mpg123
