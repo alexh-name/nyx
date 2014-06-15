@@ -1,1 +1,1 @@
-PORTAGE_TMPDIR="/mnt/fxb/var/tmp/portage"
+PORTAGE_TMPDIR="/var/tmp/portageDisk"
