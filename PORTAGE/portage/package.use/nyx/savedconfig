@@ -1,6 +1,7 @@
+app-misc/dvtm savedconfig
+media-gfx/sxiv savedconfig
 sys-apps/busybox savedconfig
+www-client/surf savedconfig
 x11-terms/st savedconfig
 x11-wm/dwm savedconfig
 x11-misc/tabbed savedconfig
-www-client/surf savedconfig
-app-misc/dvtm savedconfig
