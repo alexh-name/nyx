@@ -21,7 +21,7 @@ rm -r /etc/portage/package.*/nyx/*
 rsync -aPh portage/ /etc/portage/
 
 chown -R root:portage /etc/portage
-chmod -R 740 /etc/portage
+chmod -R 750 /etc/portage
 
 mkdir /var/lib/portage/NYXBACKUP
 mv /var/lib/portage/world /var/lib/portage/NYXBACKUP/
