@@ -99,7 +99,7 @@
 =sys-apps/util-linux-2.24.2 static-libs
 
 # required by sys-devel/clang-3.4.1-r100
-=sys-devel/llvm-3.4.1-r1 clang
+=sys-devel/llvm-3.4.1-r2 clang
 
 # required by sys-fs/cryptsetup-1.6.4[static,static-libs]
 =sys-libs/e2fsprogs-libs-1.42.10 static-libs
