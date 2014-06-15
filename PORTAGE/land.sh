@@ -23,4 +23,11 @@ rsync -aPh portage/ /etc/portage/
 chown -R root:portage /etc/portage
 chmod -R 740 /etc/portage
 
+mkdir /var/lib/portage/NYXBACKUP
+mv /var/lib/portage/world /var/lib/portage/NYXBACKUP/
+cp world /var/lib/portage/
+
+chown root:portage /var/lib/portage/world
+chmod 640 /var/lib/portage/world
+
 mirrorselect -s5
