@@ -32,3 +32,7 @@ chown root:portage /var/lib/portage/world
 chmod 640 /var/lib/portage/world
 
 mirrorselect -s5
+
+layman -f -o https://git.cosmofox.net/nyxOverlay/plain/repository.xml -a nyxOverlay
+layman -S
+emerge --sync
