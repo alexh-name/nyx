@@ -34,5 +34,6 @@ chmod 640 /var/lib/portage/world
 mirrorselect -s5
 
 layman -f -o https://git.cosmofox.net/nyxOverlay/plain/repository.xml -a nyxOverlay
+layman -f -o https://raw.github.com/fr0stycl34r/gentoo-overlay-tox/master/repository.xml -a tox-overlay
 layman -S
 emerge --sync
