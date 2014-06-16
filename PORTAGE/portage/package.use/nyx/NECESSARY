@@ -44,7 +44,7 @@
 
 # required by media-plugins/gst-plugins-meta-1.0-r2
 # required by www-client/firefox-30.0[gstreamer]
-=media-libs/gst-plugins-base-1.2.4r1 alsa
+=media-libs/gst-plugins-base-1.2.4-r1 alsa
 
 # required by media-libs/giblib-1.2.4-r1
 # required by media-gfx/feh-2.11
