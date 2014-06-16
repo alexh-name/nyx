@@ -42,9 +42,9 @@
 # required by sys-fs/cryptsetup-1.6.4[static,static-libs]
 =dev-libs/popt-1.16-r2 static-libs
 
-# required by media-plugins/gst-plugins-meta-1.0-r1
+# required by media-plugins/gst-plugins-meta-1.0-r2
 # required by www-client/firefox-30.0[gstreamer]
-=media-libs/gst-plugins-base-1.2.4 alsa
+=media-libs/gst-plugins-base-1.2.4r1 alsa
 
 # required by media-libs/giblib-1.2.4-r1
 # required by media-gfx/feh-2.11
@@ -92,8 +92,8 @@
 =net-libs/webkit-gtk-2.4.3-r200::gentoo opengl
 =net-libs/webkit-gtk-2.4.3 opengl
 
-# required by net-misc/openvpn-2.3.2[iproute2]
-=sys-apps/iproute2-3.14.0 -minimal
+# required by net-misc/openvpn-2.3.4[iproute2]
+=sys-apps/iproute2-3.15.0 -minimal
 
 # required by sys-fs/cryptsetup-1.6.4[static-libs,static]
 =sys-apps/util-linux-2.24.2 static-libs
