@@ -27,6 +27,8 @@ chmod 640 /var/lib/portage/world
 
 mirrorselect -s5
 
+echo The actual update of packages is yet to be set up. ; exit
+
 layman -S
 emerge-webrsync \
 && eix-update
