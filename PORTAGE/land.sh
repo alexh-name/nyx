@@ -17,6 +17,7 @@ mkdir /etc/portage/NYXBACKUP
 cp -r /etc/portage/{bashrc,make.conf,patches,savedconfig,sets} /etc/portage/NYXBACKUP
 
 rm -r /etc/portage/package.*/nyx/*
+rm -r /etc/portage/env/nyx/*
 
 rsync -aPh portage/ /etc/portage/
 
