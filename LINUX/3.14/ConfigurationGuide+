@@ -100,7 +100,6 @@ Device Drivers  --->
 
 	    Input device support  --->
 		<M>   Joystick interface
-		<M>   Event interface
 		[*]   Miscellaneous devices  --->
 			<M>   PC Speaker support
 
