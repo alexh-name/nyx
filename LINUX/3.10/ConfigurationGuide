@@ -172,7 +172,7 @@ Device Drivers  --->
 		< >   Polled input device skeleton
 		< >   Sparse keymap support library					~~~ later
 		<M>   Joystick interface
-		< >   Event interface
+		<M>   Event interface
 		[ ]   Mice  --->
 		[*]   Joysticks/Gamepads  --->
 			<M>   X-Box gamepad support

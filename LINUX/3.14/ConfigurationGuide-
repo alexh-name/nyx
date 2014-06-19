@@ -136,7 +136,6 @@ Device Drivers  --->
 	    Input device support  --->
 		< >   Polled input device skeleton
 		< >   Sparse keymap support library					~~~ later
-		< >   Event interface
 		[ ]   Mice  ---
 		[ ]   Joysticks/Gamepads  ----
 		[ ]   Tablets  ---
