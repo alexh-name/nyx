@@ -130,7 +130,3 @@
 # required by x11-drivers/xf86-video-ati-7.3.0
 # required by x11-base/xorg-drivers-1.16[video_cards_radeon]
 =x11-base/xorg-server-1.15.99.903 -minimal
-# required by x11-drivers/xf86-input-evdev-2.8.4
-# required by x11-base/xorg-drivers-1.16[input_devices_evdev]
-# required by x11-base/xorg-server-1.15.0[xorg]
-=x11-base/xorg-server-1.15.99.903 udev
