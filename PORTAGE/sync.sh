@@ -27,11 +27,11 @@ chmod 640 /var/lib/portage/world
 
 mirrorselect -s5
 
-echo The actual update of packages is yet to be set up. ; exit
-
 layman -S
 emerge-webrsync \
 && eix-update
+
+echo The actual update of packages is yet to be set up. ; exit
 
 (emerge -uK sys-apps/portage \
 &&  emerge --quiet-build --keep-going --with-bdeps=y -uDNK $@ @world @system \
