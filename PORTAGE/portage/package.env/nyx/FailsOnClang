@@ -102,6 +102,7 @@
 =sys-power/suspend-1.0 nyx/gccO2
 =x11-base/xorg-server-1.14.99.903 nyx/gccO2
 =x11-base/xorg-server-1.14.99.903-r1 nyx/gccO2
+=x11-base/xorg-server-1.15.99.903 nyx/gccO2
 =x11-drivers/xf86-video-ati-7.2.0 nyx/gccO2
 =x11-libs/agg-2.5-r2 nyx/gccO2
 =x11-libs/cairo-1.12.14-r3 nyx/gccO2
