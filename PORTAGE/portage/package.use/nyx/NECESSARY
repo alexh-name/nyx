@@ -54,10 +54,12 @@
 =media-libs/flac-1.3.0 cxx
 
 # required by @ranger
-=media-libs/libcaca-0.99_beta18-r2 ncurses
+=media-libs/libcaca-0.99_beta18-r1 ncurses
 
-# required by media-gfx/imagemagick-6.8.8.10-r1[raw]
-=media-libs/lcms-1.19-r1 python
+# required by media-libs/sk1libs-0.9.1-r3
+# required by media-gfx/uniconvertor-1.1.5-r1
+# required by media-gfx/inkscape-0.48.4-r1
+=media-libs/lcms-1.19-r2:0 python
 
 # required by www-client/firefox-28.0
 =media-libs/libpng-1.6.10 apng
@@ -127,4 +129,8 @@
 
 # required by x11-drivers/xf86-video-ati-7.3.0
 # required by x11-base/xorg-drivers-1.16[video_cards_radeon]
->=x11-base/xorg-server-1.15.99.902 -minimal
+=x11-base/xorg-server-1.15.99.903 -minimal
+# required by x11-drivers/xf86-input-evdev-2.8.4
+# required by x11-base/xorg-drivers-1.16[input_devices_evdev]
+# required by x11-base/xorg-server-1.15.0[xorg]
+=x11-base/xorg-server-1.15.99.903 udev
