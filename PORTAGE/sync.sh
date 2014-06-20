@@ -25,7 +25,7 @@ cp world /var/lib/portage/
 chown root:portage /var/lib/portage/world
 chmod 640 /var/lib/portage/world
 
-mirrorselect -s5
+grep GENTOO_MIRRORS /etc/portage/NYXupdateBACKUP/make.conf >> /etc/portage/make.conf
 
 layman -S
 emerge-webrsync \
