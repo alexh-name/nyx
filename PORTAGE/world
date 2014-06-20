@@ -27,12 +27,10 @@ app-shells/mksh
 app-text/tree
 app-text/zathura-meta
 dev-lang/python
-dev-util/android-tools
-dev-util/checkbashisms
 dev-util/plan9port
 dev-vcs/bzr
 dev-vcs/git
-games-emulation/desmume
+games-misc/lolcat
 mail-client/mailx
 mail-client/thunderbird
 mail-mta/postfix
@@ -57,7 +55,6 @@ media-gfx/gimp
 media-gfx/gphoto2
 media-gfx/imagemagick
 media-gfx/inkscape
-media-gfx/qrencode
 media-gfx/scrot
 media-gfx/sxiv
 media-libs/exiftool
@@ -65,14 +62,12 @@ media-libs/libcdr
 media-libs/mesa
 media-plugins/gimp-resynthesizer
 media-sound/alsa-utils
-media-sound/ardour
 media-sound/audacity
 media-sound/cmus
 media-sound/mumble
 media-sound/sox
 media-sound/split2flac
 media-sound/tuxguitar
-media-sound/umurmur
 media-video/ffmpeg
 media-video/lsdvd
 media-video/mpv
@@ -87,12 +82,10 @@ net-irc/irssi
 net-irc/irssi-otr
 net-irc/irssi-xmpp
 net-misc/dhcpcd
-net-misc/netifrc
 net-misc/openntpd
 net-misc/openvpn
 net-misc/youtube-dl
 net-news/newsbeuter
-net-p2p/btpd
 net-p2p/rtorrent
 net-print/cups
 net-print/cups-filters
@@ -100,7 +93,6 @@ sys-apps/9base
 sys-apps/hdparm
 sys-apps/lshw
 sys-apps/pciutils
-sys-apps/pkgcore
 sys-apps/portage
 sys-apps/smartmontools
 sys-block/parted
@@ -113,7 +105,6 @@ sys-fs/dosfstools
 sys-fs/ntfs3g
 sys-fs/sshfs-fuse
 sys-kernel/gentoo-sources
-sys-kernel/gentoo-sources:3.10.42
 sys-kernel/linux-firmware
 sys-kernel/linux-headers
 sys-power/hibernate-script
@@ -125,9 +116,7 @@ www-client/elinks
 www-client/firefox
 www-client/lynx
 www-client/surf
-www-plugins/adobe-flash
 x11-apps/mesa-progs
-x11-apps/radeontop
 x11-apps/xev
 x11-apps/xrandr
 x11-apps/xset
