@@ -5,5 +5,5 @@
 # and starts sync.sh after that
 #################################
 
-git pull
-sh sync.sh
+git pull \
+&& sh sync.sh
