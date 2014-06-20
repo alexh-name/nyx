@@ -15,6 +15,9 @@
 # required by mail-client/thunderbird-24.3.0[system-sqlite]
 =dev-db/sqlite-3.8.5 secure-delete
 
+# required by media-sound/tuxguitar-1.2-r1::nyxOverlay
+=dev-java/swt-3.5.2:3.5 cairo
+
 # required by dev-lua/luaexpat-1.2.0-r1
 # required by media-video/mpv-0.2.4
 =dev-lang/lua-5.1.5-r1 deprecated
@@ -126,6 +129,9 @@
 
 # required by www-client/firefox-28.0
 =x11-libs/pango-1.36.3-r2 X
+
+# required by media-sound/audacity-2.0.5
+=x11-libs/wxGTK-2.8.12.1-r1:2.8 X
 
 # required by x11-drivers/xf86-video-ati-7.3.0
 # required by x11-base/xorg-drivers-1.16[video_cards_radeon]
