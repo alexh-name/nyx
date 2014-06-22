@@ -1,1 +1,2 @@
 media-libs/libsdl joystick X opengl audio xv
+media-libs/libsdl2 joystick X opengl audio alsa

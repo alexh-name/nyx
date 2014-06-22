@@ -56,6 +56,7 @@
 =media-libs/libmediainfo-0.7.65 nyx/gccO2
 =media-libs/libmediainfo-0.7.67 nyx/gccO2
 =media-libs/libpostproc-0.8.0.20121125 nyx/gccO2
+=media-libs/libsdl2-2.0.3 nyx/gccO2
 =media-libs/libsoundtouch-1.8.0 nyx/gccO2
 =media-libs/libsoundtouch-1.8.0-r1::gentoo nyx/gccO2
 =media-libs/mesa-9.2.1 nyx/gccO2

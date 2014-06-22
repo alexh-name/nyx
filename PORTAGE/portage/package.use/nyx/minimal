@@ -28,7 +28,6 @@ dev-java/icedtea -cups -source -webstart -cjk
 dev-java/icedtea-bin -cups -cjk
 mail-client/thunderbird -alsa
 media-gfx/darktable -slideshow
-media-libs/libsdl2 -alsa -audio -joystick X
 media-libs/taglib -asf
 media-sound/clementine -udev
 media-video/ffmpeg -network
@@ -40,6 +39,6 @@ sys-apps/busybox -ipv6
 sys-apps/iproute2 -berkdb -iptables
 sys-fs/eudev -* static-libs
 sys-fs/lvm2 -lvm1 -thin -udev -readline
-virtual/udev -* static-libs
+virtual/udev -*
 x11-misc/redshift -gtk
 x11-themes/gtk-engines-murrine -themes
