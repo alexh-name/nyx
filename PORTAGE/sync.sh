@@ -34,11 +34,11 @@ emerge-webrsync \
 echo The actual update of packages is yet to be set up. ; exit
 
 (emerge -uK sys-apps/portage \
-&&  emerge --quiet-build --keep-going --with-bdeps=y -uDNK $@ @world @system \
+&&  emerge --quiet-build -uDNK @nyx @system \
 &&  dispatch-conf \
 &&  env-update && source /etc/profile) \
 && (emerge --depclean \
-&&  (emerge --quiet-build --keep-going -avK @preserved-rebuild && revdep-rebuild -ip) \
+&&  (emerge --quiet-build -avK @preserved-rebuild && revdep-rebuild -ip) \
 &&  env-update && source /etc/profile) \
 && (eclean distfiles \
 ;   emaint --check world \

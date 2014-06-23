@@ -25,8 +25,10 @@ chown -R root:portage /etc/portage
 chmod -R 750 /etc/portage
 
 mkdir /var/lib/portage/NYXBACKUP
-mv /var/lib/portage/world /var/lib/portage/NYXBACKUP/
-cp world /var/lib/portage/
+cp /var/lib/portage/world /var/lib/portage/NYXBACKUP/
+cp /var/lib/portage/world_sets /var/lib/portage/NYXBACKUP/
+> /var/lib/portage/world
+> /var/lib/portage/world_sets
 
 chown root:portage /var/lib/portage/world
 chmod 640 /var/lib/portage/world
