@@ -1,7 +1,7 @@
 #!/bin/sh
 
 ################################
-# This script put the freshly 
+# This script puts the freshly 
 # pulled configs and tools
 # in place and starts an
 # update routine with portage.
