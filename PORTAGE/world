@@ -132,5 +132,7 @@ x11-misc/xautolock
 x11-misc/xclip
 x11-terms/st
 x11-themes/faenza-icon-theme
+x11-themes/gtk-engines-murrine
+x11-themes/gtk-engines-unico
 x11-themes/vanilla-dmz-aa-xcursors
 x11-wm/dwm
