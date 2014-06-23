@@ -11,6 +11,7 @@
 # The script will create a backup-folder 'NYXBACKUP' of the originals.
 # It is due to the design of portage that I cannot put those files in distinct
 # folders to prevent overriding.
+# After this, you can emerge @nyx.
 #################################
 
 mkdir /etc/portage/NYXBACKUP

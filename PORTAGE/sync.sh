@@ -18,10 +18,6 @@ rsync -aPh portage/ /etc/portage/
 chown -R root:portage /etc/portage
 chmod -R 750 /etc/portage
 
-mkdir /var/lib/portage/NYXupdateBACKUP
-mv /var/lib/portage/world /var/lib/portage/NYXupdateBACKUP/
-cp world /var/lib/portage/
-
 chown root:portage /var/lib/portage/world
 chmod 640 /var/lib/portage/world
 
