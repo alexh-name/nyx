@@ -37,7 +37,7 @@ net-fs/samba -server -cups -swat
 net-misc/dhcpcd -udev
 sys-apps/busybox -ipv6
 sys-apps/iproute2 -berkdb -iptables
-sys-fs/eudev -* static-libs
+sys-fs/eudev -*
 sys-fs/lvm2 -lvm1 -thin -udev -readline
 virtual/udev -*
 x11-misc/redshift -gtk
