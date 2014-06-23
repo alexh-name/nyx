@@ -18,6 +18,7 @@ cp -r /etc/portage/{bashrc,make.conf,patches,savedconfig,sets} /etc/portage/NYXB
 
 rm -r /etc/portage/package.*/nyx/*
 rm -r /etc/portage/env/nyx/*
+rm -r /etc/portage/sets/*
 
 rsync -aPh portage/ /etc/portage/
 
