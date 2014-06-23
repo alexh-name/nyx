@@ -32,11 +32,14 @@ echo The actual update of packages is yet to be set up. ; exit
 ( emerge -uG sys-apps/portage \
   && emerge --quiet-build -uDNG @nyx @system @live-rebuild \
      && dispatch-conf \
-        && env-update && source /etc/profile ) \
+        && env-update && source /etc/profile \
+) \
 && ( emerge --depclean \
-     && ( emerge --quiet-build -avG @preserved-rebuild && revdep-rebuild -ip) \
-          &&  env-update && source /etc/profile ) \
-        && ( eclean distfiles \
-             ; emaint --check world \
-             ; glsa-check -t all \
-             ; makewhatis -u )
+     && emerge --quiet-build -avG @preserved-rebuild \
+        &&  env-update && source /etc/profile \
+   ) \
+   && ( eclean distfiles \
+        ; emaint --check world \
+        ; glsa-check -t all \
+        ; makewhatis -u \
+      )
