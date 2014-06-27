@@ -127,8 +127,9 @@
 # required by www-client/firefox-26.0
 =x11-libs/libdrm-2.4.52 libkms
 
-# required by www-client/firefox-28.0
-=x11-libs/pango-1.36.3-r2 X
+# required by x11-libs/gtkglext-1.2.0-r2
+# required by games-emulation/desmume-0.9.9
+=x11-libs/pango-1.36.5 X
 
 # required by media-sound/audacity-2.0.5
 =x11-libs/wxGTK-2.8.12.1-r1:2.8 X
