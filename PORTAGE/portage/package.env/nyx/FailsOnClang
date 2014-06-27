@@ -4,6 +4,7 @@
 =app-crypt/gnupg-2.0.21-r2 nyx/gccO2
 =app-crypt/gnupg-2.0.22 nyx/gccO2
 =app-crypt/gnupg-2.0.23:0/0::gentoo nyx/gccO2
+=app-crypt/gnupg-2.0.24 nyx/gccO2
 =app-crypt/truecrypt-7.1a nyx/gccO2
 =app-office/libreoffice-4.1.4.2 nyx/gccO2
 =app-portage/eix-0.30.2 nyx/gccO2
@@ -77,6 +78,7 @@
 =media-video/ffmpeg-2.2.3::gentoo nyx/gccO2
 =media-video/ffmpeg-2.2.3-r1:0/52.55.55::gentoo nyx/gccO2
 =net-analyzer/nmap-6.25 nyx/gccO2
+=net-im/toxic-9999 nyx/gccO2
 =net-libs/glib-networking-2.36.2 nyx/gccO2
 =net-libs/glib-networking-2.38.2 nyx/gccO2
 =net-libs/libsoup-2.42.3.1 nyx/gccO2
