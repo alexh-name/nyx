@@ -5,6 +5,7 @@
 =app-crypt/gnupg-2.0.22 nyx/gccO2
 =app-crypt/gnupg-2.0.23:0/0::gentoo nyx/gccO2
 =app-crypt/gnupg-2.0.24 nyx/gccO2
+=app-crypt/gnupg-2.0.25 nyx/gccO2
 =app-crypt/truecrypt-7.1a nyx/gccO2
 =app-office/libreoffice-4.1.4.2 nyx/gccO2
 =app-portage/eix-0.30.2 nyx/gccO2
