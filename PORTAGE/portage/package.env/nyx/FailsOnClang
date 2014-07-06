@@ -78,6 +78,7 @@
 =media-video/ffmpeg-2.2.2 nyx/gccO2
 =media-video/ffmpeg-2.2.3::gentoo nyx/gccO2
 =media-video/ffmpeg-2.2.3-r1:0/52.55.55::gentoo nyx/gccO2
+=media-video/ffmpeg-2.2.4 nyx/gccO2
 =net-analyzer/nmap-6.25 nyx/gccO2
 =net-im/toxic-9999 nyx/gccO2
 =net-libs/glib-networking-2.36.2 nyx/gccO2
