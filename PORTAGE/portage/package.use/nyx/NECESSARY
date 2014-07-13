@@ -37,8 +37,8 @@
 # required by sys-fs/cryptsetup-1.6.4[static,static-libs]
 =dev-libs/libgcrypt-1.6.1-r1 static-libs
 
-# required by sys-fs/cryptsetup-1.6.4[static,static-libs]
-=dev-libs/libgpg-error-1.12-r1 static-libs
+# required by sys-fs/cryptsetup-1.6.5[static,static-libs]
+=dev-libs/libgpg-error-1.13 static-libs
 
 # required by media-libs/mesa-10.1.4
 =dev-libs/libxml2-2.9.1-r4 python
