@@ -107,6 +107,9 @@
 # required by sys-devel/clang-3.4.2-r100
 =sys-devel/llvm-3.4.2 clang
 
+# required by sys-fs/cryptsetup-1.6.5[static-libs,static]
+=sys-fs/lvm2-2.02.107 static-libs
+
 # required by sys-fs/cryptsetup-1.6.4[static,static-libs]
 =sys-libs/e2fsprogs-libs-1.42.10 static-libs
 
