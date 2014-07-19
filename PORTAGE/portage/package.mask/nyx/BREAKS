@@ -23,3 +23,8 @@
 =sys-apps/lshw-02.17b				# segfaults
 
 =sys-devel/binutils-2.24			# breaks builds "cannot find -liberty"
+
+# =x11-libs/cairo-1.12.14-r4			# segfaults (especially breaks surf)
+# =x11-libs/cairo-1.12.16			# ||
+# =x11-libs/cairo-1.12.16-r2			# ||
+# =x11-libs/cairo-1.12.16-r3			# ||
