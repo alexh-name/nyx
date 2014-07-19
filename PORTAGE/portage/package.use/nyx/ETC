@@ -16,4 +16,6 @@ net-im/mcabber otr
 net-misc/openvpn iproute2
 sys-fs/ntfs3g -external-fuse ntfsprogs -crypt
 x11-base/xorg-server xorg
+x11-libs/cairo lto
+x11-libs/cairo xcb xlib-xcb 					# surf segfaults otherwise
 x11-misc/compton -drm opengl
