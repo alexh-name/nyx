@@ -15,7 +15,7 @@ dev-qt/qtscript -~amd64
 
 dev-libs/boost -~amd64
 dev-libs/boost-build -~amd64
-# sys-libs/glibc -~amd64
+sys-libs/glibc -~amd64
 
 #############################
 # too crucial               #
