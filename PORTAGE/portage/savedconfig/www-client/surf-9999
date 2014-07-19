@@ -106,6 +106,7 @@ static Key keys[] = {
     { MODKEY|GDK_SHIFT_MASK,GDK_m,      togglestyle, { 0 } },
     { MODKEY|GDK_SHIFT_MASK,GDK_b,      togglescrollbars, { 0 } },
     { MODKEY|GDK_SHIFT_MASK,GDK_g,      togglegeolocation, { 0 } },
-    { MODKEY|GDK_SHIFT_MASK,GDK_t,      loaduri,      { .v = "https://check.torproject.org" } },
+    { MODKEY,               GDK_w,      spawn,      WATCH },
+    { MODKEY|GDK_SHIFT_MASK,GDK_t,      loaduri,    { .v = "https://check.torproject.org" } },
 };
 
