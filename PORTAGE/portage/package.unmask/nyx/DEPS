@@ -3,3 +3,6 @@
 # media-gfx/imagemagick-6.8.8.5 (svg ? gnome-base/librsvg)
 # media-libs/gegl-0.2.0-r2 (svg ? >=gnome-base/librsvg-2.14:2)
 gnome-base/librsvg
+
+# required by x11-themes/gnome-themes-standard-3.12.0
+=gnome-base/gsettings-desktop-schemas-3.12.2

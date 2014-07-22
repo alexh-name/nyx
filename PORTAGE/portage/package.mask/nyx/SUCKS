@@ -2,14 +2,6 @@
 # pulling in dbus                        #
 ##########################################
 
-=x11-themes/gnome-themes-standard-3.8.4-r1
-=x11-themes/gnome-themes-standard-3.8.4
-=x11-themes/gnome-themes-standard-3.10.0
-=x11-themes/gnome-themes-standard-3.12.0
-=x11-themes/zukitwo-2012.12.16
-=x11-themes/zukitwo-2013.04.24
-=x11-themes/zukitwo-2013.12.10
-# =x11-themes/gtk-engines-unico-1.0.3_pre20121212
 
 ####################
 
