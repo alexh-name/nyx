@@ -3,7 +3,7 @@ app-emulation/qemu -static
 app-emulation/qemu aio vhost-net -ncurses seccomp -static-user -static-softmmu -alsa -jpeg -png -vnc -curl sdl
 app-text/evince xps dvi
 app-text/hunspell linguas_de
-dev-lang/php ctype ssl xml					# for phornox-test-suite
+dev-lang/php ctype ssl xml					# for phoronix-test-suite
 dev-libs/geoip city
 mail-client/thunderbird lightning
 mail-mta/postfix berkdb
@@ -13,6 +13,7 @@ media-video/mplayer2
 media-video/mpv lua -quvi
 net-dialup/ppp dhcp
 net-im/mcabber otr 
+net-im/toxic -sound-notify
 net-misc/openvpn iproute2
 sys-fs/ntfs3g -external-fuse ntfsprogs -crypt
 x11-base/xorg-server xorg
