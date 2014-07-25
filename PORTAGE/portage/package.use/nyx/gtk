@@ -1,4 +1,4 @@
-app-office/libreoffice gtk3
+app-office/libreoffice gtk
 dev-qt/qtgui gtkstyle
 x11-themes/gnome-themes-standard gtk
 
