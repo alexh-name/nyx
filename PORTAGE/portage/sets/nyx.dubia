@@ -63,6 +63,7 @@ sys-apps/hdparm
 sys-apps/lshw
 sys-apps/pciutils
 sys-apps/portage
+sys-apps/sysvinit
 sys-block/parted
 sys-devel/clang
 sys-devel/gcc
