@@ -13,7 +13,7 @@ media-video/mplayer2
 media-video/mpv lua -quvi
 net-dialup/ppp dhcp
 net-im/mcabber otr 
-net-im/toxic -sound-notify
+net-im/toxic -libnotify -sound-notify
 net-misc/openvpn iproute2
 sys-fs/ntfs3g -external-fuse ntfsprogs -crypt
 x11-base/xorg-server xorg

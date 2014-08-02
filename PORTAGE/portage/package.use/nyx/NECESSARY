@@ -23,19 +23,21 @@
 =dev-lang/lua-5.1.5-r1 deprecated
 
 # required by app-benchmarks/phoronix-test-suite-4.8.4
-=dev-lang/php-5.5.14:5.5 zip pcntl curl json gd
+=dev-lang/php-5.5.15:5.5 zip pcntl curl json gd
 
 # required by app-misc/ranger-1.6.1::gentoo
-=dev-lang/python-2.7.7:2.7 ncurses
+=dev-lang/python-2.7.8:2.7 ncurses sqlite
 # required by www-client/firefox-30.0
 # required by mail-client/thunderbird-24.6.0
-=dev-lang/python-2.7.7:2.7 sqlite
+=dev-lang/python-2.7.8:2.7 sqlite
+# required by app-misc/ranger-1.6.1[python_targets_python3_3]
+=dev-lang/python-3.3.5-r1:3.3 ncurses
 
 # required by app-misc/ranger-1.6.1[python_targets_python3_3]
 =dev-lang/python-3.3.5:3.3 ncurses
 
-# required by sys-fs/cryptsetup-1.6.4[static,static-libs]
-=dev-libs/libgcrypt-1.6.1-r1 static-libs
+# required by sys-fs/cryptsetup-1.6.5[static,gcrypt,static-libs]
+=dev-libs/libgcrypt-1.6.1-r2 static-libs
 
 # required by sys-fs/cryptsetup-1.6.5[static,static-libs]
 =dev-libs/libgpg-error-1.13 static-libs
@@ -101,14 +103,14 @@
 # required by net-misc/openvpn-2.3.4[iproute2]
 =sys-apps/iproute2-3.15.0 -minimal
 
-# required by sys-fs/cryptsetup-1.6.4[static-libs,static]
-=sys-apps/util-linux-2.24.2 static-libs
+# required by sys-fs/cryptsetup-1.6.5[static-libs,static]
+=sys-apps/util-linux-2.25 static-libs
 
 # required by sys-devel/clang-3.4.2-r100
 =sys-devel/llvm-3.4.2 clang
 
 # required by sys-fs/cryptsetup-1.6.5[static-libs,static]
-=sys-fs/lvm2-2.02.107 static-libs
+=sys-fs/lvm2-2.02.103 static-libs
 
 # required by sys-fs/cryptsetup-1.6.4[static,static-libs]
 =sys-libs/e2fsprogs-libs-1.42.10 static-libs
