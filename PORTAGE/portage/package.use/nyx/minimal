@@ -24,6 +24,7 @@ app-admin/conky -portmon -truetype
 app-office/libreoffice -webdav -xmlsec
 app-shells/bash -net -*
 app-text/poppler -jpeg
+dev-libs/e_dbus -connman
 dev-java/icedtea -cups -source -webstart -cjk
 dev-java/icedtea-bin -cups -cjk
 mail-client/thunderbird -alsa
