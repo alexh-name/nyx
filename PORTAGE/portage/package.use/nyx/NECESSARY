@@ -36,6 +36,9 @@
 # required by app-misc/ranger-1.6.1[python_targets_python3_3]
 =dev-lang/python-3.3.5:3.3 ncurses
 
+# required by x11-wm/enlightenment-0.18.8
+=dev-libs/efl-1.10.1 X
+
 # required by sys-fs/cryptsetup-1.6.5[static,gcrypt,static-libs]
 =dev-libs/libgcrypt-1.6.1-r2 static-libs
 
