@@ -6,4 +6,5 @@ games-util/steam-meta
 media-gfx/qrencode
 media-sound/ardour
 net-p2p/btpd
+www-servers/thttpd
 x11-apps/radeontop
