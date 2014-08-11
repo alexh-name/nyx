@@ -1,5 +1,7 @@
 =dev-libs/boehm-gc-7.4.0			# inkscape fails to build
 
+=media-libs/libmodplug-0.8.8.5			# breaks cmus
+
 #=media-plugins/caps-plugins-0.9.10		# breaks alsaequal
 #=media-plugins/caps-plugins-0.9.15		# ||
 
