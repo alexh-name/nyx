@@ -36,3 +36,6 @@
 
 =x11-libs/gtk+-2.24.24				# surf[3189]: segfault at 30 ip 00007fc5545cd6c0 sp 00007fffa3f414e0 error 4 in libgdk-x11-2.0.so.0.2400.24[7fc554576000+b0000]
 =x11-libs/gtk+-2.24.23-r2			# ||
+
+=x11-wm/enlightenment-0.18.7			# segfaults
+=x11-wm/enlightenment-0.18.8			# ||
