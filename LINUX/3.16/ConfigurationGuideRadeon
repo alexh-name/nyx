@@ -1,0 +1,38 @@
+
+			    sys-kernel/gentoo-sources-3.16.* (radeon)
+			~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			This guide only contains, what I suggest to add
+			or make sure that it is selected for using the
+			open source radeon driver.
+			~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Processor type and features  --->
+	[*] MTRR (Memory Type Range Register) support
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Device Drivers  --->
+	    Generic Driver Options  --->
+		[*]   Include in-kernel firmware blobs in kernel binary
+		(~~~ + what applies to your hardware)
+		(/lib/firmware) Firmware blobs root directory
+
+	    Graphics support  --->
+		    Direct Rendering Manager  --->
+			<*> ATI Radeon
+			< > Intel 8xx/9xx/G3x/G4x/HD Graphics
+		    Frame buffer Devices  --->
+			-*- Support for frame buffer devices  --->
+				[ ]   EFI-based Framebuffer Support
+		    Console display driver support  --->
+			<*> Framebuffer Console support
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Firmware Drivers  --->
+	EFI (Extensible Firmware Interface) Support  --->
+		<*> EFI Variable Support via sysfs
+

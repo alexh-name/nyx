@@ -1,0 +1,209 @@
+
+				sys-kernel/gentoo-sources-3.16.* (+)
+			~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			This guide only contains, what I suggest to add
+			or make sure that it is selected.
+			~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Gentoo Linux  --->
+	[*] Gentoo Linux support
+	[*]   Linux dynamic and persistent device naming (userspace devfs) support
+	Support for init systems, system and service managers  --->
+		[*] OpenRC, runit and other script based systems and managers
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+[*] 64-bit kernel
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+General setup  --->
+	[*] System V IPC
+	Timers subsystem  --->
+		Timer tick handling (Idle dynticks system (tickless idle))  --->
+	<*> Kernel .config support
+	[*]   Enable access to .config through /proc/config.gz
+	[*] Automatic process group scheduling
+	[*] Configure standard kernel features (expert users)  --->
+	Stack Protector buffer overflow detection (Regular)  --->
+		<X> Regular
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-*- Enable the block layer  --->
+	Partition Types  --->
+		~~~ only
+		[*] Advanced partition selection
+		[*]   PC BIOS (MSDOS partition tables) support
+		[*]   EFI GUID Partition support
+		~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Processor type and features  --->
+	[*] Symmetric multi-processing support
+	...
+	[*] Enable cleancache driver to cache clean pages if tmem is present	
+	[*] Enable frontswap to cache swap pages if tmem is present		
+	[*] Compressed cache for swap pages (EXPERIMENTAL)
+	[*] EFI runtime service support
+	[*]   EFI stub support
+	[*] Build a relocatable kernel
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Power management and ACPI options  --->
+	[*] Opportunistic sleep
+	[*] Run-time PM core functionality
+	[*] ACPI (Advanced Configuration and Power Interface) Support  --->
+		...
+		<*>   Processor
+		<*>   Processor Aggregator
+		<*>   Thermal Zone
+		[*]   Power Management Timer Support
+		~~~ + what applies to your hardware
+
+	CPU Frequency scaling  --->
+		Default CPUFreq governor (ondemand)  --->
+		x86 CPU frequency scaling drivers  --->
+			<M> ACPI Processor P-States driver
+			~~~ + what applies to your CPU-type
+	CPU Idle  --->
+		~~~ only
+		-*-   Menu governor (for tickless system)
+		~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Device Drivers  --->
+	    Generic Driver Options  --->
+		[*] Maintain a devtmpfs filesystem to mount at /dev
+		
+	    SCSI device support  --->
+		<M> SCSI CDROM support
+		<M> SCSI generic support
+		[*] Probe all LUNs on each SCSI device
+		SCSI Transports  --->
+			~~~ deselect all
+
+	<*> Serial ATA and Parallel ATA drivers  --->
+		[*]   ATA ACPI Support
+		[*]     SATA Zero Power Optical Disc Drive (ZPODD) support
+		<*>   AHCI SATA support
+
+	[*] Multiple devices driver support (RAID and LVM)  --->
+		<*>   Device mapper support
+		<*>     Crypt target support
+
+	[ ] Macintosh device drivers  --->
+
+	[*] Network device support  --->
+		[*]   Ethernet driver support  --->
+			~~~ + only what applies to your hardware
+
+	    Input device support  --->
+		<*>   Mouse interface
+		<M>   Joystick interface
+		[*]   Keyboards  --->
+			<*>   AT keyboard
+		[*]   Miscellaneous devices  --->
+			<M>   PC Speaker support
+
+	-*- I2C support  --->
+		I2C Hardware Bus support  --->
+			~~~ + what applies to your hardware
+
+	-*- Hardware Monitoring support  --->
+		~~~ + what applies to your hardware
+
+	[*] Watchdog Timer Support  --->
+		~~~ + what applies to your hardware
+
+	    Graphics support  --->
+		~~~ + what applies to your hardware
+
+	<*> Sound card support  --->
+		<M>   Advanced Linux Sound Architecture  --->
+			[*]   PCI sound devices  --->
+				~~~ + what applies to your hardware
+			[*]   USB sound devices  --->
+				<M>   USB Audio/MIDI driver
+	
+	    HID support  --->	
+		{*} HID bus support 
+		<*>   Generic HID driver
+		      Special HID drivers  --->
+			~~~ deselect all
+		    USB HID support  --->
+			<*> USB HID transport layer
+
+
+	[*] USB support  --->
+		[*]     Enable USB persist by default
+		<M>     USB Monitor
+		<M>     xHCI HCD (USB 3.0) support
+
+		~~~ + what applies to your hardware
+		<?>     EHCI HCD (USB 2.0) support
+		[?]       Improved Transaction Translator scheduling
+		<?>     OHCI HCD (USB 1.1) support
+		<?>       OHCI support for PCI-bus USB controllers
+		<?>     UHCI HCD (most Intel and VIA) support
+		~~~
+
+		<*>     USB Mass Storage support
+
+	[*] EDAC (Error Detection And Correction) reporting  --->
+		~~~ + what applies to your CPU-type
+
+	[*] IOMMU Hardware Support  --->
+		~~~ + what applies to your CPU-type
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Firmware Drivers  --->
+	EFI (Extensible Firmware Interface) Support  --->
+		<*> EFI Variable Support via sysfs
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+File systems  --->
+	<*> The Extended 4 (ext4) filesystem
+	[*]   Use ext4 for ext2/ext3 file systems
+	[*]   Ext4 Security Labels
+	...
+	<M> FUSE (Filesystem in Userspace) support
+	CD-ROM/DVD Filesystems  --->
+		<M> ISO 9660 CDROM file system support
+		<M> UDF file system support 
+	DOS/FAT/NT Filesystems  ---> 
+		<M> MSDOS fs support
+		<M> VFAT (Windows-95) fs support 
+	[*] Miscellaneous filesystems  --->
+		<M>   EFI Variable filesystem
+
+    Kernel hacking  --->
+	~~~ only
+	[*] Write protect kernel read-only data structures
+	[*] Enable doublefault exception handler
+	[*] Allow gcc to uninline functions marked 'inline'
+	~~~
+
+    Security options  --->
+	[*] Restrict unprivileged access to the kernel syslog
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-*- Cryptographic API  --->
+	<*>   ECB support
+	<*>   XTS support
+	<M>   RIPEMD-160 digest algorithm
+	<*>   SHA224 and SHA256 digest algorithm
+	<*>   SHA384 and SHA512 digest algorithms
+	<*>   AES cipher algorithms (x86_64)
+	<*>   Serpent cipher algorithm (x86_64/SSE2)
+	<*>   Twofish cipher algorithm (x86_64, 3-way parallel)
+	<M>   User-space interface for symmetric key cipher algorithms
+	~~ or what applies to your CPU-instructions
