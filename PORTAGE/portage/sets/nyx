@@ -41,4 +41,6 @@ virtual/python-imaging
 www-client/elinks
 www-client/lynx
 x11-apps/mesa-progs
+x11-apps/setxkbmap
 x11-misc/vdpauinfo
+x11-wm/enlightenment
