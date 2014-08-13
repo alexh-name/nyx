@@ -1,0 +1,20 @@
+
+			    sys-kernel/gentoo-sources-3.16.* (xpad)
+			~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			This guide only contains, what I suggest to add
+			or make sure that it is selected for using the
+			controller for the xbox 360.
+			~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Device Drivers  --->
+	    Input device support  --->
+		<M>   Joystick interface
+		[*]   Joysticks/Gamepads  --->
+			<M>   X-Box gamepad support
+			[*]     X-Box gamepad rumble support
+			[*]     LED Support for Xbox360 controller 'BigX' LED	~~~ later
+	[*] LED Support  --->
+		<M>   LED Class Support
+	    Generic Driver Options  --->
