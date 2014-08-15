@@ -199,6 +199,7 @@ Device Drivers  --->
 
 	    Graphics support  --->
 		< > /dev/agpgart (AGP Support)  ----
+		[ ] VGA Arbitration
 		[ ] Bootup logo  ----
 		~~~ + what applies to your hardware
 
