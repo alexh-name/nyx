@@ -11,9 +11,9 @@
 # required by media-plugins/gimp-resynthesizer-0.16
 =app-text/poppler-0.24.5 cairo
 
-# required by www-client/firefox-28.0[system-sqlite]
-# required by mail-client/thunderbird-24.3.0[system-sqlite]
-=dev-db/sqlite-3.8.5 secure-delete
+# required by www-client/firefox-31.0[system-sqlite]
+# required by mail-client/thunderbird-31.0[system-sqlite]
+=dev-db/sqlite-3.8.6 secure-delete
 
 # required by media-sound/tuxguitar-1.2-r1::nyxOverlay
 =dev-java/swt-3.5.2:3.5 cairo
