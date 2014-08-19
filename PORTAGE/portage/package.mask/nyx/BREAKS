@@ -1,6 +1,6 @@
 =dev-libs/boehm-gc-7.4.0			# inkscape fails to build
 
-# =media-libs/libmodplug-0.8.8.5			# breaks cmus (fixed with cmus 2.6)
+ #=media-libs/libmodplug-0.8.8.5			# breaks cmus (fixed with cmus 2.6)
 
 #=media-plugins/caps-plugins-0.9.10		# breaks alsaequal
 #=media-plugins/caps-plugins-0.9.15		# ||
@@ -23,6 +23,8 @@
 =sys-apps/grep-2.17				# ||
 
 =sys-apps/lshw-02.17b				# segfaults
+
+=sys-apps/openrc-0.13				# shit breaks loose
 
 =sys-devel/binutils-2.24			# breaks builds "cannot find -liberty"
 
