@@ -23,7 +23,7 @@
 =dev-lang/lua-5.1.5-r1 deprecated
 
 # required by app-benchmarks/phoronix-test-suite-4.8.4
-=dev-lang/php-5.5.15:5.5 zip pcntl curl json gd
+=dev-lang/php-5.5.16:5.5 zip pcntl curl json gd
 
 # required by app-misc/ranger-1.6.1::gentoo
 =dev-lang/python-2.7.8:2.7 ncurses sqlite
@@ -39,8 +39,8 @@
 # required by x11-wm/enlightenment-0.18.8
 =dev-libs/efl-1.10.1 X
 
-# required by sys-fs/cryptsetup-1.6.5[static,gcrypt,static-libs]
-=dev-libs/libgcrypt-1.6.1-r2 static-libs
+# required by sys-fs/cryptsetup-1.6.6[static,gcrypt,static-libs]
+=dev-libs/libgcrypt-1.6.2 static-libs
 
 # required by sys-fs/cryptsetup-1.6.5[static,static-libs]
 =dev-libs/libgpg-error-1.13 static-libs

@@ -30,6 +30,7 @@
 
 =sys-fs/lvm2-2.02.107				# breaks cryptsetup
 =sys-fs/lvm2-2.02.108				# ||
+=sys-fs/lvm2-2.02.109				# ||
 
 # =x11-libs/cairo-1.12.14-r4			# segfaults (especially breaks surf)
 # =x11-libs/cairo-1.12.16			# ||
