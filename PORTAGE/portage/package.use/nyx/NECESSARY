@@ -70,8 +70,8 @@
 # required by media-gfx/inkscape-0.48.4-r1
 =media-libs/lcms-1.19-r2:0 python
 
-# required by www-client/firefox-30.0
-=media-libs/libpng-1.6.12 apng
+# required by www-client/firefox-31.0
+=media-libs/libpng-1.6.13 apng
 
 # required by media-sound/mumble-1.2.4
 =media-libs/libsndfile-1.0.25-r1 -minimal
@@ -82,8 +82,8 @@
 # required by media-gfx/darktable-1.4.2
 =media-gfx/exiv2-0.23-r1 xmp
 
-# required by media-gfx/inkscape-0.48.4-r1
-=media-gfx/imagemagick-6.8.8.10-r1 cxx
+# required by media-gfx/inkscape-0.48.5
+=media-gfx/imagemagick-6.8.9.7 cxx
 
 # required by media-video/openshot-1.4.3[ffmpeg]
 =media-sound/sox-14.4.1 ffmpeg encode
