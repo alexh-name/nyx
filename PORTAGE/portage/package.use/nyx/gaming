@@ -2,4 +2,4 @@ app-emulation/emul-linux-x86-soundlibs alsa
 media-libs/libsdl joystick X opengl audio xv
 media-libs/libsdl2 joystick X opengl audio alsa
 
-games-fps/xonotic alsa sdl
+games-fps/xonotic alsa dedicated sdl
