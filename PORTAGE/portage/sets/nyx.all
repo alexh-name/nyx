@@ -5,6 +5,7 @@ games-emulation/desmume
 games-util/steam-meta
 media-gfx/qrencode
 media-sound/ardour
+media-sound/easytag
 net-p2p/btpd
 www-servers/thttpd
 x11-apps/radeontop

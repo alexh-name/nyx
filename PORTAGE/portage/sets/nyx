@@ -27,6 +27,7 @@ media-sound/tuxguitar
 media-video/ffmpeg
 media-video/lsdvd
 net-dns/bind-tools
+net-im/utox
 net-misc/openvpn
 net-news/newsbeuter
 net-print/cups
