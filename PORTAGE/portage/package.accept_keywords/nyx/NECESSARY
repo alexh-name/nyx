@@ -1,0 +1,6 @@
+# required by net-libs/gnutls-3.3.7-r1
+# required by net-libs/glib-networking-2.40.1-r1
+# required by net-libs/libsoup-2.46.0-r1
+# required by net-libs/webkit-gtk-2.4.4-r200
+# required by www-client/surf-9999
+=sys-apps/texinfo-5.2 ~amd6
