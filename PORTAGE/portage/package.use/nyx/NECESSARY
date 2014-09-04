@@ -45,8 +45,11 @@
 # required by sys-fs/cryptsetup-1.6.5[static,static-libs]
 =dev-libs/libgpg-error-1.13 static-libs
 
-# required by media-libs/mesa-10.1.4
-=dev-libs/libxml2-2.9.1-r4 python
+# required by dev-util/itstool-2.0.2
+# required by gnome-extra/yelp-xsl-3.12.0
+# required by app-text/yelp-tools-3.12.1
+# required by media-sound/easytag-2.2.3
+=dev-libs/libxml2-2.9.1-r5 python
 
 # required by sys-fs/cryptsetup-1.6.4[static,static-libs]
 =dev-libs/popt-1.16-r2 static-libs
