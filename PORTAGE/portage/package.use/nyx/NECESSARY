@@ -146,6 +146,5 @@
 # required by media-sound/audacity-2.0.5
 =x11-libs/wxGTK-2.8.12.1-r1:2.8 X
 
-# required by x11-drivers/xf86-video-ati-7.3.0
-# required by x11-base/xorg-drivers-1.16[video_cards_radeon]
-=x11-base/xorg-server-1.15.99.903 -minimal
+# required by x11-drivers/xf86-video-ati-7.4.0
+=x11-base/xorg-server-1.16.0.901 -minimal
