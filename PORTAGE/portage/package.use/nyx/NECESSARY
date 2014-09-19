@@ -54,6 +54,12 @@
 # required by sys-fs/cryptsetup-1.6.4[static,static-libs]
 =dev-libs/popt-1.16-r2 static-libs
 
+# required by media-gfx/darktable-1.4.2
+=media-gfx/exiv2-0.23-r1 xmp
+
+# required by media-gfx/inkscape-0.48.5
+=media-gfx/imagemagick-6.8.9.7 cxx
+
 # required by media-plugins/gst-plugins-meta-1.0-r2
 # required by www-client/firefox-30.0[gstreamer]
 =media-libs/gst-plugins-base-1.2.4-r1 alsa
@@ -68,6 +74,9 @@
 # required by @ranger
 =media-libs/libcaca-0.99_beta18-r1 ncurses
 
+# required by net-im/toxic-9999::gentoo-overlay-tox[libnotify]
+=media-libs/libcanberra-0.30-r1 gtk3
+
 # required by media-libs/sk1libs-0.9.1-r3
 # required by media-gfx/uniconvertor-1.1.5-r1
 # required by media-gfx/inkscape-0.48.4-r1
@@ -81,12 +90,6 @@
 
 # required by media-video/openshot-1.4.3
 =media-libs/mlt-0.9.0 ffmpeg xml frei0r melt sdl gtk python
-
-# required by media-gfx/darktable-1.4.2
-=media-gfx/exiv2-0.23-r1 xmp
-
-# required by media-gfx/inkscape-0.48.5
-=media-gfx/imagemagick-6.8.9.7 cxx
 
 # required by media-video/openshot-1.4.3[ffmpeg]
 =media-sound/sox-14.4.1 ffmpeg encode
