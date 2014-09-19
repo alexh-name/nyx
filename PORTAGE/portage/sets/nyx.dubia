@@ -65,9 +65,7 @@ sys-apps/pciutils
 sys-apps/portage
 sys-apps/sysvinit
 sys-block/parted
-sys-devel/clang
 sys-devel/gcc
-sys-fs/btrfs-progs
 sys-fs/cryptsetup
 sys-fs/dosfstools
 sys-fs/ntfs3g
