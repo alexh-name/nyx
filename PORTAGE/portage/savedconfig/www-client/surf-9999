@@ -10,7 +10,7 @@ static Bool showindicators  = TRUE;  /* Show indicators in window title */
 static Bool zoomto96dpi     = TRUE;  /* Zoom pages to always emulate 96dpi */
 static Bool runinfullscreen = FALSE; /* Run in fullscreen mode by default */
 
-static guint defaultfontsize = 12;   /* Default font size */
+static guint defaultfontsize = 14;   /* Default font size */
 static gfloat zoomlevel = 1.0;       /* Default zoom level */
 
 /* Soup default features */
@@ -70,8 +70,8 @@ static Key keys[] = {
     { MODKEY,               GDK_p,      clipboard,  { .b = TRUE } },
     { MODKEY,               GDK_y,      clipboard,  { .b = FALSE } },
 
-    { MODKEY|GDK_SHIFT_MASK,GDK_j,      zoom,       { .i = -1 } },
-    { MODKEY|GDK_SHIFT_MASK,GDK_k,      zoom,       { .i = +1 } },
+    { MODKEY,               GDK_j,      zoom,       { .i = -1 } },
+    { MODKEY,               GDK_k,      zoom,       { .i = +1 } },
     { MODKEY|GDK_SHIFT_MASK,GDK_q,      zoom,       { .i = 0  } },
     { MODKEY,               GDK_minus,  zoom,       { .i = -1 } },
     { MODKEY,               GDK_plus,   zoom,       { .i = +1 } },
