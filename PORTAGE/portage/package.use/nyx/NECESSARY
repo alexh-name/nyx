@@ -90,9 +90,9 @@
 # required by media-video/openshot-1.4.3[ffmpeg]
 =media-sound/sox-14.4.1 ffmpeg encode
 
-# required by virtual/ffmpeg-9
+# required by virtual/ffmpeg-9-r1
 # required by media-video/openshot-1.4.3[ffmpeg]
-## =media-video/ffmpeg-1.2.6 sdl
+=media-video/ffmpeg-2.2.7 sdl
 
 # required by virtual/ffmpeg-9
 # required by media-video/openshot-1.4.3[ffmpeg]
@@ -121,7 +121,7 @@
 =sys-libs/e2fsprogs-libs-1.42.12 static-libs
 
 # required by media-video/openshot-1.4.3[ffmpeg]
-## =virtual/ffmpeg-9 sdl
+=virtual/ffmpeg-9-r1 sdl
 
 # required by x11-libs/pango-1.36.3-r2
 # required by media-gfx/darktable-1.4.2
