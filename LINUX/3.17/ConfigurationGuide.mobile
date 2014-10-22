@@ -1,0 +1,28 @@
+# sys-kernel/gentoo-sources-3.17.* (mobile)
+
+Options marked with "~~~ later" can only be
+deselected, after some other following option
+has been deselected. So after reaching the end,
+check back those marked options.
+
+
+	Power management and ACPI options  --->
+		[*] Opportunistic sleep
+		[*] Run-time PM core functionality
+		[*] Enable workqueue power-efficient mode by default
+		[*] ACPI (Advanced Configuration and Power Interface) Support  --->	
+			<*>   AC Adapter
+			<*>   Battery	
+			<*>   Fan
+			[*]   Dock
+	
+- - -
+
+	Device Drivers  --->
+		[*] Network device support  --->
+			<*>   USB Network Adapters  --->
+				<M>   Multi-purpose USB Networking Framework
+				<M>   Apple iPhone USB Ethernet driver
+	
+		[*] X86 Platform Specific Device Drivers  ---->
+			~~~ select all

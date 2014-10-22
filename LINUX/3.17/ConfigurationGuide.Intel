@@ -1,0 +1,66 @@
+# sys-kernel/gentoo-sources-3.17.* (Intel)
+
+Options marked with "~~~ later" can only be
+deselected, after some other following option
+has been deselected. So after reaching the end,
+check back those marked options.
+
+
+	Processor type and features  --->
+		[*] Intel Low Power Subsystem Support
+		Processor family (Generic-x86-64)  --->
+			~~~ what applies to your hardware
+		[*] Machine Check / overheating reporting
+			[*]   Intel MCE features
+			[ ]   AMD MCE features
+		<M> CPU microcode loading support
+		[*]   Intel microcode loading support
+
+
+- - -
+
+	Power management and ACPI options  --->
+		CPU Frequency scaling  --->
+			x86 CPU frequency scaling drivers  --->
+				[*] Intel P state control
+		[*] Cpuidle Driver for Intel Processors
+		    Memory power savings  --->
+			<M> Intel chipset idle memory power saving driver
+
+- - -
+	
+	Device Drivers  --->
+		-*- I2C support  --->
+			I2C Hardware Bus support  --->
+				<*> Intel 82801 (ICH/PCH)
+				<*> Intel SCH SMBus 1.0
+				<*> Intel iSMT SMBus Controller
+				<*> Intel PIIX4 and compatible (ATI/AMD/Serverworks/Broadcom/SMSC)
+	
+		-*- Hardware Monitoring support  --->
+			<*>   Intel Core/Core2/Atom temperature sensor
+	
+		[*] Watchdog Timer Support  --->
+			<*>   Intel 6300ESB Timer/Watchdog
+			<*>   Intel Atom E6xx Watchdog
+			<*>   Intel TCO Timer/Watchdog
+	
+		[*] USB support  --->
+			<*>     OHCI HCD (USB 1.1) support
+			<*>       OHCI support for PCI-bus USB controllers
+			<*>     UHCI HCD (most Intel and VIA) support
+	
+		[ ] EDAC (Error Detection And Correction) reporting  --->
+	
+		[*] X86 Platform Specific Device Drivers  ---->
+			<*>   Intel Intelligent Power Sharing
+			<*>   Intel Rapid Start Technology Driver
+			<*>   Intel Smart Connect disabling driver
+	
+		[*] IOMMU Hardware Support  --->
+			[*]   Support for Intel IOMMU using DMA Remapping Devices
+	
+- - -
+	
+	-*- Cryptographic API  --->
+		<*>   AES cipher algorithms (AES-NI)
