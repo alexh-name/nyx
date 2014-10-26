@@ -75,8 +75,8 @@
 
 # required by media-libs/sk1libs-0.9.1-r3
 # required by media-gfx/uniconvertor-1.1.5-r1
-# required by media-gfx/inkscape-0.48.4-r1
-=media-libs/lcms-1.19-r2:0 python
+# required by media-gfx/inkscape-0.48.5
+=media-libs/lcms-1.19-r3:0 python
 
 # required by www-client/firefox-31.0
 =media-libs/libpng-1.6.13 apng
@@ -104,14 +104,14 @@
 =net-libs/loudmouth-1.4.3-r2 debug
 
 # required by www-client/surf-0.6-r1
-=net-libs/webkit-gtk-2.4.6-r200::gentoo opengl
-=net-libs/webkit-gtk-2.4.4 opengl
+=net-libs/webkit-gtk-2.4.7-r200::gentoo opengl
+=net-libs/webkit-gtk-2.4.7 opengl
 
 # required by net-misc/openvpn-2.3.4-r1[iproute2]
 =sys-apps/iproute2-3.16.0-r1 -minimal
 
 # required by sys-fs/cryptsetup-1.6.6[static-libs,static]
-=sys-apps/util-linux-2.25.1-r1 static-libs
+=sys-apps/util-linux-2.25.2 static-libs
 
 # required by sys-devel/clang-3.4.2-r100
 =sys-devel/llvm-3.4.2 clang
