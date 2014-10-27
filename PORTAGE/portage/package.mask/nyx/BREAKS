@@ -33,6 +33,8 @@
 
 >=sys-fs/lvm2-2.02.107				# breaks cryptsetup
 
+=x11-apps/xinit-1.3.4				# garbles keyboard input
+
 # =x11-libs/cairo-1.12.14-r4			# segfaults (especially breaks surf)
 # =x11-libs/cairo-1.12.16			# ||
 # =x11-libs/cairo-1.12.16-r2			# ||
