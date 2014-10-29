@@ -4,6 +4,7 @@ app-emulation/qemu aio vhost-net -ncurses seccomp -static-user -static-softmmu -
 app-text/evince xps dvi
 app-text/hunspell linguas_de
 dev-lang/php ctype ssl xml					# for phoronix-test-suite
+dev-lang/ruby rdoc readline ssl					# wpscan
 dev-libs/geoip city
 mail-client/thunderbird lightning
 mail-mta/postfix berkdb
