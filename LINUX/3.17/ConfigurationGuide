@@ -297,6 +297,7 @@ check back those marked options.
 		<*>   SHA224 and SHA256 digest algorithm
 		<*>   SHA384 and SHA512 digest algorithms
 		<*>   AES cipher algorithms (x86_64)
+		<*>   AES cipher algorithms (AES-NI)
 		<*>   Serpent cipher algorithm (x86_64/SSE2)
 		<*>   Serpent cipher algorithm (x86_64/AVX2)
 		~~ or what applies to your CPU-instructions
