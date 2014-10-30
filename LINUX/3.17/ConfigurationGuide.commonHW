@@ -1,0 +1,28 @@
+# sys-kernel/gentoo-sources-3.17.* (common hw)
+
+Options marked with "~~~ later" can only be
+deselected, after some other following option
+has been deselected. So after reaching the end,
+check back those marked options.
+
+
+	Device Drivers  --->
+		[*]   Ethernet driver support  --->
+			[*]   Realtek devices
+				<M>     Realtek 8169 gigabit ethernet support
+		[*] Network device support  --->
+			[*]   Wireless LAN  --->
+				<M>   Atheros Wireless Cards  --->
+					<M>   Atheros 802.11n wireless cards support
+					<M>   Atheros 802.11ac wireless cards support
+		    Input device support  --->	
+			[*]   Mice  --->
+				< >   PS/2 mouse
+				<M>   Apple USB Touchpad support
+				<M>   Apple USB BCM5974 Multitouch trackpad support
+				<M>   Synaptics USB device support
+		<*> Sound card support  --->
+			      HD-Audio  --->
+				<M> HD Audio PCI
+				<M> Build HDMI/DisplayPort HD-audio codec support
+				<M> Enable generic HD-audio codec parser

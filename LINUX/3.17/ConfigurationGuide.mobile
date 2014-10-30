@@ -18,11 +18,31 @@ check back those marked options.
 	
 - - -
 
+	[*] Networking support  --->
+		[*]   Wireless  --->
+			<M>   cfg80211 - wireless configuration API
+			[*]     enable powersave by default
+			<M>   Generic IEEE 802.11 Networking Stack (mac80211)
+			[*]   Minstrel
+			[*]     Minstrel 802.11n support
+			[*]   Enable mac80211 mesh networking (pre-802.11s)
+			[*]   Enable LED triggers
+- - -
+
 	Device Drivers  --->
 		[*] Network device support  --->
-			<*>   USB Network Adapters  --->
+			<M>   USB Network Adapters  --->
 				<M>   Multi-purpose USB Networking Framework
+				-M-     CDC Ethernet support (smart devices such as cable modems)
+				<M>     CDC EEM support
+				<M>     Simple USB Network Links (CDC Ethernet subset)
+				[*]       Embedded ARM Linux links (iPaq, ...)
 				<M>   Apple iPhone USB Ethernet driver
-	
+			[*]   Wireless LAN  --->
+				~~~ select what fits your hardware
+		    Input device support  --->
+			[*]   Mice  --->
+				< >   PS/2 mouse
+				<M>   Synaptics USB device support
 		[*] X86 Platform Specific Device Drivers  ---->
-			~~~ select all
+			~~~ select what fits your hardware
