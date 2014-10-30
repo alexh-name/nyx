@@ -7,7 +7,7 @@ dev-libs/redland -* ssl
 ##############################
 # only used for webkit       #
 ##############################
-dev-lang/ruby -*
+# dev-lang/ruby -*
 
 ##############################
 # only used for PTS          #
