@@ -30,7 +30,7 @@ open source radeon driver.
 
 - - -
 
-## fimrwares
+## firmwares
 
 * juniper
 	radeon/JUNIPER_me.bin radeon/JUNIPER_pfp.bin radeon/JUNIPER_rlc.bin radeon/JUNIPER_smc.bin radeon/CYPRESS_uvd.bin
