@@ -5,8 +5,13 @@ deselected, after some other following option
 has been deselected. So after reaching the end,
 check back those marked options.
 
+	    General setup  --->
+		[*] Initial RAM filesystem and RAM disk (initramfs/initrd) support
+			(/usr/share/v86d/initramfs) Initramfs source file(s)
 
-	Device Drivers  --->
+- - -
+
+	    Device Drivers  --->
 		    Graphics support  --->
 			    Frame buffer Devices  --->
 				<*> Userspace VESA VGA graphics support
