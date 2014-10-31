@@ -225,7 +225,7 @@ check back those marked options.
 			[ ]     USB announce new devices
 			[*]     Enable USB persist by default
 			<M>     USB Monitor
-			<M>     xHCI HCD (USB 3.0) support
+			<*>     xHCI HCD (USB 3.0) support
 			<*>     EHCI HCD (USB 2.0) support
 			[*]       Root Hub Transaction Translators
 			[*]       Improved Transaction Translator scheduling
