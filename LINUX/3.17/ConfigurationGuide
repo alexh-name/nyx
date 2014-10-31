@@ -103,7 +103,7 @@ check back those marked options.
 	
 	Bus options (PCI etc.)  --->
 		< > PCCard (PCMCIA/CardBus) support  --->
-		< > Support for PCI Hotplug  --->
+		<*> Support for PCI Hotplug  --->
 	
 - - -
 	
@@ -183,6 +183,8 @@ check back those marked options.
 		    Character devices  --->
 			[ ]   Non-standard serial port support
 			[ ] /dev/kmem virtual device support
+			    Serial drivers  --->
+				~~~ deselect all
 	
 		-*- I2C support  --->
 			[ ]   Enable compatibility bits for old user-space

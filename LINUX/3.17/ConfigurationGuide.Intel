@@ -44,6 +44,15 @@ check back those marked options.
 			<*>   Intel 6300ESB Timer/Watchdog
 			<*>   Intel Atom E6xx Watchdog
 			<*>   Intel TCO Timer/Watchdog
+
+		    Graphics support  --->
+			<M> /dev/agpgart (AGP Support)  --->
+				-M-   Intel 440LX/BX/GX, I8xx and E7x05 chipset support
+			    Direct Rendering Manager  --->
+				<M> Intel I810
+				<M> Intel 8xx/9xx/G3x/G4x/HD Graphics
+					[*]   Enable modesetting on intel by default
+					[*]   Enable legacy fbdev support for the modesetting intel driver
 	
 		[*] USB support  --->
 			<*>     OHCI HCD (USB 1.1) support

@@ -27,6 +27,8 @@ check back those marked options.
 			[*]     Minstrel 802.11n support
 			[*]   Enable mac80211 mesh networking (pre-802.11s)
 			[*]   Enable LED triggers
+		<M>   RF switch subsystem support  --->
+			[*]   RF switch input support
 - - -
 
 	Device Drivers  --->
