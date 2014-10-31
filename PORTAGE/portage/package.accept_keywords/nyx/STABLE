@@ -24,9 +24,14 @@ app-shells/bash -~amd64
 sys-apps/coreutils -~amd64
 
 sys-devel/automake -~amd64
+sys-devel/libtool -~amd64
 # sys-apps/texinfo -~amd64
 
 # sys-fs/btrfs-progs -~amd64
+
+sys-apps/openrc -~amd64
+sys-fs/eudev -~amd64
+sys-fs/udev-init-scripts -~ãmd64
 
 ##############################
 # not worth the compile-time #
