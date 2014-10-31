@@ -1,0 +1,12 @@
+#!/bin/sh
+
+if [ -e /usr/sbin/ifplugd ]
+then
+	((cd /bin/ && rm sh && ln -s mksh sh && chmod -x bash && useradd -D -s /bin/sh) \
+	|| (echo 'You should report this error to contact@cosmofox.net.' ; exit 1)) && \
+	print 'Mksh is now the system shell. Bash has no execution rights.'
+	print 'You can find a script for switching the executable bit in res/20141031.mksh/.'
+	
+else
+	print 'Please update your installation of nyx first.'
+fi
