@@ -29,9 +29,9 @@ sys-devel/libtool -~amd64
 
 # sys-fs/btrfs-progs -~amd64
 
-sys-apps/openrc -~amd64
-sys-fs/eudev -~amd64
-sys-fs/udev-init-scripts -~ãmd64
+# sys-apps/openrc -~amd64
+# sys-fs/eudev -~amd64
+# sys-fs/udev-init-scripts -~amd64
 
 ##############################
 # not worth the compile-time #

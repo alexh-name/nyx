@@ -71,7 +71,7 @@
 =media-libs/libcaca-0.99_beta18-r1 ncurses
 
 # required by net-im/toxic-9999::gentoo-overlay-tox[libnotify]
-=media-libs/libcanberra-0.30-r1 gtk3
+=media-libs/libcanberra-0.30-r2 gtk3
 
 # required by media-libs/sk1libs-0.9.1-r3
 # required by media-gfx/uniconvertor-1.1.5-r1
