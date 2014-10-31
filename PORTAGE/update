@@ -7,6 +7,8 @@
 # update routine with portage.
 #################################
 
+git pull || exit 1
+
 mkdir /etc/portage/NYXupdateBACKUP
 cp -r /etc/portage/{bashrc,make.conf,patches,savedconfig,sets} /etc/portage/NYXupdateBACKUP
 
@@ -24,10 +26,10 @@ chmod 640 /var/lib/portage/world
 grep GENTOO_MIRRORS /etc/portage/NYXupdateBACKUP/make.conf >> /etc/portage/make.conf
 
 layman -S
+echo The actual update of packages is yet to be set up. ; exit
+
 emerge-webrsync \
 && eix-update
-
-echo The actual update of packages is yet to be set up. ; exit
 
 ( emerge -uG sys-apps/portage \
   && emerge --quiet-build -uDNG @nyx @system @live-rebuild \
