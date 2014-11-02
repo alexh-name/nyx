@@ -9,6 +9,8 @@
 
 git pull || exit 1
 
+if [ -d /etc/portage/NYXupdateBACKUP ]; then
+
 mkdir /etc/portage/NYXupdateBACKUP
 cp -r /etc/portage/{bashrc,make.conf,patches,savedconfig,sets} /etc/portage/NYXupdateBACKUP
 
@@ -50,3 +52,8 @@ done
         ; glsa-check -t all \
         ; makewhatis -u \
       )
+
+else
+	print 'Seems you haven't run sh install first.'
+	print 'You should do that.'
+fi
