@@ -34,8 +34,8 @@ select yn in "Yes" "No"; do
     esac ;
 done
 
-( emerge -uG sys-apps/portage \
-  && emerge --quiet-build -uvDNG @nyx @system @live-rebuild \
+( emerge -uavG sys-apps/portage \
+  && emerge --quiet-build -uavDNG @nyx @system @live-rebuild \
      && dispatch-conf \
         && env-update && source /etc/profile \
 ) \
