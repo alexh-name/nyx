@@ -53,6 +53,6 @@ done
       )
 
 else
-	print 'Seems you haven't run sh install first.'
+	print 'Seems you haven\'t run sh install first.'
 	print 'You should do that.'
 fi
