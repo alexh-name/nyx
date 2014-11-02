@@ -1,0 +1,5 @@
+#!/bin/sh
+
+cd /usr/local/bin
+git clone https://git.cosmofox.net/scripts.git \
+&& cp -r scripts/* .
