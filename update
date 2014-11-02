@@ -25,14 +25,17 @@ chmod 640 /var/lib/portage/world
 
 grep GENTOO_MIRRORS /etc/portage/NYXupdateBACKUP/make.conf >> /etc/portage/make.conf
 
-layman -S
-echo The actual update of packages is yet to be set up. ; exit
-
-emerge-webrsync \
-&& eix-update
+printf "\nDo you wish to sync the repos?\n"
+select yn in "Yes" "No"; do
+    case $yn in
+        [Yy]* ) ((layman -S ; emerge-webrsync) && eix-update) || (printf "\nerror updating repos, aborting\n" ; exit 1) ;;
+        [Nn]* ) printf "\nRepos not updated.\n" ; break ;;
+        * ) printf "\nPlease answer y or n.\n";;
+    esac ;
+done
 
 ( emerge -uG sys-apps/portage \
-  && emerge --quiet-build -uDNG @nyx @system @live-rebuild \
+  && emerge --quiet-build -uvDNG @nyx @system @live-rebuild \
      && dispatch-conf \
         && env-update && source /etc/profile \
 ) \
