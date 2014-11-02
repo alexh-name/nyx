@@ -14,6 +14,8 @@
 # After this, you can emerge @nyx.
 #################################
 
+if [ ! -d /etc/portage/NYXBACKUP ]; then
+
 mkdir /etc/portage/NYXBACKUP
 cp -r /etc/portage/{bashrc,make.conf,patches,savedconfig,sets} /etc/portage/NYXBACKUP
 
@@ -30,7 +32,7 @@ mkdir /var/lib/portage/NYXBACKUP
 cp /var/lib/portage/world /var/lib/portage/NYXBACKUP/
 cp /var/lib/portage/world_sets /var/lib/portage/NYXBACKUP/
 > /var/lib/portage/world
-> /var/lib/portage/world_sets
+print '@nyx' > /var/lib/portage/world_sets
 
 chown root:portage /var/lib/portage/world
 chmod 640 /var/lib/portage/world
@@ -40,3 +42,8 @@ mirrorselect -s5
 layman -f -o https://git.cosmofox.net/nyx-overlay/plain/repository.xml -a nyx-overlay
 layman -a tox-overlay
 layman -a steam
+
+else
+	print 'Nyx configs are apparantly installed!'
+	print 'You should now run update.'
+fi
