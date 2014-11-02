@@ -25,6 +25,8 @@ chmod 640 /var/lib/portage/world
 
 grep GENTOO_MIRRORS /etc/portage/NYXupdateBACKUP/make.conf >> /etc/portage/make.conf
 
+overrides=$(</etc/portage/portage/overrides.conf) ; print $overrides >> /etc/portage/make.conf
+
 printf "\nDo you wish to sync the repos?\n"
 select yn in "Yes" "No"; do
     case $yn in
