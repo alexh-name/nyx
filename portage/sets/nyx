@@ -37,7 +37,6 @@ sci-libs/cblas-reference
 sys-apps/9base
 sys-apps/smartmontools
 sys-boot/efibootmgr
-sys-kernel/gentoo-sources
 sys-kernel/linux-firmware
 sys-kernel/linux-headers
 virtual/python-imaging
@@ -46,4 +45,3 @@ www-client/lynx
 x11-apps/mesa-progs
 x11-apps/setxkbmap
 x11-misc/vdpauinfo
-x11-wm/enlightenment
