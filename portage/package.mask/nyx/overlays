@@ -4,5 +4,5 @@
 */*::quarks
 */*::quarks_gentoo_hardened_overlay
 */*::gamerlay
-*/*::steam-overlay
+# */*::steam-overlay
 */*::gentoo-overlay-tox
