@@ -53,6 +53,7 @@ done
       )
 
 else
-	print 'Seems you haven\'t run sh install first.'
+	print 'Seems sh install has not been run before:'
+	print '/etc/portage/NYXupdateBACKUP is missing.'
 	print 'You should do that.'
 fi
