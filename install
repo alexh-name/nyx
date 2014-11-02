@@ -40,4 +40,3 @@ mirrorselect -s5
 layman -f -o https://git.cosmofox.net/nyx-overlay/plain/repository.xml -a nyx-overlay
 layman -a tox-overlay
 layman -a steam
-layman -S
