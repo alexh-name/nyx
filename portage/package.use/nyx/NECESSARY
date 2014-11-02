@@ -108,7 +108,7 @@
 =net-libs/webkit-gtk-2.4.7 opengl
 
 # required by net-misc/openvpn-2.3.4-r1[iproute2]
-=sys-apps/iproute2-3.16.0-r1 -minimal
+=sys-apps/iproute2-3.17.0 -minimal
 
 # required by sys-fs/cryptsetup-1.6.6[static-libs,static]
 =sys-apps/util-linux-2.25.2 static-libs
