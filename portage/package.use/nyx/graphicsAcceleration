@@ -1,2 +1,12 @@
-x11-libs/cairo opengl openvg
 media-libs/mesa openvg egl
+x11-libs/cairo opengl openvg
+
+media-libs/avidemux-plugins vdpau
+media-libs/mesa vdpau
+media-video/avidemux vdpau
+media-video/ffmpeg vdpau
+media-video/libav vdpau
+media-video/mpv vdpau
+media-video/mplayer2 vdpau
+virtual/ffmpeg vdpau
+www-plugins/adobe-flash vdpau
