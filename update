@@ -11,7 +11,6 @@ git pull || exit 1
 
 if [ -d /etc/portage/NYXupdateBACKUP ]; then
 
-mkdir /etc/portage/NYXupdateBACKUP
 cp -r /etc/portage/{bashrc,make.conf,patches,savedconfig,sets} /etc/portage/NYXupdateBACKUP
 
 rm -r /etc/portage/package.*/nyx/*
