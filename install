@@ -30,8 +30,9 @@ chmod -R 750 /etc/portage
 
 else
         print 'Nyx configs are apparantly installed in /etc/portage/!'
-        print 'You should now run update.'
 fi
+
+###
 
 if [ ! -d /var/lib/portage/NYXBACKUP ]; then
 
