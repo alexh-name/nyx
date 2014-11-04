@@ -31,12 +31,11 @@ grep GENTOO_MIRRORS /etc/portage/NYXupdateBACKUP/make.conf >> /etc/portage/make.
 overrides=$(</etc/portage/overrides.conf) ; print "$overrides" >> /etc/portage/make.conf
 
 cd /usr/local/bin
-        rm -r $(find -maxdepth 1 -type l)
+        ( rm -r $(find -maxdepth 1 -type l)
         git pull scripts
         git pull tools
         ln -s $(find custom scripts tools -maxdepth 1 -type f) .
         printf '\n%s\n' "/usr/local/bin updated" ) || (sh $udir/error ; exit 1)
-        exit
 
 printf '\n%s\n' "Do you wish to sync the repos?"
 select yn in "Yes" "No"; do
