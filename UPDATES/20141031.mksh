@@ -1,9 +1,10 @@
 #!/bin/sh
+udir=$(pwd)
 
 if [ -e /usr/sbin/ifplugd ]
 then
 	((cd /bin/ && rm sh && ln -s mksh sh && chmod -x bash && useradd -D -s /bin/sh) \
-	|| (printf '%s\n' "You should report this error to contact@cosmofox.net." ; exit 1)) && \
+	|| (sh $udir/error ; exit 1)) && \
 	printf '%s\n' "Mksh is now the system shell. Bash has no execution rights."
 	printf '%s\n' "You can find a script for switching the executable bit in res/20141031.mksh/."
 	
