@@ -1,0 +1,3 @@
+#!/bin/sh
+
+printf '\n%s\n' "You should report this error to contact@cosmofox.net."
