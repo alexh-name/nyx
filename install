@@ -29,7 +29,7 @@ chown -R root:portage /etc/portage
 chmod -R 750 /etc/portage
 
 else
-        print 'Nyx configs are apparantly installed in /etc/portage/!'
+        printf '%s\n' "Nyx configs are apparantly installed in /etc/portage/!"
 fi
 
 ###
@@ -52,6 +52,6 @@ layman -a tox-overlay
 layman -a steam
 
 else
-	print 'Nyx configs are apparantly installed in /var/lib/portage/!'
-	print 'You should now run update.'
+	printf '%s\n' "Nyx configs are apparantly installed in /var/lib/portage/!"
+	printf '%s\n' "You should now run update."
 fi

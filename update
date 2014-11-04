@@ -26,14 +26,14 @@ chmod 640 /var/lib/portage/world
 
 grep GENTOO_MIRRORS /etc/portage/NYXupdateBACKUP/make.conf >> /etc/portage/make.conf
 
-overrides=$(</etc/portage/overrides.conf) ; print $overrides >> /etc/portage/make.conf
+overrides=$(</etc/portage/overrides.conf) ; print "$overrides" >> /etc/portage/make.conf
 
-printf "\nDo you wish to sync the repos?\n"
+printf '\n%s\n' "Do you wish to sync the repos?"
 select yn in "Yes" "No"; do
     case $yn in
-        [Yy]* ) ((layman -S ; emerge-webrsync) && eix-update) || (printf "\nerror updating repos, aborting\n" ; exit 1) ;;
-        [Nn]* ) printf "\nRepos not updated.\n" ; break ;;
-        * ) printf "\nPlease answer y or n.\n";;
+        [Yy]* ) ((layman -S ; emerge-webrsync) && eix-update) || (printf '\n%s\n' "error updating repos, aborting" ; exit 1) ;;
+        [Nn]* ) printf '\n%s\n' "Repos not updated." ; break ;;
+        * ) printf '\n%s\n' "Please answer y or n.";;
     esac ;
 done
 
@@ -53,7 +53,7 @@ done
       )
 
 else
-	print 'Seems sh install has not been run before:'
-	print '/etc/portage/NYXupdateBACKUP is missing.'
-	print 'You should do that.'
+	printf '%s\n' "Seems sh install has not been run before:"
+	printf '%s\n' "/etc/portage/NYXupdateBACKUP is missing."
+	printf '%s\n' "You should do that."
 fi
