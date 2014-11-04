@@ -1,14 +1,15 @@
 #!/bin/mksh
+udir=$(pwd)
 
 function update {
-	cd /usr/local/bin/
+	( cd /usr/local/bin/
 	if [ -d custom ] ; then mv custom ../nyx.tmp.custom ; custom=1; fi
 	rm -r *
 	git clone https://git.cosmofox.net/scripts.git
 	git clone https://git.cosmofox.net/tools.git
 	if [ "$custom" -eq 1 ]; then mv ../nyx.tmp.custom custom ; else mkdir custom ; fi
-	ln -s $(find custom scripts tools -type f -maxdepth 0) .
-	printf '%s\n' "New structure is in place."
+	ln -s $(find custom scripts tools -maxdepth 1 -type f) .
+	printf '%s\n' "New structure is in place." ) || (sh $udir/error ; exit 1)
 	exit
 }
 
