@@ -7,7 +7,7 @@ function update {
 	git clone https://git.cosmofox.net/scripts.git
 	git clone https://git.cosmofox.net/tools.git
 	if [ "$custom" -eq 1 ]; then mv ../nyx.tmp.custom custom ; else mkdir custom ; fi
-	ln -s $(find custom scripts tools -type f) .
+	ln -s $(find custom scripts tools -type f -maxdepth 0) .
 	printf '%s\n' "New structure is in place."
 	exit
 }
