@@ -19,7 +19,7 @@ open source radeon driver.
 	
 		    Graphics support  --->
 			    Direct Rendering Manager  --->
-				<*> ATI Radeon
+				<M> ATI Radeon
 				< > Intel 8xx/9xx/G3x/G4x/HD Graphics
 			    Frame buffer Devices  --->
 				-*- Support for frame buffer devices  --->
