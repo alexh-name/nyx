@@ -53,7 +53,6 @@ net-dialup/pptpclient
 net-im/toxic
 net-irc/ii
 net-irc/irssi
-net-irc/irssi-otr
 net-irc/irssi-xmpp
 net-misc/dhcpcd
 net-misc/openntpd
