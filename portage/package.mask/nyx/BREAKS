@@ -19,6 +19,8 @@
 =media-video/mpv-0.3.6				# ||
 =media-video/mpv-0.3.7				# ||
 
+=net-irc/irssi-0.8.17				# quite broken
+
 =net-libs/webkit-gtk-2.2.4-r200			# unstable
 
 =sys-apps/grep-2.16				# introduces +static, but segfaults
