@@ -34,6 +34,7 @@ media-sound/clementine -udev
 media-video/ffmpeg -network
 media-video/mplayer2 -dts -rar
 net-analyzer/nmap -lua
+net-im/pidgin -gstreamer
 net-fs/samba -server -cups -swat
 net-misc/dhcpcd -udev
 sys-apps/busybox -ipv6

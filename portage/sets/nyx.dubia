@@ -54,6 +54,7 @@ net-im/toxic
 net-irc/ii
 net-irc/irssi
 net-irc/irssi-xmpp
+net-im/pidgin
 net-misc/dhcpcd
 net-misc/openntpd
 net-misc/youtube-dl
@@ -89,6 +90,7 @@ x11-misc/tabbed
 x11-misc/wmname
 x11-misc/xautolock
 x11-misc/xclip
+x11-plugins/pidgin-otr
 x11-terms/st
 x11-themes/faenza-icon-theme
 x11-themes/gnome-themes-standard

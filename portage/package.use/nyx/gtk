@@ -1,4 +1,5 @@
 app-office/libreoffice gtk
 dev-qt/qtgui gtkstyle
+net-im/pidgin gtk
 x11-themes/gnome-themes-standard gtk
 
