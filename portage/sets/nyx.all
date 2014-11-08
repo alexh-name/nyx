@@ -10,6 +10,7 @@ games-util/steam-meta
 media-gfx/qrencode
 media-sound/ardour
 media-sound/easytag
+media-video/motion
 media-video/openshot
 net-p2p/btpd
 net-proxy/torsocks
