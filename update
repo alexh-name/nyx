@@ -8,4 +8,4 @@
 
 git pull || exit 1
 
-mksh .update
+sh .update "$@"

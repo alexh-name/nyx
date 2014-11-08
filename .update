@@ -8,6 +8,10 @@ rm -r /etc/portage/env/nyx/*
 
 rsync -aPh portage/ /etc/portage/
 
+if [ "$1" -eq "hl" ]; then
+	rm /etc/portage/package.use/{x,gtk,steam,fonts,gaming}
+fi
+
 chown -R root:portage /etc/portage
 chmod -R 750 /etc/portage
 
