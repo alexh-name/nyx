@@ -21,6 +21,7 @@ media-gfx/gimp
 media-gfx/sxiv
 media-libs/mesa
 media-sound/mumble
+media-video/mpv
 net-im/pidgin
 www-client/firefox
 www-client/surf

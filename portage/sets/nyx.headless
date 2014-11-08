@@ -23,7 +23,6 @@ mail-client/mailx
 mail-mta/postfix
 media-sound/alsa-utils
 media-sound/sox
-media-video/mpv
 net-analyzer/nmap
 net-analyzer/tcpdump
 net-analyzer/traceroute
