@@ -10,6 +10,8 @@ rsync -aPh portage/ /etc/portage/
 
 if [ "$1" = "hl" ]; then
 	rm /etc/portage/package.use/nyx/{x,gtk,steam,fonts,gaming,vdpau}
+	print 'INPUT_DEVICES=""' >> /etc/portage/overrides.conf
+	print 'VIDEO_CARDS=""' >> /etc/portage/overrides.conf
 fi
 
 chown -R root:portage /etc/portage
