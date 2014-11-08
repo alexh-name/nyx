@@ -1,3 +1,5 @@
+#!/bin/mksh
+
 udir="$(pwd)/UPDATES"
 
 if [ -d /etc/portage/NYXupdateBACKUP ]; then
