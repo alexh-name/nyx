@@ -1,4 +1,4 @@
 #!/bin/sh
 
-laxman -d nyxOverlay
+layman -d nyxOverlay
 layman -f -o https://git.cosmofox.net/nyx-overlay/plain/repository.xml -a nyx-overlay
