@@ -1,0 +1,43 @@
+udir="$(pwd)/UPDATES"
+
+if [ -d /etc/portage/NYXupdateBACKUP ]; then
+
+cp -r /etc/portage/{bashrc,make.conf,patches,savedconfig,sets} /etc/portage/NYXupdateBACKUP
+rm -r /etc/portage/package.*/nyx/*
+rm -r /etc/portage/env/nyx/*
+
+rsync -aPh portage/ /etc/portage/
+
+chown -R root:portage /etc/portage
+chmod -R 750 /etc/portage
+
+chown root:portage /var/lib/portage/world
+chmod 640 /var/lib/portage/world
+
+grep GENTOO_MIRRORS /etc/portage/NYXupdateBACKUP/make.conf >> /etc/portage/make.conf
+
+overrides=$(</etc/portage/overrides.conf) ; print "$overrides" >> /etc/portage/make.conf
+
+cd /usr/local/bin
+        ( rm -r $(find -maxdepth 1 -type l)
+        cd scripts; git pull; cd ..
+        cd tools; git pull; cd ..
+        ln -s $(find custom scripts tools -maxdepth 1 -type f) .
+        printf '\n%s\n' "/usr/local/bin updated" ) || (sh $udir/error ; exit 1)
+
+printf '\n%s\n' "Do you wish to sync the repos?"
+select yn in "Yes" "No"; do
+    case $yn in
+        [Yy]* ) ((layman -S ; emerge-webrsync) && eix-update) || (printf '\n%s\n' "error updating repos, aborting" ; exit 1) ;;
+        [Nn]* ) printf '\n%s\n' "Repos not updated." ; break ;;
+        * ) printf '\n%s\n' "Please answer y or n.";;
+    esac ;
+done
+
+printf '%s\n' "You should now run the new scripts in UPDATE before you run update.packages or update your packages yourself."
+
+else
+        printf '%s\n' "Seems sh install has not been run before:"
+        printf '%s\n' "/etc/portage/NYXupdateBACKUP is missing."
+        printf '%s\n' "You should do that."
+fi
