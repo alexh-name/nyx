@@ -1,0 +1,3 @@
+#!/bin/mksh
+
+print '@nyx.headless' >> /var/lib/portage/world_sets

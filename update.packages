@@ -1,0 +1,16 @@
+#!/bin/mksh
+
+( emerge -uavG sys-apps/portage \
+  && emerge --quiet-build -uavDNG @nyx @system @live-rebuild \
+     && dispatch-conf \
+        && env-update && source /etc/profile \
+) \
+&& ( emerge --depclean \
+     && emerge --quiet-build -avG @preserved-rebuild \
+        &&  env-update && source /etc/profile \
+   ) \
+   && ( eclean distfiles \
+        ; emaint --check world \
+        ; glsa-check -t all \
+        ; makewhatis -u \
+      )

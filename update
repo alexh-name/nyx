@@ -46,20 +46,7 @@ select yn in "Yes" "No"; do
     esac ;
 done
 
-( emerge -uavG sys-apps/portage \
-  && emerge --quiet-build -uavDNG @nyx @system @live-rebuild \
-     && dispatch-conf \
-        && env-update && source /etc/profile \
-) \
-&& ( emerge --depclean \
-     && emerge --quiet-build -avG @preserved-rebuild \
-        &&  env-update && source /etc/profile \
-   ) \
-   && ( eclean distfiles \
-        ; emaint --check world \
-        ; glsa-check -t all \
-        ; makewhatis -u \
-      )
+printf '%s\n' "You should now run the new scripts in UPDATE before you run update.packages or update your packages yourself."
 
 else
 	printf '%s\n' "Seems sh install has not been run before:"
