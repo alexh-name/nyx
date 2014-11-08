@@ -16,7 +16,8 @@
 
 # required by dev-lua/luaexpat-1.2.0-r1
 # required by media-video/mpv-0.2.4
-=dev-lang/lua-5.1.5-r1 deprecated
+# required by prosodys modules installed by luarocks
+=dev-lang/lua-5.1.5-r3 deprecated
 
 # required by app-benchmarks/phoronix-test-suite-4.8.4
 =dev-lang/php-5.6.2 zip pcntl curl json gd
