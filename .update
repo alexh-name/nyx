@@ -8,7 +8,7 @@ rm -r /etc/portage/env/nyx/*
 
 rsync -aPh portage/ /etc/portage/
 
-if [ "$1" -eq "hl" ]; then
+if [ "$1" = "hl" ]; then
 	rm /etc/portage/package.use/nyx/{x,gtk,steam,fonts,gaming}
 fi
 
