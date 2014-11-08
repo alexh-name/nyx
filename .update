@@ -32,7 +32,7 @@ cd /usr/local/bin
 printf '\n%s\n' "Do you wish to sync the repos?"
 select yn in "Yes" "No"; do
     case $yn in
-        [Yy]* ) ((layman -S ; emerge-webrsync) && eix-update ; break) || (printf '\n%s\n' "error updating repos, aborting" ; exit 1) ;;
+        [Yy]* ) (((layman -S ; emerge-webrsync) && eix-update) || (printf '\n%s\n' "error updating repos, aborting" ; exit 1)) ; break ;;
         [Nn]* ) printf '\n%s\n' "Repos not updated." ; break ;;
         * ) printf '\n%s\n' "Please answer y or n.";;
     esac ;
