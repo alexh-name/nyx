@@ -32,7 +32,6 @@ media-gfx/darktable -slideshow
 media-libs/taglib -asf
 media-sound/clementine -udev
 media-video/ffmpeg -network
-media-video/motion -v4l
 media-video/mplayer2 -dts -rar
 net-analyzer/nmap -lua
 net-im/pidgin -gstreamer
