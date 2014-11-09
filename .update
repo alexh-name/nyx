@@ -11,7 +11,7 @@ rm -r /etc/portage/env/nyx/*
 rsync -aPh portage/ /etc/portage/
 
 if [ "$1" = "hl" ]; then
-	rm /etc/portage/package.use/nyx/{x,gtk,steam,fonts,gaming,vdpau,graphicsAcceleration,head}
+	rm -r /etc/portage/package.use/nyx/desktop.d
 	print 'INPUT_DEVICES=""' > /etc/portage/headless.conf
 	print 'VIDEO_CARDS=""' >> /etc/portage/headless.conf
 fi
