@@ -131,6 +131,9 @@
 # required by sys-fs/cryptsetup-1.6.5[static,static-libs]
 =sys-libs/e2fsprogs-libs-1.42.12 static-libs
 
+# required by www-client/chromium
+=sys-libs/zlib-1.2.8-r1 minizip
+
 # required by media-video/openshot-1.4.3[ffmpeg]
 =virtual/ffmpeg-9-r1 sdl
 
