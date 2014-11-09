@@ -19,17 +19,14 @@
 # required by prosodys modules installed by luarocks
 =dev-lang/lua-5.1.5-r3 deprecated
 
-# required by app-benchmarks/phoronix-test-suite-4.8.4
-=dev-lang/php-5.6.2 zip pcntl curl json gd
-
 # required by app-misc/ranger-1.6.1::gentoo
 =dev-lang/python-2.7.8:2.7 ncurses sqlite
 # required by www-client/firefox-30.0
 # required by mail-client/thunderbird-24.6.0
 =dev-lang/python-2.7.8:2.7 sqlite
+
 # required by app-misc/ranger-1.6.1[python_targets_python3_3]
 =dev-lang/python-3.3.5-r1:3.3 ncurses
-
 # required by app-misc/ranger-1.6.1[python_targets_python3_3]
 =dev-lang/python-3.3.5:3.3 ncurses
 
@@ -57,7 +54,6 @@
 # required by media-gfx/inkscape-0.48.5
 =media-gfx/imagemagick-6.8.9.9 cxx
 
-# required by media-plugins/gst-plugins-meta-1.0-r2
 # required by www-client/firefox-30.0[gstreamer]
 =media-libs/gst-plugins-base-1.2.4-r1 alsa
 
@@ -70,9 +66,6 @@
 
 # required by @ranger
 =media-libs/libcaca-0.99_beta18-r1 ncurses
-
-# required by net-im/toxic-9999::gentoo-overlay-tox[libnotify]
-=media-libs/libcanberra-0.30-r2 gtk3
 
 # required by media-libs/sk1libs-0.9.1-r3
 # required by media-gfx/uniconvertor-1.1.5-r1
@@ -113,7 +106,6 @@
 
 # required by media-libs/libpqstego-0.0.1
 # required by media-gfx/pqstego-0.0.1
-# required by media-gfx/pqstego (argument)
 =sci-libs/gsl-1.16 cblas-external
 
 # required by net-misc/openvpn-2.3.4-r1[iproute2]
@@ -121,9 +113,6 @@
 
 # required by sys-fs/cryptsetup-1.6.6[static-libs,static]
 =sys-apps/util-linux-2.25.2 static-libs
-
-# required by sys-devel/clang-3.4.2-r100
-=sys-devel/llvm-3.4.2 clang
 
 # required by sys-fs/cryptsetup-1.6.5[static-libs,static]
 =sys-fs/lvm2-2.02.103 static-libs
@@ -144,8 +133,6 @@
 =x11-libs/cairo-1.12.16-r3 X
 
 # required by x11-libs/gtk+-2.24.23-r1
-# required by x11-themes/gtk-engines-murrine-0.98.2-r1
-# required by x11-themes/zukitwo-2012.07.02-r1::nyxOverlay
 =x11-libs/gdk-pixbuf-2.30.8 X
 
 # required by media-libs/mesa-9.2.5[xorg]
