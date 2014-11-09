@@ -4,9 +4,6 @@ dev-util/android-tools
 dev-util/checkbashisms
 games-emulation/desmume
 games-fps/xonotic
-games-util/steam-client-meta
-games-util/steam-games-meta
-games-util/steam-meta
 media-gfx/qrencode
 media-sound/ardour
 media-sound/easytag
