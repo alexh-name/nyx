@@ -1,24 +1,16 @@
-app-crypt/truecrypt X						# not functional otherwise
-app-emulation/qemu -static
-app-emulation/qemu aio vhost-net -ncurses seccomp -static-user -static-softmmu -alsa -jpeg -png -vnc -curl sdl
 app-text/evince xps dvi
 app-text/hunspell linguas_de
-dev-lang/php ctype ssl xml					# for phoronix-test-suite
-dev-lang/ruby rdoc readline ssl					# wpscan
 dev-libs/geoip city
 mail-client/thunderbird lightning
 mail-mta/postfix berkdb
 media-gfx/darktable gphoto2
 media-sound/easytag gtk3 flac mp3 opus vorbis wavpack
-media-video/mplayer2
 media-video/mpv lua -quvi
 net-dialup/ppp dhcp
 net-im/mcabber otr 
-net-im/toxic -libnotify -sound-notify
 net-irc/irssi perl
 net-misc/openvpn iproute2
 sys-fs/ntfs3g -external-fuse ntfsprogs -crypt
-www-client/chromium -tcmalloc
 x11-base/xorg-server xorg
 x11-libs/cairo lto
 x11-libs/cairo xcb xlib-xcb 					# surf segfaults otherwise

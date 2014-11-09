@@ -4,15 +4,15 @@
 net-nds/openldap -*
 dev-libs/redland -* ssl
 
-##############################
-# only used for webkit       #
-##############################
-# dev-lang/ruby -*
+###################################
+# only used for webkit and wpscan #
+###################################
+dev-lang/ruby -* rdoc readline ssl
 
 ##############################
 # only used for PTS          #
 ##############################
-dev-lang/php -berkdb -bzip2 -crypt -fileinfo -filter -hash -iconv -json -opcache -phar -readline -session -simplexml -tokenizer
+dev-lang/php -* ctype ssl xml
 
 ##############################
 # we're using virtual/ffmpeg #
@@ -21,8 +21,9 @@ media-libs/gst-plugins-base -ogg -orc -pango -vorbis
 media-libs/gstreamer -orc
 
 app-admin/conky -portmon -truetype
+app-emulation/qemu -* aio vhost-net seccomp sdl
 app-office/libreoffice -webdav -xmlsec
-app-shells/bash -net -*
+app-shells/bash -*
 app-text/poppler -jpeg
 dev-libs/e_dbus -connman
 dev-java/icedtea -cups -source -webstart -cjk
@@ -30,17 +31,16 @@ dev-java/icedtea-bin -cups -cjk
 mail-client/thunderbird -alsa
 media-gfx/darktable -slideshow
 media-libs/taglib -asf
-media-sound/clementine -udev
 media-video/ffmpeg -network
 media-video/mplayer2 -dts -rar
 net-analyzer/nmap -lua
 net-im/pidgin -gstreamer
+net-im/toxic -libnotify -sound-notify
 net-fs/samba -server -cups -swat
-net-misc/dhcpcd -udev
 sys-apps/busybox -ipv6
 sys-apps/iproute2 -berkdb -iptables
 sys-fs/eudev -*
-sys-fs/lvm2 -lvm1 -thin -udev -readline
+sys-fs/lvm2 -lvm1 -thin -readline
 virtual/udev -*
+www-client/chromium -tcmalloc
 x11-misc/redshift -gtk
-x11-themes/gtk-engines-murrine -themes
