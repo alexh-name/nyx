@@ -9,7 +9,6 @@ dev-libs/geoip city
 mail-client/thunderbird lightning
 mail-mta/postfix berkdb
 media-gfx/darktable gphoto2
-media-libs/mesa xorg gles2 dri3
 media-sound/easytag gtk3 flac mp3 opus vorbis wavpack
 media-video/mplayer2
 media-video/mpv lua -quvi
