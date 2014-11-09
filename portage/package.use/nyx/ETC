@@ -18,6 +18,7 @@ net-im/toxic -libnotify -sound-notify
 net-irc/irssi perl
 net-misc/openvpn iproute2
 sys-fs/ntfs3g -external-fuse ntfsprogs -crypt
+www-client/chromium -tcmalloc
 x11-base/xorg-server xorg
 x11-libs/cairo lto
 x11-libs/cairo xcb xlib-xcb 					# surf segfaults otherwise
