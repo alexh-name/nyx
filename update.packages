@@ -15,7 +15,7 @@ fi
   && dispatch-conf \
      && env-update && source /etc/profile \
 ) \
-&& ( emerge --depclean \
+&& ( emerge -c \
      && emerge --quiet-build -av1g @preserved-rebuild \
         &&  env-update && source /etc/profile \
    ) \
