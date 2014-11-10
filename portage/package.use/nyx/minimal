@@ -21,7 +21,7 @@ media-libs/gst-plugins-base -ogg -orc -pango -vorbis
 media-libs/gstreamer -orc
 
 app-admin/conky -portmon -truetype
-app-emulation/qemu -* aio vhost-net seccomp sdl
+app-emulation/qemu -* aio caps fdt filecaps pin-upstream-blobs sdl seccomp threads uuid vhost-net qemu_softmmu_targets_x86_64 python_targets_python2_7
 app-office/libreoffice -webdav -xmlsec
 app-shells/bash -*
 app-text/poppler -jpeg
