@@ -12,7 +12,7 @@ dev-lang/ruby -* rdoc readline ssl ipv6
 ##############################
 # only used for PTS          #
 ##############################
-dev-lang/php -* ctype ssl xml zlib
+dev-lang/php -* bzip2 cjk cli crypt ctype curl exif fileinfo filter fpm gd hash iconv ipv6 json pdo posix session simplexml sqlite ssl truetype unicode xml xmlwriter zip zlib
 
 ##############################
 # we're using virtual/ffmpeg #
