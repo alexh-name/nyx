@@ -7,7 +7,7 @@ dev-libs/redland -* ssl
 ###################################
 # only used for webkit and wpscan #
 ###################################
-dev-lang/ruby -* rdoc readline ssl
+dev-lang/ruby -* rdoc readline ssl ipv6
 
 ##############################
 # only used for PTS          #
