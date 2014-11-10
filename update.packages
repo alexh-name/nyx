@@ -1,12 +1,18 @@
 #!/bin/mksh
 
-( emerge -uavG sys-apps/portage \
-  && emerge --quiet-build -uavDNG @nyx @system @live-rebuild \
+if [ "$1" = "hl" ]; then
+	set="@nyx.headless"
+else
+	set="@nyx"
+fi
+
+( emerge -uav1G sys-apps/portage \
+  && emerge --quiet-build -uavDN1g "$set" @system @live-rebuild \
      && dispatch-conf \
         && env-update && source /etc/profile \
 ) \
 && ( emerge --depclean \
-     && emerge --quiet-build -avG @preserved-rebuild \
+     && emerge --quiet-build -av1g @preserved-rebuild \
         &&  env-update && source /etc/profile \
    ) \
    && ( eclean distfiles \

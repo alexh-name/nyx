@@ -14,6 +14,8 @@ if [ "$1" = "hl" ]; then
 	rm -r /etc/portage/package.use/nyx/desktop.d
 	print 'INPUT_DEVICES=""' > /etc/portage/headless.conf
 	print 'VIDEO_CARDS=""' >> /etc/portage/headless.conf
+else
+	> /etc/portage/headless.conf
 fi
 
 chown -R root:portage /etc/portage
