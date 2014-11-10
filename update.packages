@@ -1,16 +1,19 @@
 #!/bin/mksh
 
+emerge -uv1G sys-apps/portage
+
 if [ "$1" = "hl" ]; then
 	emerge --deselect @nyx.all @nyx @nyx.dubia
+	emerge --quiet-build -uavDN1g net-libs/tox net-im/toxic
 	set="@nyx.headless"
 else
+	emerge --quiet-build -uavDN1g @live-rebuild
 	set="@nyx"
 fi
 
-( emerge -uav1G sys-apps/portage \
-  && emerge --quiet-build -uavDN1g "$set" @system @live-rebuild \
-     && dispatch-conf \
-        && env-update && source /etc/profile \
+( emerge --quiet-build -uavDN1g "$set" @system \
+  && dispatch-conf \
+     && env-update && source /etc/profile \
 ) \
 && ( emerge --depclean \
      && emerge --quiet-build -av1g @preserved-rebuild \
