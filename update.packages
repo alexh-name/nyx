@@ -11,7 +11,7 @@ else
 	set="@nyx"
 fi
 
-( emerge --quiet-build -uavDNg "$set" @world \
+( emerge --quiet-build -uavDNg --binpkg-respect-use=y "$set" @world \
   && dispatch-conf \
      && env-update && source /etc/profile \
 ) \
