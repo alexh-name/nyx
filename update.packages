@@ -1,6 +1,7 @@
 #!/bin/mksh
 
 if [ "$1" = "hl" ]; then
+	emerge --deselect @nyx.all @nyx @nyx.dubia
 	set="@nyx.headless"
 else
 	set="@nyx"
