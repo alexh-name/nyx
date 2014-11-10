@@ -28,6 +28,8 @@ check back those marked options.
 			[ ] Old Idle dynticks config
 		<*> Kernel .config support
 		[*]   Enable access to .config through /proc/config.gz
+		[*] Namespaces support  --->
+			[*]   Network namespace
 		[*] Automatic process group scheduling
 		[*] Configure standard kernel features (expert users)  --->
 		[ ]   Load all symbols for debugging/ksymoops					~~~ later
