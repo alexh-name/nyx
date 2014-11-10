@@ -11,7 +11,7 @@ else
 	set="@nyx"
 fi
 
-( emerge --quiet-build -uavDN1g "$set" @system \
+( emerge --quiet-build -uavDNg "$set" @system \
   && dispatch-conf \
      && env-update && source /etc/profile \
 ) \
