@@ -1,3 +1,4 @@
 */* -bindist
 mail-client/thunderbird bindist
+www-client/chromium bindist
 www-client/firefox bindist
