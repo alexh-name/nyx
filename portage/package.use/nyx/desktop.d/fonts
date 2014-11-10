@@ -1,2 +1,2 @@
-media-libs/freetype X -adobe-cff -auto-hinter
+media-libs/freetype X -auto-hinter
 media-fonts/* X
