@@ -40,7 +40,7 @@ mkdir /var/lib/portage/NYXBACKUP
 cp /var/lib/portage/world /var/lib/portage/NYXBACKUP/
 cp /var/lib/portage/world_sets /var/lib/portage/NYXBACKUP/
 > /var/lib/portage/world
-print '@nyx' > /var/lib/portage/world_sets
+printf '%s\n' "@nyx" > /var/lib/portage/world_sets
 
 chown root:portage /var/lib/portage/world
 chmod 640 /var/lib/portage/world

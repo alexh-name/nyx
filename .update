@@ -12,8 +12,8 @@ rsync -aPh portage/ /etc/portage/
 
 if [ "$1" = "hl" ]; then
 	rm -r /etc/portage/package.use/nyx/desktop.d
-	print 'INPUT_DEVICES=""' > /etc/portage/headless.conf
-	print 'VIDEO_CARDS=""' >> /etc/portage/headless.conf
+	printf '%s\n' 'INPUT_DEVICES=""' > /etc/portage/headless.conf
+	printf '%s\n' 'VIDEO_CARDS=""' >> /etc/portage/headless.conf
 else
 	> /etc/portage/headless.conf
 fi
@@ -26,8 +26,8 @@ chmod 640 /var/lib/portage/world
 
 grep GENTOO_MIRRORS /etc/portage/NYXupdateBACKUP/make.conf >> /etc/portage/make.conf
 
-headlesso=$(</etc/portage/headless.conf) ; print "$headlesso" >> /etc/portage/make.conf
-overrides=$(</etc/portage/overrides.conf) ; print "$overrides" >> /etc/portage/make.conf
+headlesso=$(</etc/portage/headless.conf) ; printf '%s\n' "$headlesso" >> /etc/portage/make.conf
+overrides=$(</etc/portage/overrides.conf) ; printf '%s\n' "$overrides" >> /etc/portage/make.conf
 
 cd /usr/local/bin
         ( rm -r $(find -maxdepth 1 -type l)
