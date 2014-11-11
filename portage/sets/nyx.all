@@ -14,6 +14,7 @@ net-proxy/torsocks
 sys-apps/v86d
 sys-boot/syslinux
 sys-process/runit
+www-client/chromium
 www-plugins/adobe-flash
 www-servers/thttpd
 x11-apps/radeontop

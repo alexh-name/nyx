@@ -40,7 +40,6 @@ sys-boot/efibootmgr
 sys-kernel/linux-firmware
 sys-kernel/linux-headers
 virtual/python-imaging
-www-client/chromium
 www-client/elinks
 www-client/lynx
 x11-apps/mesa-progs
