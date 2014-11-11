@@ -1,3 +1,6 @@
+# required by www-client/google-chrome-38.0.2125.111_p1
+=gnome-base/gconf-3.2.6-r3
+
 # required by dev-cpp/libgnomecanvasmm-2.26.0
 # required by media-sound/ardour-3.5.357
 =gnome-base/libgnomecanvas-2.30.3
