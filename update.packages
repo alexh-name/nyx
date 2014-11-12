@@ -21,3 +21,9 @@ fi
         ; glsa-check -t all \
         ; makewhatis -u \
       )
+
+if [ $? -eq 0 ]; then
+	printf '\n%\n' "Alright! See ya!"
+else
+	printf '\n%\n' "Something went wrong. You can ask contact@cosmofox.net for help."
+fi
