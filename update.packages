@@ -23,7 +23,7 @@ fi
       )
 
 if [ $? -eq 0 ]; then
-	printf '\n%\n' "Alright! See ya!"
+	printf '\n%s\n' "Alright! See ya!"
 else
-	printf '\n%\n' "Something went wrong. You can ask contact@cosmofox.net for help."
+	printf '\n%s\n' "Something went wrong. You can ask contact@cosmofox.net for help."
 fi
