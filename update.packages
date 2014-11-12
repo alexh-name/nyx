@@ -13,7 +13,7 @@ fi
   && dispatch-conf \
      && env-update && source /etc/profile \
 ) \
-&& ( emerge -cav \
+&& ( emerge -ca \
      &&  env-update && source /etc/profile \
    ) \
    && ( eclean distfiles \
