@@ -4,10 +4,8 @@ emerge -uv1G sys-apps/portage
 
 if [ "$1" = "hl" ]; then
 	emerge --deselect @nyx.all @nyx @nyx.dubia
-	emerge --quiet-build -v1g net-libs/tox net-im/toxic
 	set="@nyx.headless"
 else
-	emerge --quiet-build -v1g @live-rebuild
 	set="@nyx"
 fi
 
