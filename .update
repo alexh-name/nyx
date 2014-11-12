@@ -1,5 +1,10 @@
 #!/bin/sh
 
+if [ "$(id -u)" -ne 0 ]; then
+        printf '%s\n' "Are you root? I don't think so."
+        exit 1
+fi
+
 udir="$(pwd)/UPDATES"
 
 if [ -d /etc/portage/NYXupdateBACKUP ]; then
@@ -45,7 +50,22 @@ select yn in "Yes" "No"; do
     esac ;
 done
 
-printf '\n%s\n' "You should now run the new scripts in UPDATE before you run update.packages or update your packages yourself."
+cd UPDATES
+
+last="$(<last)"
+
+updates="$(find . -maxdepth 1 -iname "*[0-9].[a-z]*" | sort)"
+
+for i in $updates
+	do date="$(printf '%s' "$i" | cut -d '/' -f 2- | cut -d '.' -f 1)"
+	if [ $date -gt $last ]; then
+		#sh $i
+		printf '%s\n' "UPDATES/$i executed"
+		printf '%s\n' "$date" > last
+	fi
+done
+
+printf '\n%s\n' "You can now run ./update.packages or update your packages yourself."
 
 else
         printf '%s\n' "Seems sh install has not been run before:"

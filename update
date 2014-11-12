@@ -6,6 +6,11 @@
 # in place. 
 #################################
 
+if [ "$(id -u)" -ne 0 ]; then
+        printf '%s\n' "Are you root? I don't think so."
+        exit 1
+fi
+
 git pull || exit 1
 
 sh .update "$@"
