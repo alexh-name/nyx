@@ -17,6 +17,7 @@ app-portage/mirrorselect
 app-shells/mksh
 app-text/tree
 dev-lang/python
+dev-lang/tcc
 dev-vcs/git
 games-misc/lolcat
 mail-client/mailx
