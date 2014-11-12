@@ -9,16 +9,14 @@ else
 	set="@nyx"
 fi
 
-( emerge --quiet-build -uavDNg --binpkg-respect-use=y "$set" @world \
+( emerge --quiet-build -uavDNG --binpkg-respect-use=y "$set" @world \
   && dispatch-conf \
      && env-update && source /etc/profile \
 ) \
 && ( emerge -c \
-     && emerge --quiet-build -av1g @preserved-rebuild \
-        &&  env-update && source /etc/profile \
+     &&  env-update && source /etc/profile \
    ) \
-   && ( eclean distfiles \
-        ; emaint --check world \
+   && ( emaint --check world \
         ; glsa-check -t all \
         ; makewhatis -u \
       )
