@@ -11,7 +11,7 @@
 # The script will create a backup-folder 'NYXBACKUP' of the originals.
 # It is due to the design of portage that I cannot put those files in distinct
 # folders to prevent overriding.
-# After this, you can emerge @nyx by running sh update.
+# After this, you can emerge @nyx by running ./update.
 #################################
 
 if [ ! -d /etc/portage/NYXBACKUP ]; then
@@ -49,7 +49,6 @@ mirrorselect -s5
 
 layman -f -o https://git.cosmofox.net/nyx-overlay/plain/repository.xml -a nyx-overlay
 layman -a tox-overlay
-layman -a steam
 
 else
 	printf '%s\n' "Nyx configs are apparantly installed in /var/lib/portage/!"

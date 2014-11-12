@@ -1,4 +1,4 @@
-#!/bin/mksh
+#!/bin/sh
 
 udir="$(pwd)/UPDATES"
 
@@ -8,7 +8,7 @@ cp -r /etc/portage/{bashrc,make.conf,patches,savedconfig,sets} /etc/portage/NYXu
 rm -r /etc/portage/package.*/nyx/*
 rm -r /etc/portage/env/nyx/*
 
-rsync -aPh portage/ /etc/portage/
+rsync -qaPh portage/ /etc/portage/
 
 if [ "$1" = "hl" ]; then
 	rm -r /etc/portage/package.use/nyx/desktop.d
