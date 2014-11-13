@@ -2,6 +2,16 @@
 
 emerge -uv1G sys-apps/portage
 
+lastlive="$(<.last.live)"
+weekago="$(date +%Y%m%d --date='- 6 days')"
+
+if [ "$weekago" -gt "$lastlive" ]; then
+	emerge -gq @live-rebuild
+	date +%Y%m%d > .last.live
+else
+	printf '%s\n' "Next update of @live-rebuild: $(date --date=$last-live --date='+ 6 days' '+%A, %e. %B %Y')"
+fi
+
 if [ "$1" = "hl" ]; then
 	emerge --deselect @nyx.all @nyx @nyx.dubia
 	set="@nyx.headless"
