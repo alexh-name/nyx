@@ -49,7 +49,7 @@
 =dev-libs/popt-1.16-r2 static-libs
 
 # required by media-gfx/darktable-1.4.2
-=media-gfx/exiv2-0.23-r1 xmp
+=media-gfx/exiv2-0.24 xmp
 
 # required by media-gfx/inkscape-0.48.5
 =media-gfx/imagemagick-6.8.9.9 cxx
