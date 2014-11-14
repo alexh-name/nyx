@@ -1,0 +1,7 @@
+cd $nyxgitdir
+
+cat .last.live > /etc/portage/nyx.status.d/last.live
+rm .last.live
+
+cat UPDATES/last > /etc/portage/nyx.status.d/last.update
+rm UPDATES/last

@@ -28,6 +28,8 @@ grep GENTOO_MIRRORS /etc/portage/NYXupdateBACKUP/make.conf >> /etc/portage/make.
 
 ### execute the update scripts
 
+export nyxgitdir=$cdir
+
 cd $cdir/.updates
 
 last="$(</etc/portage/nyx.status.d/last.update)"
