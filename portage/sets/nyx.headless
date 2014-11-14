@@ -1,4 +1,5 @@
 app-admin/conky
+app-admin/eselect-sh
 app-admin/logcheck
 app-admin/makepasswd
 app-admin/metalog

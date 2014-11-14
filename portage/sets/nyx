@@ -2,7 +2,6 @@
 @pgp
 @ranger
 app-accessibility/espeak
-app-admin/eselect-sh
 app-cdr/cdrtools
 app-crypt/easy-rsa
 app-crypt/gnupg
