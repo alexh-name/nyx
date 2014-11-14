@@ -51,7 +51,7 @@ cd $cdir
 
 set=$(</etc/portage/nyx.config.d/set.conf)
 
-if [ "$set" = "hl" ]; then
+if [ "$set" = "headless" ]; then
         rm -r /etc/portage/package.use/nyx/desktop.d
         headlesso=$(<$cdir/.res/headless.conf) ; printf '%s\n' "$headlesso" >> /etc/portage/make.conf
 fi

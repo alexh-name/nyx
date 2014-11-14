@@ -12,7 +12,8 @@ else
 	printf '\n%s\n\n' "Next update of @live-rebuild: $(date --date=$last-live --date='+ 6 days' '+%A, %e. %B %Y')"
 fi
 
-if [ "$1" = "hl" ]; then
+set=$(</etc/portage/nyx.config.d/set.conf)
+if [ "$set" = "headless" ]; then
 	emerge --deselect @nyx.all @nyx @nyx.dubia
 	set="@nyx.headless"
 else

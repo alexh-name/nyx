@@ -13,4 +13,4 @@ fi
 
 git pull || exit 1
 
-sh .update "$@"
+sh .update
