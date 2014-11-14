@@ -3,9 +3,9 @@
 emerge -uv1G sys-apps/portage
 
 if [ -e /etc/portage/nyx.status.d/last.live ]; then
-        last="$(</etc/portage/nyx.status.d/last.live)"
+	last="$(</etc/portage/nyx.status.d/last.live)"
 else
-        (printf '%s\n' "0" > /etc/portage/nyx.status.d/last.live
+	printf '%s\n' "0" > /etc/portage/nyx.status.d/last.live
 fi
 
 weekago="$(date +%Y%m%d --date='- 6 days')"
