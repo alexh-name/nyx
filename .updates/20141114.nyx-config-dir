@@ -1,0 +1,17 @@
+#!/bin/mksh
+
+cd /etc/portage/
+
+rm headless.conf
+
+cat overrides.conf >> nyx.config.d/make.conf
+rm overrides.conf
+
+printf '\n%s\n' "What kind of setup is this?"
+select set in "nyx" "headless"; do
+    case $set in
+        nyx) printf '%s\n' "nyx" > nyx.config.d/set.conf ; break ;;
+        headless)  printf '%s\n' "nyx" > nyx.config.d/set.conf ; break ;;
+        *) printf '\n%s\n' "Please answer 1 or 2.";;
+    esac ;
+done
