@@ -30,7 +30,7 @@ grep GENTOO_MIRRORS /etc/portage/NYXupdateBACKUP/make.conf >> /etc/portage/make.
 
 cd $cdir/.updates
 
-last="$(<last)"
+last="$(</etc/portage/nyx.status.d/last.update)"
 
 updates="$(find . -maxdepth 1 -iname "*[0-9].[a-z]*" | sort)"
 
