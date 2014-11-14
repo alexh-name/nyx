@@ -32,7 +32,11 @@ export nyxgitdir=$cdir
 
 cd $cdir/.updates
 
-last="$(</etc/portage/nyx.status.d/last.update)"
+if [ -e /etc/portage/nyx.status.d/last.update ]; then
+	last="$(</etc/portage/nyx.status.d/last.update)"
+else
+	(printf '%s\n' "0" > /etc/portage/nyx.status.d/last.update
+fi
 
 updates="$(find . -maxdepth 1 -iname "*[0-9].[a-z]*" | sort)"
 

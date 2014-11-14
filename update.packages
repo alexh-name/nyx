@@ -2,10 +2,15 @@
 
 emerge -uv1G sys-apps/portage
 
-lastlive="$(</etc/portage/nyx.status.d/last.live)"
+if [ -e /etc/portage/nyx.status.d/last.live ]; then
+        last="$(</etc/portage/nyx.status.d/last.live)"
+else
+        (printf '%s\n' "0" > /etc/portage/nyx.status.d/last.live
+fi
+
 weekago="$(date +%Y%m%d --date='- 6 days')"
 
-if [ "$weekago" -gt "$lastlive" ]; then
+if [ "$weekago" -gt "$last" ]; then
 	emerge -gq @live-rebuild
 	date +%Y%m%d > /etc/portage/nyx.status.d/last.live
 else
