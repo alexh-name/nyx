@@ -41,7 +41,7 @@ for i in $updates
 	if [ $date -gt $last ]; then
 		sh $i
 		printf '%s\n' ".updates/$i executed"
-		printf '%s\n' "$date" > last
+		printf '%s\n' "$date" > /etc/portage/nyx.status.d/last.update
 	fi
 done
 
