@@ -16,7 +16,7 @@ cp -r /etc/portage/{bashrc,make.conf,patches,savedconfig,sets} /etc/portage/NYXu
 rm -r /etc/portage/package.*/nyx/*
 rm -r /etc/portage/env/nyx/*
 
-rsync -qaPh --exclude=nyx.status.d .portage/ /etc/portage/
+rsync -qaPh --exclude=nyx.status.d/* .portage/ /etc/portage/
 
 chown -R root:portage /etc/portage
 chmod -R 750 /etc/portage
