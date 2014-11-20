@@ -9,7 +9,7 @@
 
 # required by www-client/firefox-33.0[system-sqlite]
 # required by mail-client/thunderbird-31.0[system-sqlite]
-=dev-db/sqlite-3.8.7.1 secure-delete
+=dev-db/sqlite-3.8.7.2 secure-delete
 
 # required by media-sound/tuxguitar-1.2-r1::nyxOverlay
 =dev-java/swt-3.5.2:3.5 cairo
