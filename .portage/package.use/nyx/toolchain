@@ -1,2 +1,4 @@
 sys-devel/* cxx
 dev-libs/* cxx
+
+sys-devel/gcc:4.7 fortran
