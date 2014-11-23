@@ -1,3 +1,6 @@
+# required by "x11-misc/compton-0.1_beta2"
+=app-text/asciidoc-8.6.9-r1::gentoo python_single_target_python2_7
+
 # required by net-print/cups-1.7.5
 =app-text/ghostscript-gpl-9.15-r1 cups
 
