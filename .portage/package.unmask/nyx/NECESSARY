@@ -1,14 +1,14 @@
 # required by www-client/google-chrome-38.0.2125.111_p1
-=gnome-base/gconf-3.2.6-r3
+gnome-base/gconf
 
 # required by dev-cpp/libgnomecanvasmm-2.26.0
 # required by media-sound/ardour-3.5.357
-=gnome-base/libgnomecanvas-2.30.3
+gnome-base/libgnomecanvas
 
 # required by media-sound/easytag-2.2.3
-=gnome-extra/yelp-xsl-3.12.0
+gnome-extra/yelp-xsl
 
 # required by media-gfx/darktable-1.4.2[gphoto2]
 # New multilib conversions for testing, grouped with corresponding
 # emul-linux bumps.
-=media-libs/libgphoto2-2.5.4-r1
+media-libs/libgphoto2
