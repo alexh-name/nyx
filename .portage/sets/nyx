@@ -2,6 +2,7 @@
 @pgp
 @ranger
 app-accessibility/espeak
+app-accessibility/mbrola
 app-cdr/cdrtools
 app-crypt/easy-rsa
 app-crypt/gnupg
