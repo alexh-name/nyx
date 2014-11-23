@@ -25,10 +25,8 @@
 # required by mail-client/thunderbird-24.6.0
 =dev-lang/python-2.7.8:2.7 sqlite
 
-# required by app-misc/ranger-1.6.1[python_targets_python3_3]
-=dev-lang/python-3.3.5-r1:3.3 ncurses
-# required by app-misc/ranger-1.6.1[python_targets_python3_3]
-=dev-lang/python-3.3.5:3.3 ncurses
+# required by app-misc/ranger-1.6.1[python_targets_python3_4]
+=dev-lang/python-3.4.2 ncurses
 
 # required by x11-wm/enlightenment-0.17.6
 =dev-libs/efl-1.11.2 X
