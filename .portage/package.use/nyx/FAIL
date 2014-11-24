@@ -1,1 +1,2 @@
+app-emulation/qemu -seccomp		# fails with config not finding libseccomp in hardened profile
 # net-im/toxic libnotify sound-notify # fails otherwise
