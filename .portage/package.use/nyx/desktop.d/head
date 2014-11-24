@@ -1,1 +1,2 @@
+app-emulation/qemu sdl
 media-libs/mesa xorg gles2 dri3
