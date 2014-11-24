@@ -289,6 +289,11 @@ check back those marked options.
 		~~~
 	
 	    Security options  --->
+		    Grsecurity  --->
+			[*] Grsecurity
+			      Configuration Method (Automatic)  --->
+			      Usage Type (Server)  --->
+			      Required Priorities (Security)  --->
 		[*] Restrict unprivileged access to the kernel syslog
 		[ ] Enable different security models
 	
