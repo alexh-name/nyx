@@ -65,11 +65,12 @@ overrides=$(</etc/portage/nyx.config.d/make.conf) ; printf '%s\n' "$overrides" >
 ### git pull scripts and tools into /usr/local/bin
 
 cd /usr/local/bin
-        ( rm -r $(find -maxdepth 1 -type l)
-        cd scripts; git pull; cd ..
-        cd tools; git pull; cd ..
-        ln -s $(find custom scripts tools -maxdepth 1 -type f) .
-        printf '\n%s\n' "/usr/local/bin updated" ) || (sh $udir/error ; exit 1)
+( rm -r $(find -maxdepth 1 -type l)
+  cd scripts; git pull; cd ..
+  cd tools; git pull; cd ..
+  ln -s $(find custom scripts tools -maxdepth 1 -type f) .
+  printf '\n%s\n' "/usr/local/bin updated"
+) || (sh $udir/error ; exit 1)
 
 ### ask for a tree sync
 
