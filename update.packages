@@ -47,5 +47,5 @@ else
 	printf '\n%s\n' "Something went wrong. You can ask contact@cosmofox.net for help."
 fi
 
-chmod -x /bin/bash
 eselect sh set mksh
+chmod -x /bin/bash
