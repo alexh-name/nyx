@@ -1,5 +1,8 @@
 #!/bin/mksh
 
+chmod +x /bin/bash
+eselect sh set bash
+
 emerge -uv1G sys-apps/portage
 
 if [ -e /etc/portage/nyx.status.d/last.live ]; then
@@ -43,3 +46,6 @@ if [ $? -eq 0 ]; then
 else
 	printf '\n%s\n' "Something went wrong. You can ask contact@cosmofox.net for help."
 fi
+
+chmod -x /bin/bash
+eselect sh set mksh
