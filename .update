@@ -56,8 +56,8 @@ cd $cdir
 set=$(</etc/portage/nyx.config.d/set.conf)
 
 if [ "$set" = "headless" ]; then
-        rm -r /etc/portage/package.use/nyx/desktop.d
-        headlesso=$(<$cdir/.res/headless.conf) ; printf '%s\n' "$headlesso" >> /etc/portage/make.conf
+	rm -r /etc/portage/package.use/nyx/desktop.d
+	headlesso=$(<$cdir/.res/headless.conf) ; printf '%s\n' "$headlesso" >> /etc/portage/make.conf
 fi
 
 overrides=$(</etc/portage/nyx.config.d/make.conf) ; printf '%s\n' "$overrides" >> /etc/portage/make.conf
@@ -76,17 +76,17 @@ cd /usr/local/bin
 
 printf '\n%s\n' "Do you wish to sync the repos?"
 select yn in "Yes" "No"; do
-    case $yn in
-        [Yy]*) (((layman -S ; emerge-webrsync) && eix-update) || (printf '\n%s\n' "error updating repos, aborting" ; exit 1)) ; break ;;
-        [Nn]*) printf '\n%s\n' "Repos not updated." ; break ;;
-        *) printf '\n%s\n' "Please answer 1 or 2.";;
-    esac ;
+	case $yn in
+	[Yy]*) ((layman -S ; eix-sync) || (printf '\n%s\n' "error updating repos, aborting" ; exit 1)) ; break ;;
+	[Nn]*) printf '\n%s\n' "Repos not updated." ; break ;;
+	*) printf '\n%s\n' "Please answer 1 or 2.";;
+	esac ;
 done
 
 printf '\n%s\n' "You can now run ./update.packages or update your packages yourself."
 
 else
-        printf '%s\n' "Seems sh install has not been run before:"
-        printf '%s\n' "/etc/portage/NYXupdateBACKUP is missing."
-        printf '%s\n' "You should do that."
+	printf '%s\n' "Seems sh install has not been run before:"
+	printf '%s\n' "/etc/portage/NYXupdateBACKUP is missing."
+	printf '%s\n' "You should do that."
 fi
