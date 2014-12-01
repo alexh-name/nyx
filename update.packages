@@ -1,6 +1,6 @@
 #!/bin/mksh
 
-chmod +x /bin/bash
+/etc/local.d/bash.stop
 eselect sh set bash
 
 emerge -uv1G sys-apps/portage
@@ -47,5 +47,4 @@ else
 	printf '\n%s\n' "Something went wrong. You can ask contact@cosmofox.net for help."
 fi
 
-eselect sh set mksh
-chmod -x /bin/bash
+/etc/local.d/bash.start
