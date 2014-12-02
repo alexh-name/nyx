@@ -41,10 +41,10 @@ fi
         ; makewhatis -u \
       )
 
+/etc/local.d/bash.start
+
 if [ $? -eq 0 ]; then
 	printf '\n%s\n' "Alright! See ya!"
 else
 	printf '\n%s\n' "Something went wrong. You can ask contact@cosmofox.net for help."
 fi
-
-/etc/local.d/bash.start
