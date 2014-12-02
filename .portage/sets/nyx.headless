@@ -18,6 +18,7 @@ app-portage/layman
 app-portage/mirrorselect
 app-shells/mksh
 app-text/tree
+dev-lang/ekopath
 dev-lang/python
 dev-lang/tcc
 dev-vcs/git
