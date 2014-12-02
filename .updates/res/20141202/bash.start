@@ -1,3 +1,4 @@
 eselect sh set mksh
 chmod -x /bin/bash.b
+rm /bin/bash
 ln -s /bin/mksh /bin/bash
