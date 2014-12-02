@@ -131,7 +131,7 @@
 # required by media-gfx/darktable-1.4.2
 # required by net-libs/webkit-gtk-2.2.6-r200
 # required by www-client/surf-0.6-r1
-=x11-libs/cairo-1.12.16-r3 X
+=x11-libs/cairo-1.12.16-r4 X
 
 # required by x11-libs/gtk+-2.24.23-r1
 =x11-libs/gdk-pixbuf-2.30.8 X
