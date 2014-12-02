@@ -1,0 +1,3 @@
+chmod +x /bin/bash.b
+rm /bin/bash
+ln -s /bin/bash.b /bin/bash

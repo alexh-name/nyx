@@ -1,0 +1,2 @@
+cp /bin/bash /bin/bash.b
+cp res/20141202/* /etc/local.d/

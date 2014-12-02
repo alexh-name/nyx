@@ -1,0 +1,3 @@
+eselect sh set mksh
+chmod -x /bin/bash.b
+ln -s /bin/mksh /bin/bash
