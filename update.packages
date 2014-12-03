@@ -1,6 +1,5 @@
 #!/bin/mksh
 
-/etc/local.d/bash.stop
 eselect sh set bash
 
 emerge -uv1G sys-apps/portage
@@ -41,7 +40,7 @@ fi
         ; makewhatis -u \
       )
 
-/etc/local.d/bash.start
+eselect sh set mksh
 
 if [ $? -eq 0 ]; then
 	printf '\n%s\n' "Alright! See ya!"
