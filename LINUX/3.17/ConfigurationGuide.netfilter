@@ -1,0 +1,37 @@
+: sys-kernel/gentoo-sources-3.17.* (netfilter)
+
+Options marked with "~~~ later" can only be
+deselected, after some other following option
+has been deselected. So after reaching the end,
+check back those marked options.
+
+====
+
+[*] Networking support  --->
+	      Networking options  --->
+		[*] Network packet filtering framework (Netfilter)  --->
+			[*]   Advanced netfilter configuration
+			[ ]     Bridged IP/ARP packets filtering
+			~~~ later
+			      Core Netfilter Configuration  --->
+				<M> Netfilter connection tracking support
+				[ ] Supply CT list in procfs (OBSOLETE)
+				{M} Netfilter Xtables support (required for ip_tables)
+				<M>   LOG target support
+				<M>   REDIRECT target support
+				<M>   "conntrack" connection tracking match support
+				<M>   "owner" match support
+				<M>   "state" match support
+			~~~
+			      IP: Netfilter Configuration  --->
+				<M> IPv4 connection tracking support (required for NAT)
+				< > ARP packet logging
+				<M> IP tables support (required for filtering/masq/NAT)
+				<M>   Packet filtering
+				<M>     REJECT target support
+				<M>   iptables NAT support
+				< >     MASQUERADE target support
+				<M>     REDIRECT target support
+				< >   Packet mangling
+	
+====
