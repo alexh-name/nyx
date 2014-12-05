@@ -11,6 +11,7 @@ net-dialup/ppp dhcp
 net-im/mcabber otr 
 net-irc/irssi perl
 net-misc/openvpn iproute2
+net-misc/tor transparent-proxy
 sys-fs/ntfs3g -external-fuse ntfsprogs -crypt
 x11-base/xorg-server xorg
 x11-libs/cairo lto
