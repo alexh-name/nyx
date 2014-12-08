@@ -16,6 +16,6 @@ media-video/ffmpeg vorbis xvid x264 x265 theora mp3 vpx v4l opus webp
 media-video/kino gstreamer
 media-video/libav aac vorbis xvid x264 theora mp3 vpx v4l opus
 media-video/mplayer2 -shm -mp3 -mpg123
-media-video/mpv v4l -shm -mp3 -mpg123 encode
+media-video/mpv v4l -shm -mp3 -mpg123 encode dvdnav
 virtual/ffmpeg mp3 theora x264 opus
 www-client/firefox gstreamer
