@@ -10,9 +10,8 @@
 # =app-text/poppler-0.24.5 cxx cairo
 =app-text/poppler-0.28.1 cxx cairo
 
-# required by www-client/firefox-33.0[system-sqlite]
-# required by mail-client/thunderbird-31.0[system-sqlite]
-=dev-db/sqlite-3.8.7.2 secure-delete
+# required by www-client/firefox-34.0.5-r1[system-sqlite]
+=dev-db/sqlite-3.8.7.3 secure-delete
 
 # required by media-sound/tuxguitar-1.2-r1::nyxOverlay
 =dev-java/swt-3.5.2:3.5 cairo
@@ -127,11 +126,9 @@
 # required by media-video/openshot-1.4.3[ffmpeg]
 =virtual/ffmpeg-9-r1 sdl
 
-# required by x11-libs/pango-1.36.3-r2
-# required by media-gfx/darktable-1.4.2
-# required by net-libs/webkit-gtk-2.2.6-r200
-# required by www-client/surf-0.6-r1
-=x11-libs/cairo-1.12.16-r4 X
+# required by x11-libs/pango-1.36.8
+# required by www-plugins/adobe-flash-11.2.202.425[abi_x86_32,abi_x86_64]
+=x11-libs/cairo-1.12.18 X
 
 # required by x11-libs/gtk+-2.24.23-r1
 =x11-libs/gdk-pixbuf-2.30.8 X
@@ -150,4 +147,4 @@
 # required by x11-libs/glamor-0.6.0-r1
 # required by x11-drivers/xf86-video-ati-7.5.0[glamor]
 # required by x11-base/xorg-drivers-1.16[video_cards_radeon]
-=x11-base/xorg-server-1.16.2 -minimal
+=x11-base/xorg-server-1.16.2.901 -minimal
