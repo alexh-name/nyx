@@ -68,7 +68,7 @@ cd /usr/local/bin
 ( rm -r $(find -maxdepth 1 -type l)
   cd scripts; git pull; cd ..
   cd tools; git pull; cd ..
-  ln -s $(find custom scripts tools -maxdepth 1 -type f) .
+  ln -s $(find custom scripts tools -maxdepth 1 -type f) . 2> /dev/null
   printf '\n%s\n' "/usr/local/bin updated"
 ) || (sh $udir/error ; exit 1)
 
