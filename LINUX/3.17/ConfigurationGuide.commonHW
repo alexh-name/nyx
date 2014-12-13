@@ -22,6 +22,7 @@ check back those marked options.
 				<M>   Apple USB BCM5974 Multitouch trackpad support
 				<M>   Synaptics USB device support
 		<*> Sound card support  --->
+			<M>   Advanced Linux Sound Architecture  --->
 			      HD-Audio  --->
 				<M> HD Audio PCI
 				<M> Build HDMI/DisplayPort HD-audio codec support

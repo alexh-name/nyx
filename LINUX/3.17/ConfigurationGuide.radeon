@@ -1,38 +1,49 @@
-# sys-kernel/gentoo-sources-3.17.* (radeon)
+: sys-kernel/gentoo-sources-3.17.* (radeon)
 
 This guide only contains, what I suggest to add
 or make sure that it is selected for using the
 open source radeon driver.
 
 
+====
+Processor type and features  --->
+	[*] MTRR (Memory Type Range Register) support
+====
 
-	Processor type and features  --->
-		[*] MTRR (Memory Type Range Register) support
+====
+Device Drivers  --->
+	    Generic Driver Options  --->
+		[*]   Include in-kernel firmware blobs in kernel binary
+		(~~~ + what applies to your hardware)
+		(/lib/firmware) Firmware blobs root directory
+ 
+	    Graphics support  --->
+		    Direct Rendering Manager  --->
+			<M> ATI Radeon
+			< > Intel 8xx/9xx/G3x/G4x/HD Graphics
+		    Frame buffer Devices  --->
+			-*- Support for frame buffer devices  --->
+			[ ]   EFI-based Framebuffer Support
+		    Console display driver support  --->
+			<*> Framebuffer Console support
+====
 
-- - -
+:: firmwares
 
-	Device Drivers  --->
-		    Generic Driver Options  --->
-			[*]   Include in-kernel firmware blobs in kernel binary
-			(~~~ + what applies to your hardware)
-			(/lib/firmware) Firmware blobs root directory
-	
-		    Graphics support  --->
-			    Direct Rendering Manager  --->
-				<M> ATI Radeon
-				< > Intel 8xx/9xx/G3x/G4x/HD Graphics
-			    Frame buffer Devices  --->
-				-*- Support for frame buffer devices  --->
-				[ ]   EFI-based Framebuffer Support
-			    Console display driver support  --->
-				<*> Framebuffer Console support
+juniper
 
+====
+radeon/JUNIPER_me.bin radeon/JUNIPER_pfp.bin radeon/JUNIPER_rlc.bin radeon/JUNIPER_smc.bin radeon/CYPRESS_uvd.bin
+====
 
-- - -
+barts
 
-## firmwares
+====
+radeon/BTC_rlc.bin radeon/BARTS_mc.bin radeon/BARTS_me.bin radeon/BARTS_pfp.bin radeon/BARTS_smc.bin radeon/SUMO_uvd.bin
+====
 
-* juniper
-	radeon/JUNIPER_me.bin radeon/JUNIPER_pfp.bin radeon/JUNIPER_rlc.bin radeon/JUNIPER_smc.bin radeon/CYPRESS_uvd.bin
-* barts
-	radeon/BTC_rlc.bin radeon/BARTS_mc.bin radeon/BARTS_me.bin radeon/BARTS_pfp.bin radeon/BARTS_smc.bin radeon/SUMO_uvd.bin
+tahiti
+
+====
+radeon/tahiti_ce.bin radeon/tahiti_mc.bin radeon/tahiti_me.bin radeon/tahiti_pfp.bin radeon/tahiti_rlc.bin radeon/tahiti_smc.bin radeon/TAHITI_uvd.bin
+====

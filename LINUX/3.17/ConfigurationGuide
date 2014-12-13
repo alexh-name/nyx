@@ -292,7 +292,7 @@ check back those marked options.
 		    Grsecurity  --->
 			[*] Grsecurity
 			      Configuration Method (Automatic)  --->
-			      Usage Type (Server)  --->
+			      Usage Type (Desktop)  --->
 			      Required Priorities (Security)  --->
 		[*] Restrict unprivileged access to the kernel syslog
 		[ ] Enable different security models

@@ -958,7 +958,7 @@ CONFIG_STANDALONE=y
 CONFIG_PREVENT_FIRMWARE_BUILD=y
 CONFIG_FW_LOADER=y
 CONFIG_FIRMWARE_IN_KERNEL=y
-CONFIG_EXTRA_FIRMWARE="radeon/JUNIPER_me.bin radeon/JUNIPER_pfp.bin radeon/JUNIPER_rlc.bin radeon/JUNIPER_smc.bin radeon/CYPRESS_uvd.bin radeon/BTC_rlc.bin radeon/BARTS_mc.bin radeon/BARTS_me.bin radeon/BARTS_pfp.bin radeon/BARTS_smc.bin radeon/SUMO_uvd.bin"
+CONFIG_EXTRA_FIRMWARE="radeon/JUNIPER_me.bin radeon/JUNIPER_pfp.bin radeon/JUNIPER_rlc.bin radeon/JUNIPER_smc.bin radeon/CYPRESS_uvd.bin radeon/BTC_rlc.bin radeon/BARTS_mc.bin radeon/BARTS_me.bin radeon/BARTS_pfp.bin radeon/BARTS_smc.bin radeon/SUMO_uvd.bin radeon/tahiti_ce.bin radeon/tahiti_mc.bin radeon/tahiti_me.bin radeon/tahiti_pfp.bin radeon/tahiti_rlc.bin radeon/tahiti_smc.bin radeon/TAHITI_uvd.bin"
 CONFIG_EXTRA_FIRMWARE_DIR="/lib/firmware"
 # CONFIG_FW_LOADER_USER_HELPER_FALLBACK is not set
 # CONFIG_DEBUG_DRIVER is not set
@@ -3154,8 +3154,8 @@ CONFIG_PAX_USERCOPY_SLABS=y
 CONFIG_GRKERNSEC=y
 CONFIG_GRKERNSEC_CONFIG_AUTO=y
 # CONFIG_GRKERNSEC_CONFIG_CUSTOM is not set
-CONFIG_GRKERNSEC_CONFIG_SERVER=y
-# CONFIG_GRKERNSEC_CONFIG_DESKTOP is not set
+# CONFIG_GRKERNSEC_CONFIG_SERVER is not set
+CONFIG_GRKERNSEC_CONFIG_DESKTOP=y
 CONFIG_GRKERNSEC_CONFIG_VIRT_NONE=y
 # CONFIG_GRKERNSEC_CONFIG_VIRT_GUEST is not set
 # CONFIG_GRKERNSEC_CONFIG_VIRT_HOST is not set
