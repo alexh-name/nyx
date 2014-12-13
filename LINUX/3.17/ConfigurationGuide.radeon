@@ -47,3 +47,9 @@ tahiti
 ====
 radeon/tahiti_ce.bin radeon/tahiti_mc.bin radeon/tahiti_me.bin radeon/tahiti_pfp.bin radeon/tahiti_rlc.bin radeon/tahiti_smc.bin radeon/TAHITI_uvd.bin
 ====
+
+PALM (Wrestler)
+
+====
+radeon/PALM_me.bin radeon/PALM_pfp.bin radeon/SUMO_rlc.bin radeon/SUMO_uvd.bin
+====

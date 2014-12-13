@@ -1,19 +1,22 @@
-# sys-kernel/gentoo-sources-3.17.* (uvesafb)
+: sys-kernel/gentoo-sources-3.17.* (uvesafb)
 
 Options marked with "~~~ later" can only be
 deselected, after some other following option
 has been deselected. So after reaching the end,
 check back those marked options.
 
-	    General setup  --->
-		[*] Initial RAM filesystem and RAM disk (initramfs/initrd) support
-			(/usr/share/v86d/initramfs) Initramfs source file(s)
+====
+    General setup  --->
+	[*] Initial RAM filesystem and RAM disk (initramfs/initrd) support
+		(/usr/share/v86d/initramfs) Initramfs source file(s)
+====
 
-- - -
-
-	    Device Drivers  --->
-		    Graphics support  --->
-			    Frame buffer Devices  --->
-				<*> Userspace VESA VGA graphics support
-				-*- Support for frame buffer devices  --->
-					[*]   Enable firmware EDID
+====
+    Device Drivers  --->
+	<*> Connector - unified userspace <-> kernelspace linker  --->
+	    Graphics support  --->
+		    Frame buffer Devices  --->
+			<*> Userspace VESA VGA graphics support
+			-*- Support for frame buffer devices  --->
+				[*]   Enable firmware EDID
+====
