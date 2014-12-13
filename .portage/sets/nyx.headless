@@ -41,6 +41,7 @@ net-misc/openntpd
 net-misc/tor
 net-misc/youtube-dl
 net-p2p/rtorrent
+net-proxy/polipo
 net-proxy/torsocks
 sys-apps/hdparm
 sys-apps/ifplugd
