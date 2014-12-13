@@ -10,6 +10,8 @@ Device Drivers  --->
 	[*]   Include in-kernel firmware blobs in kernel binary
 	(+ rtl_nic/rtl8168d-2.fw rtl_nic/rtl8168e-3.fw ctefx.bin)
 	[*]   Ethernet driver support  --->
+		[*]   Atheros devices
+			<M>     Atheros L1C Gigabit Ethernet support
 		[*]   Realtek devices
 			<M>     Realtek 8169 gigabit ethernet support
 	[*] Network device support  --->
@@ -20,7 +22,7 @@ Device Drivers  --->
 				<M>   Atheros 802.11ac wireless cards support
 	    Input device support  --->	
 		[*]   Mice  --->
-			< >   PS/2 mouse
+			<M>   PS/2 mouse
 			<M>   Apple USB Touchpad support
 			<M>   Apple USB BCM5974 Multitouch trackpad support
 			<M>   Synaptics USB device support
