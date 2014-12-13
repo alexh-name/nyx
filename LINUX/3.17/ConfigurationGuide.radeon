@@ -30,6 +30,8 @@ Device Drivers  --->
 
 :: firmwares
 
+::: radeon :::
+
 juniper
 
 ====
@@ -52,4 +54,12 @@ PALM (Wrestler)
 
 ====
 radeon/PALM_me.bin radeon/PALM_pfp.bin radeon/SUMO_rlc.bin radeon/SUMO_uvd.bin
+====
+
+::: network :::
+
+realtek 8169
+
+====
+rtl_nic/rtl8168d-2.fw
 ====

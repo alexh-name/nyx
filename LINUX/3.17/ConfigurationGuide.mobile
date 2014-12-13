@@ -47,4 +47,4 @@ check back those marked options.
 				< >   PS/2 mouse
 				<M>   Synaptics USB device support
 		[*] X86 Platform Specific Device Drivers  ---->
-			~~~ select what fits your hardware
+			~~~ select what fits your hardware (as M)
