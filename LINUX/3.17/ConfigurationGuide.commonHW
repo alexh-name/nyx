@@ -16,6 +16,7 @@ Device Drivers  --->
 		[*]   Wireless LAN  --->
 			<M>   Atheros Wireless Cards  --->
 				<M>   Atheros 802.11n wireless cards support
+					[*]     Atheros ath9k PCI/PCIe bus support
 				<M>   Atheros 802.11ac wireless cards support
 	    Input device support  --->	
 		[*]   Mice  --->
