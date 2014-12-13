@@ -28,7 +28,7 @@ rm -r /etc/portage/package.*/nyx/*
 rm -r /etc/portage/env/nyx/*
 rm -r /etc/portage/sets/*
 
-rsync -aPh portage/ /etc/portage/
+rsync -aPh .portage/ /etc/portage/
 
 chown -R root:portage /etc/portage
 chmod -R 750 /etc/portage
