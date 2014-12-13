@@ -207,7 +207,7 @@ check back those marked options.
 			    Frame buffer Devices  --->
 				{*} Support for frame buffer devices  --->
 					[ ]   Enable Tile Blitting Support
-				[ ] EFI-based Framebuffer Support
+				[*] EFI-based Framebuffer Support
 			[ ] Bootup logo  ----
 			~~~ + what applies to your hardware
 	
