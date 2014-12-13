@@ -203,6 +203,10 @@ check back those marked options.
 		    Graphics support  --->
 			< > /dev/agpgart (AGP Support)  ----
 			[ ] VGA Arbitration
+			    Frame buffer Devices  --->
+				{*} Support for frame buffer devices  --->
+					[ ]   Enable Tile Blitting Support
+				[ ] EFI-based Framebuffer Support
 			[ ] Bootup logo  ----
 			~~~ + what applies to your hardware
 	

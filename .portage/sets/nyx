@@ -37,7 +37,6 @@ sci-libs/cblas-reference
 sys-apps/9base
 sys-apps/smartmontools
 sys-boot/efibootmgr
-sys-kernel/linux-firmware
 sys-kernel/linux-headers
 virtual/python-imaging
 www-client/elinks
