@@ -8,7 +8,7 @@ check back those marked options.
 ====
 Device Drivers  --->
 	[*]   Include in-kernel firmware blobs in kernel binary
-	(+ rtl_nic/rtl8168d-2.fw ctefx.bin)
+	(+ rtl_nic/rtl8168d-2.fw rtl_nic/rtl8168e-3.fw ctefx.bin)
 	[*]   Ethernet driver support  --->
 		[*]   Realtek devices
 			<M>     Realtek 8169 gigabit ethernet support
@@ -68,6 +68,7 @@ realtek 8169
 
 ====
 rtl_nic/rtl8168d-2.fw
+rtl_nic/rtl8168e-3.fw
 ====
 
 ::: sound :::
