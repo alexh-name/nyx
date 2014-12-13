@@ -12,7 +12,7 @@ if [ -d /etc/portage/NYXBACKUP ]; then
 
 ### rsync the new portage configs
 
-cp -r /etc/portage/{bashrc,make.conf,patches,savedconfig,sets} /etc/portage/NYXBACKUP
+cp -r /etc/portage/{bashrc,make.conf,patches,savedconfig,sets} /etc/portage/NYXupdateBACKUP
 rm -r /etc/portage/package.*/nyx/*
 rm -r /etc/portage/env/nyx/*
 
@@ -24,7 +24,7 @@ chmod -R 750 /etc/portage
 chown root:portage /var/lib/portage/world
 chmod 640 /var/lib/portage/world
 
-grep GENTOO_MIRRORS /etc/portage/NYXBACKUP/make.conf >> /etc/portage/make.conf
+grep GENTOO_MIRRORS /etc/portage/NYXupdateBACKUP/make.conf >> /etc/portage/make.conf
 
 ### execute the update scripts
 

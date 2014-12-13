@@ -22,6 +22,7 @@ fi
 if [ ! -d /etc/portage/NYXBACKUP ]; then
 
 mkdir /etc/portage/NYXBACKUP
+mkdir /etc/portage/NYXupdateBACKUP
 cp -r /etc/portage/{bashrc,make.conf,patches,savedconfig,sets} /etc/portage/NYXBACKUP
 
 rm -r /etc/portage/package.*/nyx/*
