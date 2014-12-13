@@ -16,7 +16,7 @@ check back those marked options.
 	<*> Connector - unified userspace <-> kernelspace linker  --->
 	    Graphics support  --->
 		    Frame buffer Devices  --->
-			<*> Userspace VESA VGA graphics support
 			-*- Support for frame buffer devices  --->
 				[*]   Enable firmware EDID
+			<M> Userspace VESA VGA graphics support
 ====
