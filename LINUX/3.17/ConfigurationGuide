@@ -175,7 +175,8 @@ check back those marked options.
 			< >   Event interface
 			[*]   Keyboards  --->
 				<*>   AT keyboard
-			[ ]   Mice  ---
+			[*]   Mice  --->
+				<M>   PS/2 mouse
 			[ ]   Joysticks/Gamepads  ----
 			[ ]   Tablets  ---
 			[ ]   Touchscreens  ---
