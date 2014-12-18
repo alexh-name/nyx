@@ -35,6 +35,8 @@ for i in $updates
         fi
 done
 
+cd $cdir
+
 ### rsync the new portage configs
 
 etcudbu=/etc/portage/nyx.backup
