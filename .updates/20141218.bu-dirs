@@ -1,0 +1,3 @@
+mv /var/lib/portage/NYXBACKUP /var/lib/portage/pre.nyx.backup
+mv /etc/portage/NYXBACKUP /etc/portage/pre.nyx.backup
+mv /etc/portage/NYXupdateBACKUP /etc/portage/nyx.backup
