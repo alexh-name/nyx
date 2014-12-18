@@ -8,11 +8,38 @@ fi
 cdir="$(pwd)"
 udir="$cdir/UPDATES"
 
-if [ -d /etc/portage/NYXBACKUP ]; then
+grep nyx /var/lib/portage/world_sets
+
+if [ $? -eq 0 ]; then
+
+### execute the update scripts
+
+export nyxgitdir=$cdir
+
+cd $cdir/.updates
+
+if [ -e /etc/portage/nyx.status.d/last.update ]; then
+        last="$(</etc/portage/nyx.status.d/last.update)"
+else
+        last=0
+fi
+
+updates="$(find . -maxdepth 1 -iname "*[0-9].[a-z]*" | sort)"
+
+for i in $updates
+        do date="$(printf '%s' "$i" | cut -d '/' -f 2- | cut -d '.' -f 1)"
+        if [ $date -gt $last ]; then
+                sh $i
+                printf '%s\n' ".updates/$i executed"
+                printf '%s\n' "$date" > /etc/portage/nyx.status.d/last.update
+        fi
+done
 
 ### rsync the new portage configs
 
-cp -r /etc/portage/{bashrc,make.conf,patches,savedconfig,sets} /etc/portage/NYXupdateBACKUP
+etcudbu=/etc/portage/nyx.backup
+
+cp -r /etc/portage/{bashrc,make.conf,patches,savedconfig,sets} $etcudbu
 rm -r /etc/portage/package.*/nyx/*
 rm -r /etc/portage/env/nyx/*
 
@@ -24,7 +51,7 @@ chmod -R 750 /etc/portage
 chown root:portage /var/lib/portage/world
 chmod 640 /var/lib/portage/world
 
-grep GENTOO_MIRRORS /etc/portage/NYXupdateBACKUP/make.conf >> /etc/portage/make.conf
+grep GENTOO_MIRRORS $etcudbu/make.conf >> /etc/portage/make.conf
 
 ### execute the update scripts
 
@@ -88,7 +115,7 @@ done
 printf '\n%s\n' "You can now run ./update.packages or update your packages yourself."
 
 else
-	printf '%s\n' "Seems sh install has not been run before:"
-	printf '%s\n' "/etc/portage/NYXBACKUP is missing."
-	printf '%s\n' "You should do that."
+	printf '%s\n' "Seems like nyx isn't installed:"
+	printf '%s\n' "No set with the name nyx in /var/lib/portage/world_sets."
+	printf '%s\n' "If you haven't run ./install first, you should."
 fi
