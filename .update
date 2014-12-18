@@ -8,7 +8,7 @@ fi
 cdir="$(pwd)"
 udir="$cdir/UPDATES"
 
-grep nyx /var/lib/portage/world_sets
+grep nyx /var/lib/portage/world_sets > /dev/null
 
 if [ $? -eq 0 ]; then
 
