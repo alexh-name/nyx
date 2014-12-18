@@ -19,11 +19,13 @@ if [ "$(id -u)" -ne 0 ]; then
         exit 1
 fi
 
-if [ ! -d /etc/portage/NYXBACKUP ]; then
+etcbu=/etc/portage/pre.nyx.backup
 
-mkdir /etc/portage/NYXBACKUP
-mkdir /etc/portage/NYXupdateBACKUP
-cp -r /etc/portage/{bashrc,make.conf,patches,savedconfig,sets} /etc/portage/NYXBACKUP
+if [ ! -d $etcbu ]; then
+
+mkdir $etcbu
+mkdir /etc/portage/nyx.backup
+cp -r /etc/portage/{bashrc,make.conf,patches,savedconfig,sets} $etcbu
 
 rm -r /etc/portage/package.*/nyx/*
 rm -r /etc/portage/env/nyx/*
@@ -40,11 +42,12 @@ fi
 
 ###
 
-if [ ! -d /var/lib/portage/NYXBACKUP ]; then
+varbu=/var/lib/portage/pre.nyx.backup
 
-mkdir /var/lib/portage/NYXBACKUP
-cp /var/lib/portage/world /var/lib/portage/NYXBACKUP/
-cp /var/lib/portage/world_sets /var/lib/portage/NYXBACKUP/
+if [ ! -d $varbu ]; then
+
+mkdir $varbu
+cp /var/lib/portage/world /var/lib/portage/world_sets $varbu
 > /var/lib/portage/world
 printf '%s\n' "@nyx" > /var/lib/portage/world_sets
 
