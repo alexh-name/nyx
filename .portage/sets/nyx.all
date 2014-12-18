@@ -4,6 +4,7 @@ dev-util/android-tools
 dev-util/checkbashisms
 games-emulation/desmume
 games-fps/xonotic
+games-util/linux-wbfs-manager
 media-gfx/qrencode
 media-sound/ardour
 media-sound/easytag
