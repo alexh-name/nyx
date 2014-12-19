@@ -12,11 +12,11 @@ media-video/motion
 media-video/openshot
 net-p2p/btpd
 net-proxy/torsocks
-sys-apps/v86d
+# sys-apps/v86d
 sys-boot/syslinux
 sys-devel/gcc:4.7
 sys-process/runit
-www-client/chromium
+# www-client/chromium
 www-plugins/adobe-flash
 www-servers/thttpd
 x11-apps/radeontop
