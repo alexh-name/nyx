@@ -16,7 +16,6 @@ media-gfx/gimp
 media-gfx/gphoto2
 media-gfx/imagemagick
 media-gfx/inkscape
-media-gfx/pqstego
 media-gfx/scrot
 media-libs/exiftool
 media-libs/libcdr
@@ -33,7 +32,6 @@ net-misc/openvpn
 net-news/newsbeuter
 net-print/cups
 net-print/cups-filters
-sci-libs/cblas-reference
 sys-apps/9base
 sys-apps/smartmontools
 sys-boot/efibootmgr

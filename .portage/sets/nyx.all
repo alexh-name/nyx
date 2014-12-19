@@ -5,6 +5,7 @@ dev-util/checkbashisms
 games-emulation/desmume
 games-fps/xonotic
 games-util/linux-wbfs-manager
+media-gfx/pqstego
 media-gfx/qrencode
 media-sound/ardour
 media-sound/easytag
@@ -12,6 +13,7 @@ media-video/motion
 media-video/openshot
 net-p2p/btpd
 net-proxy/torsocks
+sci-libs/cblas-reference
 # sys-apps/v86d
 sys-boot/syslinux
 sys-devel/gcc:4.7
