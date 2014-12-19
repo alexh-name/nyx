@@ -30,6 +30,7 @@ net-wireless/wpa_supplicant
 www-client/firefox
 www-client/surf
 x11-apps/xev
+x11-apps/xmodmap
 x11-apps/xrandr
 x11-apps/xset
 x11-apps/xsetroot
@@ -41,7 +42,6 @@ x11-misc/wmname
 x11-misc/xautolock
 x11-misc/xbindkeys
 x11-misc/xclip
-x11-misc/xmodmap
 x11-plugins/pidgin-otr
 x11-terms/st
 x11-themes/faenza-icon-theme
