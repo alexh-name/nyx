@@ -55,29 +55,6 @@ chmod 640 /var/lib/portage/world
 
 grep GENTOO_MIRRORS $etcudbu/make.conf >> /etc/portage/make.conf
 
-### execute the update scripts
-
-export nyxgitdir=$cdir
-
-cd $cdir/.updates
-
-if [ -e /etc/portage/nyx.status.d/last.update ]; then
-	last="$(</etc/portage/nyx.status.d/last.update)"
-else
-	last=0
-fi
-
-updates="$(find . -maxdepth 1 -iname "*[0-9].[a-z]*" | sort)"
-
-for i in $updates
-	do date="$(printf '%s' "$i" | cut -d '/' -f 2- | cut -d '.' -f 1)"
-	if [ $date -gt $last ]; then
-		sh $i
-		printf '%s\n' ".updates/$i executed"
-		printf '%s\n' "$date" > /etc/portage/nyx.status.d/last.update
-	fi
-done
-
 ### append options to make.conf to override default settings
 
 cd $cdir
