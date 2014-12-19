@@ -24,7 +24,7 @@ media-libs/mesa
 media-sound/mumble
 media-video/mpv
 net-im/pidgin
-net-wireless/wpa_supplicant-2.3:
+net-wireless/wpa_supplicant
 www-client/firefox
 www-client/surf
 x11-apps/xev
