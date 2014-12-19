@@ -24,6 +24,8 @@ media-libs/mesa
 media-sound/mumble
 media-video/mpv
 net-im/pidgin
+net-wireless/rfkill
+net-wireless/wirelss-tools
 net-wireless/wpa_supplicant
 www-client/firefox
 www-client/surf
@@ -37,7 +39,9 @@ x11-misc/slock
 x11-misc/tabbed
 x11-misc/wmname
 x11-misc/xautolock
+x11-misc/xbindkeys
 x11-misc/xclip
+x11-misc/xmodmap
 x11-plugins/pidgin-otr
 x11-terms/st
 x11-themes/faenza-icon-theme

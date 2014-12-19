@@ -17,6 +17,7 @@ sci-libs/cblas-reference
 # sys-apps/v86d
 sys-boot/syslinux
 sys-devel/gcc:4.7
+sys-fs/mtools
 sys-process/runit
 # www-client/chromium
 www-plugins/adobe-flash
