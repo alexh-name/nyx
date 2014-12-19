@@ -25,7 +25,7 @@ media-sound/mumble
 media-video/mpv
 net-im/pidgin
 net-wireless/rfkill
-net-wireless/wirelss-tools
+net-wireless/wireless-tools
 net-wireless/wpa_supplicant
 www-client/firefox
 www-client/surf
