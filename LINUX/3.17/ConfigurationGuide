@@ -120,10 +120,14 @@ Device Drivers  --->
 		[*] Maintain a devtmpfs filesystem to mount at /dev
 		[ ] Fallback user-helper invocation for firmware loading
 		[ ] Managed device resources verbose debug messages
+	[*] Block devices  --->
+		<*>   Loopback device support
+		<M>   RAM block device support
 ...		
 	    SCSI device support  --->
 		<M> SCSI device support
 		[ ] legacy /proc/scsi/ support
+		<*> SCSI disk support
 		<M> SCSI CDROM support
 		[ ]   Enable vendor-specific extensions (for SCSI CDROM)
 		<M> SCSI generic support
