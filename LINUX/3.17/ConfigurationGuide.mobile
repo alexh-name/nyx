@@ -1,50 +1,55 @@
-# sys-kernel/gentoo-sources-3.17.* (mobile)
+: sys-kernel/gentoo-sources-3.17.* (mobile)
 
 Options marked with "~~~ later" can only be
 deselected, after some other following option
 has been deselected. So after reaching the end,
 check back those marked options.
 
+====
+Power management and ACPI options  --->
+	[*] Run-time PM core functionality
+	[*] Enable workqueue power-efficient mode by default
+	[*] ACPI (Advanced Configuration and Power Interface) Support  --->	
+		<M>   AC Adapter
+		<M>   Battery	
+		<M>   Fan
+====
 
-	Power management and ACPI options  --->
-		[*] Opportunistic sleep
-		[*] Run-time PM core functionality
-		[*] Enable workqueue power-efficient mode by default
-		[*] ACPI (Advanced Configuration and Power Interface) Support  --->	
-			<*>   AC Adapter
-			<*>   Battery	
-			<*>   Fan
-			[*]   Dock
-	
-- - -
+====
+[*] Networking support  --->
+	[*]   Wireless  --->
+		<M>   cfg80211 - wireless configuration API
+		[*]     enable powersave by default
+		<M>   Generic IEEE 802.11 Networking Stack (mac80211)
+		[*]   Minstrel
+		[*]     Minstrel 802.11n support
+		[*]   Enable mac80211 mesh networking (pre-802.11s)
+		[*]   Enable LED triggers
+	<M>   RF switch subsystem support  --->
+		[*]   RF switch input support
+====
 
-	[*] Networking support  --->
-		[*]   Wireless  --->
-			<M>   cfg80211 - wireless configuration API
-			[*]     enable powersave by default
-			<M>   Generic IEEE 802.11 Networking Stack (mac80211)
-			[*]   Minstrel
-			[*]     Minstrel 802.11n support
-			[*]   Enable mac80211 mesh networking (pre-802.11s)
-			[*]   Enable LED triggers
-		<M>   RF switch subsystem support  --->
-			[*]   RF switch input support
-- - -
+====
+Device Drivers  --->
+	[*] Network device support  --->
+		...
+		<M>   USB Network Adapters  --->
+			<M>   Multi-purpose USB Networking Framework
+			-M-     CDC Ethernet support (smart devices such as cable modems)
+			<M>     CDC EEM support
+			...
+			<M>     Simple USB Network Links (CDC Ethernet subset)
+			[*]       Embedded ARM Linux links (iPaq, ...)
+			<M>   Apple iPhone USB Ethernet driver
+		[*]   Wireless LAN  --->
+			~~~ select what fits your hardware
+	    Input device support  --->
+		[*]   Mice  --->
+			<M>   PS/2 mouse
+			<M>   Synaptics USB device support
+	[*] X86 Platform Specific Device Drivers  ---->
+		~~~ select what fits your hardware (as M)
+		    probably not WMI though
+		~~~
+====
 
-	Device Drivers  --->
-		[*] Network device support  --->
-			<M>   USB Network Adapters  --->
-				<M>   Multi-purpose USB Networking Framework
-				-M-     CDC Ethernet support (smart devices such as cable modems)
-				<M>     CDC EEM support
-				<M>     Simple USB Network Links (CDC Ethernet subset)
-				[*]       Embedded ARM Linux links (iPaq, ...)
-				<M>   Apple iPhone USB Ethernet driver
-			[*]   Wireless LAN  --->
-				~~~ select what fits your hardware
-		    Input device support  --->
-			[*]   Mice  --->
-				< >   PS/2 mouse
-				<M>   Synaptics USB device support
-		[*] X86 Platform Specific Device Drivers  ---->
-			~~~ select what fits your hardware (as M)

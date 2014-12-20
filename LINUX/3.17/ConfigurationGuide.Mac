@@ -8,4 +8,5 @@ check back those marked options.
 ====
 Device Drivers  --->
 	[*] Macintosh device drivers  --->
-		<*>   Support for mouse button 2+3 emulation
+		<M>   Support for mouse button 2+3 emulation
+====

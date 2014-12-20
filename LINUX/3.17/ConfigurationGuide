@@ -12,6 +12,7 @@ check back those marked options.
 ====
 General setup  --->
 	[*] System V IPC
+	[*] open by fhandle syscalls
 	[ ] Auditing support
 	Timers subsystem  --->
 		Timer tick handling (Idle dynticks system (tickless idle))  --->
@@ -189,11 +190,14 @@ Device Drivers  --->
 		~~~ + what applies to your hardware
 ...
 	    Graphics support  --->
+		<M> /dev/agpgart (AGP Support)  --->
 		[ ] VGA Arbitration
 		    Frame buffer Devices  --->
 			{*} Support for frame buffer devices  --->
 				[ ]   Enable Tile Blitting Support
 			[*] EFI-based Framebuffer Support
+		    Console display driver support  --->
+			[ ]   Enable Scrollback Buffer in System RAM
 		[ ] Bootup logo  ----
 		~~~ + what applies to your hardware
 ...

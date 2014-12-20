@@ -6,15 +6,14 @@ has been deselected. So after reaching the end,
 check back those marked options.
 
 ====
-
 [*] Networking support  --->
 	      Networking options  --->
 		[*] Network packet filtering framework (Netfilter)  --->
 			[*]   Advanced netfilter configuration
 			[ ]     Bridged IP/ARP packets filtering
-			~~~ later
 			      Core Netfilter Configuration  --->
 				<M> Netfilter connection tracking support
+			~~~ later
 				[ ] Supply CT list in procfs (OBSOLETE)
 				{M} Netfilter Xtables support (required for ip_tables)
 				<M>   LOG target support
@@ -33,5 +32,4 @@ check back those marked options.
 				< >     MASQUERADE target support
 				<M>     REDIRECT target support
 				< >   Packet mangling
-	
 ====

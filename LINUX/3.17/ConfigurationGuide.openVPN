@@ -1,19 +1,20 @@
-
-# sys-kernel/gentoo-sources-3.17.* (openvpn)
-
+: sys-kernel/gentoo-sources-3.17.* (openvpn)
 
 This guide only contains, what I suggest to add
 or make sure that it is selected for using
 openvpn.
 
-	Device Drivers  --->
-		[*] Network device support  --->
-			[*]   Network core driver support
-				<M>     Universal TUN/TAP device driver support
+====
+Device Drivers  --->
+	[*] Network device support  --->
+		[*]   Network core driver support
+			<M>     Universal TUN/TAP device driver support
+====
+	
+:: in case you want a network bridge
 
-		
-## in case you want a network bridge
-
-	[*] Networking support  --->
-		      Networking options  --->
+====
+[*] Networking support  --->
+	      Networking options  --->
 			<M> 802.1d Ethernet Bridging
+====

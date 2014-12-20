@@ -1,14 +1,16 @@
-
-# sys-kernel/gentoo-sources-3.17.* (PPTP)
-
+: sys-kernel/gentoo-sources-3.17.* (PPTP)
 
 This guide only contains, what I suggest to add
 or make sure that it is selected for using
 PPTP.
 
-	Device Drivers  --->
-		[*] Network device support  --->
-			[*]   Network core driver support
-			<M>   PPP (point-to-point protocol) support
-			<M>     PPP MPPE compression (encryption)
-			<M>     PPP support for async serial ports
+====
+Device Drivers  --->
+	[*] Network device support  --->
+		[*]   Network core driver support
+		...
+		<M>   PPP (point-to-point protocol) support
+		<M>     PPP MPPE compression (encryption)
+		<M>     PPP support for async serial ports
+====
+

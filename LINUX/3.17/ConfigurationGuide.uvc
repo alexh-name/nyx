@@ -1,15 +1,16 @@
-
-# sys-kernel/gentoo-sources-3.17.* (uvc)
+: sys-kernel/gentoo-sources-3.17.* (uvc)
 
 
 This guide only contains, what I suggest to add
 or make sure that it is selected for using
 PPTP.
 
-	Device Drivers  --->
-		<M> Multimedia support  --->
-			[*]   Cameras/video grabbers support
-			[*]   Media USB Adapters  --->
-				~~~ only
-				<M>   USB Video Class (UVC)
-				~~~ or what applies to your HW
+====
+Device Drivers  --->
+	<M> Multimedia support  --->
+		[*]   Cameras/video grabbers support
+		[*]   Media USB Adapters  --->
+			~~~ only
+			<M>   USB Video Class (UVC)
+			~~~ or what applies to your HW
+====

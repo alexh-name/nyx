@@ -12,16 +12,10 @@ Processor type and features  --->
 
 ====
 Device Drivers  --->
-	    Generic Driver Options  --->
-		[*]   Include in-kernel firmware blobs in kernel binary
-		(~~~ + what applies to your hardware)
-		(/lib/firmware) Firmware blobs root directory
- 
 	    Graphics support  --->
 		    Direct Rendering Manager  --->
 			<M> ATI Radeon
 			< > Intel 8xx/9xx/G3x/G4x/HD Graphics
-		    Frame buffer Devices  --->
 		    Console display driver support  --->
 			<*> Framebuffer Console support
 ====
