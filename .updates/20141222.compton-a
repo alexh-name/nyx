@@ -1,0 +1,27 @@
+
+#!/bin/mksh
+
+setpax() {
+	paxctl -m /usr/bin/compton
+}
+
+restart() {
+	usersr="$(ps -up $pid | grep -v USER | cut -f 1 -d ' ')"
+	killall compton
+	setpax
+	for i in "$usersr";do
+		su -c '/usr/local/bin/compton.nyx &' $i
+	done
+}
+
+pid=$(pidof compton)
+running=$?
+
+if [ $running -eq 0 ];then
+	restart
+else
+	setpax
+	for i in $(ps -up $(pidof xinit) | grep -v USER | cut -f 1 -d ' ');do
+		su -c '/usr/local/bin/compton.nyx &' $i
+	done	
+fi
