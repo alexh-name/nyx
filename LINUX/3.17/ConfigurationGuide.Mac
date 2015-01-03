@@ -6,7 +6,33 @@ has been deselected. So after reaching the end,
 check back those marked options.
 
 ====
+Networking support  --->
+	Wireless  --->
+		<M>   Generic IEEE 802.11 Networking Stack (mac80211)
+====
+
+====
 Device Drivers  --->
+	    Input device support  --->
+		[*] Mice  --->
+			<M>   Apple USB Touchpad support
+			<M> Apple USB BCM5974 Multitouch trackpad support
+	    HID support  --->
+	      Special HID drivers  --->
+		<*> Apple {i,Power,Mac}Books
+		<M> Apple infrared receiver
+		<M> Apple Magic Mouse/Trackpad multi-touch support
+	{*} Hardware Monitoring support  --->
+		<*> Apple SMC (Motion sensor, light sensor, keyboard backlight)
+	    Graphics support  --->
+		Backlight & LCD device support  --->
+		<*>     Apple Backlight Driver
 	[*] Macintosh device drivers  --->
 		<M>   Support for mouse button 2+3 emulation
+	[*] Network device support  --->
+		Wireless LAN  --->
+			<M>   Broadcom 43xx wireless support (mac80211 stack)
+			<M>   Broadcom IEEE802.11n embedded FullMAC WLAN driver
+	    Sonics Silicon Backplane  --->
+		<M> Sonics Silicon Backplane support
 ====

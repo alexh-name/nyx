@@ -1,0 +1,15 @@
+: sys-kernel/gentoo-sources-3.17.* (Bluetooth)
+
+Options marked with "~~~ later" can only be
+deselected, after some other following option
+has been deselected. So after reaching the end,
+check back those marked options.
+
+====
+[*] Networking support --->
+	<*>   Bluetooth subsystem support --->
+		<M>   HIDP protocol support
+		      Bluetooth device drivers --->
+			<M> HCI USB driver
+	<M>   RF switch subsystem support --->
+====
