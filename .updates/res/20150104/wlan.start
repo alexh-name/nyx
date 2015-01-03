@@ -1,0 +1,5 @@
+#!/bin/mksh
+
+if [ -e /sys/class/net/wlan0 ];then
+	/etc/init.d/net.wlan0 start
+fi

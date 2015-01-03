@@ -1,0 +1,4 @@
+#!/bin/mksh
+
+cp res/20150104/wlan.start /etc/local.d/
+chmod +x /etc/local.d/wlan.start
