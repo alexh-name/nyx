@@ -36,5 +36,5 @@ sys-devel/automake -~amd64
 ##############################
 # not worth the compile-time #
 ##############################
-app-office/libreoffice -~amd64
-app-office/libreoffice-l10n -~amd64
+#app-office/libreoffice -~amd64
+#app-office/libreoffice-l10n -~amd64
