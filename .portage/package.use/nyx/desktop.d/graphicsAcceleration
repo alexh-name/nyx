@@ -1,2 +1,2 @@
-media-libs/mesa openvg egl
-x11-libs/cairo opengl openvg
+media-libs/mesa egl
+x11-libs/cairo opengl
