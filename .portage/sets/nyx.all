@@ -9,6 +9,7 @@ media-gfx/pqstego
 media-gfx/qrencode
 media-sound/ardour
 media-sound/easytag
+# media-sound/tuxguitar
 media-video/motion
 media-video/openshot
 net-p2p/btpd

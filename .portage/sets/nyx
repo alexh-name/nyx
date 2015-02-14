@@ -23,7 +23,6 @@ media-plugins/gimp-resynthesizer
 media-sound/audacity
 media-sound/cmus
 media-sound/split2flac
-media-sound/tuxguitar
 media-video/ffmpeg
 media-video/lsdvd
 net-dns/bind-tools
