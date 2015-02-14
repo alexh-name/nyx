@@ -25,7 +25,7 @@ if [ ! -d $etcbu ]; then
 
 mkdir $etcbu
 mkdir /etc/portage/nyx.backup
-cp -r /etc/portage/{bashrc,make.conf,patches,savedconfig,sets} $etcbu
+cp -r /etc/portage/{bashrc,make.conf,patches,savedconfig,sets,repos.conf} $etcbu
 
 rm -r /etc/portage/package.*/nyx/*
 rm -r /etc/portage/env/nyx/*

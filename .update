@@ -41,7 +41,7 @@ cd $cdir
 
 etcudbu=/etc/portage/nyx.backup
 
-cp -r /etc/portage/{bashrc,make.conf,patches,savedconfig,sets} $etcudbu
+cp -r /etc/portage/{bashrc,make.conf,patches,savedconfig,sets,repos.conf} $etcudbu
 rm -r /etc/portage/package.*/nyx/*
 rm -r /etc/portage/env/nyx/*
 
