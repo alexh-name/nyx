@@ -66,11 +66,7 @@ if [ "$set" = "headless" ]; then
 	headlesso=$(<$cdir/.res/headless.conf) ; printf '%s\n' "$headlesso" >> /etc/portage/make.conf
 fi
 
-ax=$(</etc/portage/nyx.config.d/make.conf)
-printf '%s\n' "$ax" >> /etc/portage/make.conf
-
-ax=$(</etc/portage/nyx.config.d/gentoo-repo.conf)
-printf '%s\n' "$ax" >> /etc/portage/repos.conf/gentoo.conf
+overrides=$(</etc/portage/nyx.config.d/make.conf) ; printf '%s\n' "$overrides" >> /etc/portage/make.conf
 
 ### git pull scripts and tools into /usr/local/bin
 

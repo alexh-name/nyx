@@ -1,1 +1,0 @@
-printf '%s\n' "sync-uri = rsync://snscltt.info/gentoo-portage" > /etc/portage/nyx.config.d/gentoo-repo.conf
