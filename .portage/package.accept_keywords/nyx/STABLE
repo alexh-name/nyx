@@ -20,6 +20,8 @@ sys-libs/glibc -~amd64
 #############################
 # too crucial               #
 #############################
+media-fonts/terminus-font -~amd64
+
 app-shells/bash -~amd64
 sys-apps/coreutils -~amd64
 
