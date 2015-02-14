@@ -44,6 +44,7 @@ etcudbu=/etc/portage/nyx.backup
 cp -r /etc/portage/{bashrc,make.conf,patches,savedconfig,sets,repos.conf} $etcudbu
 rm -r /etc/portage/package.*/nyx/*
 rm -r /etc/portage/env/nyx/*
+rm -r /etc/portage/savedconfig/*
 
 rsync -qaPh --exclude="nyx.*.d/*" .portage/ /etc/portage/
 
