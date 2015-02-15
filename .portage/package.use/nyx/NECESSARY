@@ -126,7 +126,7 @@
 =sys-libs/zlib-1.2.8-r1 minizip
 
 # required by media-video/openshot-1.4.3[ffmpeg]
-=virtual/ffmpeg-9-r1 sdl
+=virtual/ffmpeg-9-r2 sdl
 
 # required by x11-libs/pango-1.36.8
 # required by www-plugins/adobe-flash-11.2.202.425[abi_x86_32,abi_x86_64]
