@@ -1,2 +1,5 @@
 media-libs/mesa egl
 x11-libs/cairo opengl
+
+x11-base/xorg-server glamor
+x11-drivers/xf86-video-ati glamor
