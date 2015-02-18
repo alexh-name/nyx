@@ -5,6 +5,7 @@ dev-util/checkbashisms
 games-emulation/desmume
 games-fps/xonotic
 games-util/linux-wbfs-manager
+mail-mta/netqmail
 media-gfx/pqstego
 media-gfx/qrencode
 media-sound/ardour
@@ -21,7 +22,7 @@ sys-devel/gcc:4.7
 sys-fs/mtools
 sys-process/runit
 # www-client/chromium
-www-plugins/adobe-flash
+www-client/google-chrome-unstable
 www-servers/thttpd
 x11-apps/radeontop
 x11-apps/xhost

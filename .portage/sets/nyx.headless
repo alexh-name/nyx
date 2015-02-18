@@ -24,7 +24,6 @@ dev-lang/tcc
 dev-vcs/git
 games-misc/lolcat
 mail-client/mailx
-mail-mta/postfix
 media-sound/alsa-utils
 media-sound/sox
 net-analyzer/nmap
