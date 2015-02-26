@@ -1,5 +1,6 @@
 @nyx
 dev-libs/geoip
+dev-libs/libcdio-paranoia
 dev-util/android-tools
 dev-util/checkbashisms
 games-emulation/desmume

@@ -1,8 +1,8 @@
 app-admin/conky
 app-admin/eselect-sh
 app-admin/logcheck
-app-admin/makepasswd
 app-admin/metalog
+app-admin/pwgen
 app-admin/showconsole
 app-arch/p7zip
 app-arch/unrar
@@ -36,7 +36,7 @@ net-irc/irssi
 net-irc/irssi-xmpp
 net-firewall/iptables
 net-misc/dhcpcd
-net-misc/openntpd
+net-misc/tlsdate
 net-misc/tor
 net-misc/youtube-dl
 net-p2p/rtorrent
