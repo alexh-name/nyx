@@ -112,6 +112,7 @@ Bus options (PCI etc.)  --->
 	[ ]   Amateur Radio support  --->
 	[ ]   Wireless  --->								~~~ later
 	< >   RF switch subsystem support  --->
+	<M>   Plan 9 Resource Sharing Support (9P2000)  --->
 ====
 
 ====
@@ -273,7 +274,9 @@ File systems  --->
 		<M> VFAT (Windows-95) fs support 
 	[*] Miscellaneous filesystems  --->
 		<M>   EFI Variable filesystem
-	[ ] Network File Systems  ----
+	[*] Network File Systems  ---->
+		<M>   Plan 9 Resource Sharing Support (9P2000)
+		[*]     9P POSIX Access Control Lists
 ...
     Kernel hacking  --->
 	Compile-time checks and compiler options  --->
