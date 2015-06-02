@@ -29,7 +29,8 @@ check back those marked options.
 				<M>   Packet filtering
 				<M>     REJECT target support
 				<M>   iptables NAT support
-				< >     MASQUERADE target support
+				<M>     MASQUERADE target support
 				<M>     REDIRECT target support
-				< >   Packet mangling
+				<M>   Packet mangling
+				<M>   "limit" match support
 ====
