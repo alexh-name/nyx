@@ -59,4 +59,3 @@ sys-power/hibernate-script
 sys-process/dcron
 sys-process/htop
 sys-process/time
-x11-drivers/radeon-ucode
