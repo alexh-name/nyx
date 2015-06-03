@@ -31,6 +31,7 @@ check back those marked options.
 				<M>   iptables NAT support
 				<M>     MASQUERADE target support
 				<M>     REDIRECT target support
+				<M>   "TCPMSS" target support
 				<M>   Packet mangling
 				<M>   "limit" match support
 				<M>   "physdev" match support
