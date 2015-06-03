@@ -34,4 +34,5 @@ check back those marked options.
 				<M>   Packet mangling
 				<M>   "limit" match support
 				<M>   "physdev" match support
+				<M>   "tcpmss" match support
 ====
