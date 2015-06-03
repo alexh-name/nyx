@@ -33,4 +33,5 @@ check back those marked options.
 				<M>     REDIRECT target support
 				<M>   Packet mangling
 				<M>   "limit" match support
+				<M>   "physdev" match support
 ====
