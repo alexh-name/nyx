@@ -1,0 +1,25 @@
+: sys-kernel/gentoo-sources-3.17.* (wan)
+
+Options marked with "~~~ later" can only be
+deselected, after some other following option
+has been deselected. So after reaching the end,
+check back those marked options.
+
+====
+[*] Networking support  --->
+	      Networking options  --->
+		[*] QoS and/or fair queueing  --->
+			<M>   Hierarchical Token Bucket (HTB)
+			[*]   Actions
+			~~~ later
+			<M>   Ingress Qdisc
+			~~~
+    Device Drivers  --->
+	[*] Network device support  --->
+		<M>     PPP BSD-Compress compression
+		<M>     PPP Deflate compression
+		[*]     PPP filtering
+		<M>     PPP over Ethernet
+		<M>     PPP support for async serial ports
+		<M>     PPP support for sync tty ports
+====
