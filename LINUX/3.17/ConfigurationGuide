@@ -275,6 +275,11 @@ File systems  --->
 	[*] Miscellaneous filesystems  --->
 		<M>   EFI Variable filesystem
 	[*] Network File Systems  ---->
+		<M>   CIFS support (advanced network filesystem, SMBFS successor)
+			-*-     CIFS extended attributes
+			[*]       CIFS POSIX Extensions
+			[*]       Provide CIFS ACL support
+			[*]     SMB2 and SMB3 network file system support
 		<M>   Plan 9 Resource Sharing Support (9P2000)
 		[*]     9P POSIX Access Control Lists
 ...
