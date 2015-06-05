@@ -1,3 +1,5 @@
+=dev-lang/swig-3.0.5				# breaks crda
+
 =dev-libs/boehm-gc-7.4.0			# inkscape fails to build
 
 =dev-libs/icu-53.1				# problems with gnupd
