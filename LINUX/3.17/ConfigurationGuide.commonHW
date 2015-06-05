@@ -23,6 +23,8 @@ Device Drivers  --->
 					<M>   Atheros 802.11n wireless cards support
 						[*]     Atheros ath9k PCI/PCIe bus support
 					<M>   Atheros 802.11ac wireless cards support
+				<M>   Realtek rtlwifi family of devices  --->
+					<M>   Realtek RTL8192CU/RTL8188CU USB Wireless Network Adapter
 				<M>   Ralink driver support  --->
 					<M>   Ralink rt27xx/rt28xx/rt30xx (USB) support
 		    Input device support  --->	
